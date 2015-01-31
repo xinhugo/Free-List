@@ -1,0 +1,16 @@
+; Summary: Proxy Switchy! Exported Rule List
+; Date: 2015/1/1
+; Website: http://bit.ly/proxyswitchy
+
+#BEGIN
+
+[wildcard]
+@*://*.bitshare.com/*
+@*://*.bitsnoop.com/*
+@*://*.freakshare.com/*
+@*://*.rapidgator.net/*
+@*://*.rarbg.com/*
+
+[regexp]
+
+#END

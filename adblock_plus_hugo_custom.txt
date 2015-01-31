@@ -1,0 +1,174 @@
+[Adblock Plus 1.1]
+!
+! https://xinhugolist-.googlecode.com/svn/trunk/adblock_plus_hugo_custom.txt
+! Maintained by: Hugo
+! Last Modified: 1-31-2015
+! Expires: 1
+
+||12l22.net
+||1503.net
+||163234.com
+||178178.com
+||198.40.56.242/ad/
+||198.40.56.243/ad/
+||198store.com
+||1qwe3r.com
+||1x3x.com
+||1x3x.com$popup
+||36884.com
+||50.93.194.68
+||51.la$third-party
+||51688.cc
+||51la.net
+||8793.com
+||ad4.sina.com.cn
+||adpush.cn
+||ahb.me
+||amung.us
+||anyhub.net
+||av9.cc$domain=hd1080.org
+||bokon.net/SiteFiles/JS/
+||cdn.pcbeta.js.inimc.com//data/cache/jquery.js
+||cnzz.com
+||d.rsccs.com/code1/dz_*.asp
+||datinggossips.com
+||deco-00.slide.com
+||dioguitar23.net$third-party
+||divshare.com/img/
+||dl.toofiles.com
+||fevernet.com
+||ffpan.com/FFyoudao/
+||fhqhosting.com
+||filesonic.com
+||fk-av.com
+||flare.me
+||freep.cn
+||fs1.teradepot.com
+||grjsq.biz
+||haizhangs.com
+||hav.tv
+||heroku.com$domain=blog.roodo.com
+||histats.com
+||hjav.org$third-party
+||hjav.org/top/*.js
+||hjav.org/wp-content/themes/iMovies/*/*.js
+||hjav.org/wp-content/uploads/*/*/*.gif
+||hotavxxx.com
+||http://www.shumilou.com/style/aadd.js
+||i.upload3r.com$domain=sexinsex.net
+||i000o.com
+||i1.imgbus.com/doimg/$domain=hd1080.org
+||imageban.ru
+||imagedough.com
+||imagefreak001.com
+||imagehyper.com
+||imageporter.com$domain=hd1080.org
+||imagex.av-navi.co.jp
+||img.arzon.jp$domain=hd1080.org
+||img.hjav.org/upload/big/*/*/*/*.gif
+||img.tongji.linezing.com$domain=feedly.com
+||img05.36krcnd.com/wp-content/uploads/krads-images/mingdao*.jpg
+||imgsrc.baidu.com$domain=hd1080.org
+||immage.de
+||ipicture.ru
+||item.slide.com
+||kepfeltoltes.hu
+||links.hjav.org/ads.js
+||megaimg.com
+||mr*.douban.com/*/*/rda/*.mp3
+||news.newhua.com/newhuagg/
+||picfoco.com
+||qndown.com
+||qqi.com.tw
+||radikal.ru$domain=hd1080.org
+||sass.sina.com.cn
+||share.baidu.com
+||sourcemaps.stripe.com$domain=feedly.com
+||tb1.bdstatic.com/??tb/static-common/lib/*.js
+||tl668899.com
+||tokyo-hot.com$domain=city9x.com
+||ultraxs.com
+||unionli.com
+||whdafei.com
+||wikmv.com
+||www.assoc-amazon.cn
+||www.simplecd.org/static/ad*.html
+||www1.feedsky.com$domain=feedly.com
+||xs.to
+||yiqihao.com$third-party
+||ysk.cc
+||zencash.net
+||zjbdt.com
+184.154.128.246##IFRAME[id="iframe1"]
+184.154.128.246##IFRAME[id="iframe2"]
+184.154.128.246##table[class="sptable"]
+avno1.com##[id="adno1s"][title="ad_rightcol"]
+avno1.com##[style="margin-bottom:10px;"]
+avno1.com##DIV[class="eis_adv2"]
+avno1.com##DIV[id="ad1"]
+avno1.com##DIV[style="height:60px;"]
+book.zongheng.com##DIV[id="zherweima"][class="zh_ewm"]
+book.zongheng.com##DIV[style="padding: 10px; text-align: center;"]
+city9x.com##DIV[class="t_attachlist attachimg"]
+city9x.com##iframe[width="100%"][height="600"]
+cloud.vip.xunlei.com##DIV[class="p_rw_pop p_sc_pop"]
+coolhc.cn##DIV[class="fr"][style="clear:right;margin:0 0 10px 10px;"]
+dd.ma##IFRAME[id="iframe1"][name="iframe1"]
+feedly.com##[id="feedlyMessageBar"]
+hd1080.org##DIV[class="bm lk"]
+hd1080.org##table[width="1400px" border="0" style="margin-top:10px;"]
+hjav.org###lovexin12
+hjav.org###lovexin14
+hjav.org##.moneyarea
+hjav.org##div[id="header"][class="span-24"]
+http://hd1080.org/forum/$domain=feedly.com
+mail.google.com##table[border="0"][cellpadding="0"][cellspacing="0"][align="center"][style="margin-left:auto;margin-right:auto"]
+mail.google.com##table[cellpadding="0"][width="100%"][style="border:1px solid #adadad;padding:9px;border-radius:4px;line-height:16px;margin-bottom:6px"]
+mail.google.com##table[cellpadding="3"][width="100%"][style="border:1px solid #555555;background-color:#555555;color:#ffc40d;padding:8px;border-radius:4px;line-height:16px;margin-bottom:6px"]
+mail.google.com##td[style="line-height:10px;font-size:6px;padding-left:2px;padding-right:2px"]
+oabt.org##DIV[id="ad_tool"]
+play.baidu.com##DIV[class="pause-ad"][id="pauseAd"][style="display: block;"]
+t66y.com##DIV[class="tips"]
+t66y.com##IFRAME[id="iframe1"]
+t66y.com##IFRAME[id="iframe2"]
+t66y.com##table[class="sptable"]
+tieba.baidu.com##DIV[class="guidance_fc"][id="guide_fc"][style="display: block;"]
+tieba.baidu.com##DIV[class="right_section"]
+tieba.baidu.com##DIV[id="j_ten_years"]
+tieba.baidu.com##li[class="tbui_aside_fbar_button tbui_fbar_game"]
+tieba.baidu.com##li[class="tbui_aside_fbar_button tbui_fbar_props"]
+tieba.baidu.com##li[class="tbui_aside_fbar_button tbui_fbar_tsukkomi"]
+v2ex.com##A[href*="www.nashangban.com"]
+v2ex.com##A[href="/go/invest"]
+v2ex.com##A[href="http://tietie.la/"]
+v2ex.com##DIV[class="inner"][style="font-size: 12px; color: #999;"]
+v2ex.com##li[class="icon-comments blue"]
+vip.xunlei.com##DIV[id="common_notice_layer"][style="display: block;"]
+www.avlang66.com##DIV[class="tac"]
+www.bokon.net##DIV[id="divtop2"]
+www.bokon.net##DIV[style="position:relative; z-index:1; width:728px; height:90px; margin:8 -9px;"]
+www.bokon.net##DIV[style="text-align:center; font-size:12px;"]
+www.bokon.net##DIV[style="width:728px; height:90px; margin:0 -9px 8px -9px;"]
+www.bxwx.org##iframe[marginwidth="0"][marginheight="0"]
+www.city9x.com##DIV[class="blockcode"]
+www.evernote.com##DIV[id="gwt-debug-ad"]
+www.hanzify.org##DIV[class="banner banner-top"]
+www.hanzify.org##DIV[class="bannerdock"]
+www.hanzify.org##DIV[class="banner-leader-index"]
+www.hanzify.org##DIV[class="box"]
+www.myip.cn##DIV[class="jz"]
+www.myip.cn##DIV[style="text-align:center; width:950px"]
+www.myip.cn##DIV[style="width:80%;clear:both;border-top:0px #b6b6b6 solid;line-height:25px;font-size:12px;text-align:center;color:#666;margin-top:20px;"]
+www.outwx.com##IFRAME[src="/scripts/read/tc.html"]
+www.shumilou.com##IMG[src="/680x60.jpg"]
+www.shumilou.com##IMG[src="/680x60-shumilou.gif"]
+www.simplecd.org##IFRAME[id="mediaIFR"]
+www.soduso.com##B
+www.soduso.com##STRONG
+www.tmetb.com##div[class="main-new"]
+www.tmetb.com##div[id="header"]
+www.tortitan.com##UL[id="showad"]
+www.v2ex.com##IMG[src="http://static.v2ex.com/friends/tietie/1.png"]
+www.zasv.com##DIV[class="a_pt"]
+www.zasv.com##DIV[id="nav"]
+www.zasv.com##DIV[style="padding:45px 30px 0px 0px;"]

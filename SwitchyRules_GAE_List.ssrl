@@ -1045,6 +1045,5 @@
 ^https://.*\bonebitbug\.me/
 ^http://.*\bmoby\.to/
 ^http://.*\blongurl\.org/
-^http://.*\br\d+---sn-.+\.c\.pack\.google\.com/
 
 #END

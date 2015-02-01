@@ -1075,7 +1075,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)scholarism\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)hkumall\.com$/.test(host)) return "+GoAgent";
         if (/^http:\/\/.*\blongurl\.org\//.test(url)) return "+GoAgent";
-        if (/^http:\/\/.*\br\d+---sn-.+\.c\.pack\.google\.com\//.test(url)) return "+GoAgent";
         return "+GAE_Not_Support_List";
     },
     "+GAE_Not_Support_List": function(url, host, scheme) {

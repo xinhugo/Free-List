@@ -91,6 +91,8 @@ google_cn	latitude.google.com
 google_cn	mapping.withgoogle.com
 google_cn	maps.googleapis.com
 google_cn	maps.gstatic.com
+google_hk	geoauth.google.com
+google_hk	(registration|egistration)\.keyhole\.com
 
  #GHS
 google_ghs	ghs.*\.google\.com

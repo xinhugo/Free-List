@@ -1,0 +1,10 @@
+[SwitchyOmega Conditions]
+; Require: SwitchyOmega >= 2.3.2
+; Date: 2015/2/10
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+*.bitshare.com
+*.bitsnoop.com
+*.freakshare.com
+*.rapidgator.net
+*.rarbg.com

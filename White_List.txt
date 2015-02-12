@@ -385,6 +385,7 @@
 .*\b5636\.com
 .*\b567bike\.com
 .*\b567ys\.com
+.*\b56888\.net
 .*\b56imgs\.com
 .*\b5721\.net
 .*\b57union\.com
@@ -1048,6 +1049,7 @@
 .*\bchina-vcom\.com
 .*\bchina-villapool\.com
 .*\bchinaw3\.com
+.*\bchinaxinge\.com
 .*\bchinaz\.com
 .*\bchnfree\.com
 .*\bchnrailway\.com
@@ -2531,6 +2533,7 @@
 .*\blnmac\.com
 .*\bloanchina\.com
 .*\blofter\.com
+.*\blogink\.org
 .*\bloli\.mg
 .*\bloli\.my
 .*\bloli\.vg
@@ -3976,6 +3979,7 @@
 .*\bwufazhuce\.com
 .*\bwumii\.com
 .*\bwuming\.com
+.*\bwushuangol\.com
 .*\bwuxilexus\.com
 .*\bwuyangfood\.com
 .*\bwuyou\.com

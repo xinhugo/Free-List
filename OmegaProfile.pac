@@ -1052,6 +1052,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/:\/\/.*\bak\.live\.cntv\.cn\/z\//.test(url)) return "+GoAgent";
         if (/^pds\.nasa\.gov$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)getgom\.com$/.test(host)) return "+GoAgent";
+        if (/^http:\/\/.*\bgstatic.com\//.test(url)) return "+GoAgent";
         return "+GAE_Not_Support_List";
     },
     "+GAE_Not_Support_List": function(url, host, scheme) {

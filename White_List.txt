@@ -3769,7 +3769,6 @@
 .*\buudoudou\.com
 .*\buudu\.org
 .*\buuhy\.com
-.*\buukanshu\.com
 .*\buupoop\.com
 .*\buusee\.com
 .*\buutuu\.com

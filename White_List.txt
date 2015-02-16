@@ -107,6 +107,7 @@
 .*\b17huanbao\.com
 .*\b17k\.com
 .*\b17kuaile\.info
+.*\b17liuxue\.com
 .*\b17pan\.com
 .*\b17sucai\.com
 .*\b17u\.com
@@ -1990,6 +1991,7 @@
 .*\bibicn\.com
 .*\bibinggo\.com
 .*\bibook8\.com
+.*\bibtsat\.com
 .*\bibutian\.com
 .*\bibuylady\.com
 .*\bicafe8\.com
@@ -3390,6 +3392,8 @@
 .*\bskypebuy\.com
 .*\bskywo\.com
 .*\bsmartisanos\.com
+.*\bsmartpigai\.com
+.*\bsmartstudy\.com
 .*\bsmbys\.com
 .*\bsmgbb\.tv
 .*\bsmrsks\.com

@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/2/12
+; Date: 2015/2/16
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.hrichina.org
@@ -1045,3 +1045,4 @@ UrlRegex: ://.*\bak\.live\.cntv\.cn/z/
 pds.nasa.gov
 *.getgom.com
 UrlRegex: ^http://.*\bgstatic.com/
+www.uukanshu.com

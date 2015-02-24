@@ -1,7 +1,7 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/2/10
+; Date: 2015/2/24
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
-UrlRegex: ://(sp|www|actress)\.dmm\.co\.jp
+UrlRegex: \bhttp(|s)://(sp|www|actress)\.dmm\.co\.jp
 www.dmm.com

@@ -154,10 +154,10 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\bgooglesyndication\.com\//.test(url)) return "+GoAgent";
         if (/^http:\/\/.*\bfeedburner.com\//.test(url)) return "+GoAgent";
         if (/^http:\/\/.*\bgoogleusercontent\.com\//.test(url)) return "+GoAgent";
-        if (/\bhttp(|s):\/\/((r\d+---sn-\w+\.c\.doc-0-0-sj\.|)sj|ci\d{1,2}|webcache|\d-ps|uds)\.googleusercontent\.com\//.test(url)) return "+GoAgent";
-        if (/\bhttp(|s):\/\/(csi|maps|encrypted-tbn\d)\.gstatic\.com/.test(url)) return "+GoAgent";
+        if (/\bhttp(|s):\/\/((r\d+---sn-\w+\.c\.doc-0-0-sj\.|)sj|ci\d{1,2}|webcache|\d-ps|uds|producer)\.googleusercontent\.com\//.test(url)) return "+GoAgent";
+        if (/\bhttp(|s):\/\/(csi|maps|encrypted-tbn\d|fonts|ssl)\.gstatic\.com\//.test(url)) return "+GoAgent";
         if (/\bhttp(|s):\/\/((scholar|news|accounts|adwords|books|images|map(|s)|khms\d|www)\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\//.test(url)) return "+GoAgent";
-        if (/\bhttp(|s):\/\/((uploads\.|)code(|\.l)|.*\bdocs|doc|drive|play|plus|plus\.url|buzz|profiles|mail|apis|support|translate|wallet|mt(|s)\d)\.google\.com\//.test(url)) return "+GoAgent";
+        if (/\bhttp(|s):\/\/((uploads\.|)code(|\.l)|.*\bdocs|doc|drive|play|plus|plus\.url|buzz|profiles|mail|apis|support|translate|wallet|checkout|mt(|s)\d)\.google\.com\//.test(url)) return "+GoAgent";
         if (/\bhttp(|s):\/\/.*\bgooglecode\.com\//.test(url)) return "+GoAgent";
         if (/\bhttp(|s):\/\/.*\bgooglesource\.com\//.test(url)) return "+GoAgent";
         if (/\bhttp(|s):\/\/.*\bandroid\.com\//.test(url)) return "+GoAgent";

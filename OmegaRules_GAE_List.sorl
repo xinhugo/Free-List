@@ -1041,3 +1041,5 @@ UrlRegex: ^http://.*\bgstatic.com/
 www.uukanshu.com
 UrlRegex: ^http://.*\btorrentproject.se/
 UrlRegex: ^http://.*\bus\d+\.gigya\.com/
+www.libreoffice.org
+download.documentfoundation.org

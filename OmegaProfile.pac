@@ -389,7 +389,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)uwants\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)i1\.hk$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)uyl\.me$/.test(host)) return "+GoAgent";
-        if (/^http:\/\/(www\.|)v2ex\.com/.test(url)) return "+GoAgent";
+        if (/^http:\/\/.*\bv2ex\.com/.test(url)) return "+GoAgent";
         if (/(?:^|\.)van698\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)veoh\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)vevo\.com$/.test(host)) return "+GoAgent";

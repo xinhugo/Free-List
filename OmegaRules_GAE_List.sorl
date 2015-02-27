@@ -381,7 +381,7 @@ torrent.ubuntu.com
 *.uwants.com
 *.i1.hk
 *.uyl.me
-UrlRegex: ^http://(www\.|)v2ex\.com
+UrlRegex: ^http://.*\bv2ex\.com
 *.van698.com
 *.veoh.com
 *.vevo.com

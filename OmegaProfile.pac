@@ -19,6 +19,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/\bhttp(|s):\/\/www\.google\.com\/voice\/[^resources|service|new|static]/.test(url)) return "+GoAgent - GAE";
         if (/\bhttp(|s):\/\/www\.google\.com\/($|\?gws_rd=ssl)/.test(url)) return "+GoAgent - GAE";
         if (/\bhttp(|s):\/\/www\.google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)\/maps(\/place|\?(cid|q)=)/.test(url)) return "+GoAgent - GAE";
+        if (/\bhttp(|s):\/\/play\.google\.com\/music\//.test(url)) return "+GoAgent - GAE";
         return "+Direct_List-1";
     },
     "+Direct_List-1": function(url, host, scheme) {
@@ -39,6 +40,16 @@ var FindProxyForURL = function(init, profiles) {
         "use strict";
         if (/\bhttp(|s):\/\/(sp|www|actress)\.dmm\.co\.jp/.test(url)) return "+BlueCloud-Tokyo1";
         if (/^www\.dmm\.com$/.test(host)) return "+BlueCloud-Tokyo1";
+        return "+GAE_Not_Support_List";
+    },
+    "+GAE_Not_Support_List": function(url, host, scheme) {
+        "use strict";
+        if (/(?:^|\.)bitshare\.com$/.test(host)) return "+Lantern";
+        if (/(?:^|\.)bitsnoop\.com$/.test(host)) return "+Lantern";
+        if (/(?:^|\.)freakshare\.com$/.test(host)) return "+Lantern";
+        if (/(?:^|\.)rapidgator\.net$/.test(host)) return "+Lantern";
+        if (/^http:\/\/.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Lantern";
+        if (/\bhttp(|s):\/\/play\.google\.com\/store/.test(url)) return "+Lantern";
         return "+GAE_List";
     },
     "+GAE_List": function(url, host, scheme) {
@@ -1084,26 +1095,17 @@ var FindProxyForURL = function(init, profiles) {
         if (/^www\.libreoffice\.org$/.test(host)) return "+GoAgent";
         if (/^download\.documentfoundation\.org$/.test(host)) return "+GoAgent";
         if (/^http:\/\/.*\bgetemoji\.com\/cdn-cgi\/pe\//.test(url)) return "+GoAgent";
-        return "+GAE_Not_Support_List";
-    },
-    "+GAE_Not_Support_List": function(url, host, scheme) {
-        "use strict";
-        if (/(?:^|\.)bitshare\.com$/.test(host)) return "+Lantern";
-        if (/(?:^|\.)bitsnoop\.com$/.test(host)) return "+Lantern";
-        if (/(?:^|\.)freakshare\.com$/.test(host)) return "+Lantern";
-        if (/(?:^|\.)rapidgator\.net$/.test(host)) return "+Lantern";
-        if (/^http:\/\/.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Lantern";
         return "DIRECT";
-    },
-    "+Lantern": function(url, host, scheme) {
-        "use strict";
-        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
-        return "PROXY 127.0.0.1:8787";
     },
     "+GoAgent": function(url, host, scheme) {
         "use strict";
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
         return "PROXY 127.0.0.1:8087";
+    },
+    "+Lantern": function(url, host, scheme) {
+        "use strict";
+        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
+        return "PROXY 127.0.0.1:8787";
     },
     "+BlueCloud-Tokyo1": function(url, host, scheme) {
         "use strict";

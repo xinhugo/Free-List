@@ -7,5 +7,5 @@
 *.bitsnoop.com
 *.freakshare.com
 *.rapidgator.net
-UrlRegex: ^http://.*\brarbg\.com/torrents\.php\?search=
+UrlRegex: \bhttp://.*\brarbg\.com/torrents\.php\?search=
 UrlRegex: \bhttp(|s)://play\.google\.com/store

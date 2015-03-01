@@ -169,13 +169,13 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)greatfire\.org$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)greatfirewallofchina\.org$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)greatzhonghua\.org$/.test(host)) return "+GoAgent";
-        if (/\/\/.*\.guerrillamail\.com\//.test(url)) return "+GoAgent";
+        if (/(?:^|\.)guerrillamail\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)h528\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)hav\.tv$/.test(host)) return "+GoAgent";
         if (/^www\.hbogo\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)hcocoa\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)hdtransform\.com$/.test(host)) return "+GoAgent";
-        if (/^bgp\.he\.net$/.test(host)) return "+GoAgent";
+        if (/\bhttp:\/\/bgp\.he\.net\//.test(url)) return "+GoAgent";
         if (/^www\.melauto\.it$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)hikinggfw\.org$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)hilive\.tv$/.test(host)) return "+GoAgent";
@@ -1054,6 +1054,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/\bhttp:\/\/.*\bgetemoji\.com\/cdn-cgi\/pe\//.test(url)) return "+GoAgent";
         if (/\bhttp:\/\/.*\bavast\.com\//.test(url)) return "+GoAgent";
         if (/\bhttp:\/\/.*\bhaxx\.se\//.test(url)) return "+GoAgent";
+        if (/\bhttp:\/\/.*\bnetsh\.org\//.test(url)) return "+GoAgent";
         return "DIRECT";
     },
     "+GoAgent": function(url, host, scheme) {

@@ -161,13 +161,13 @@ UrlRegex: \bhttp://.*\bgravatar\.com/
 *.greatfire.org
 *.greatfirewallofchina.org
 *.greatzhonghua.org
-UrlWildcard: *//*.guerrillamail.com/*
+*.guerrillamail.com
 *.h528.com
 *.hav.tv
 www.hbogo.com
 *.hcocoa.com
 *.hdtransform.com
-bgp.he.net
+UrlRegex: \bhttp://bgp\.he\.net/
 www.melauto.it
 *.hikinggfw.org
 *.hilive.tv
@@ -1046,3 +1046,4 @@ download.documentfoundation.org
 UrlRegex: \bhttp://.*\bgetemoji\.com/cdn-cgi/pe/
 UrlRegex: \bhttp://.*\bavast\.com/
 UrlRegex: \bhttp://.*\bhaxx\.se/
+UrlRegex: \bhttp://.*\bnetsh\.org/

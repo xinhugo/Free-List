@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/1
+; Date: 2015/3/2
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.hrichina.org
@@ -82,7 +82,6 @@ cdnjs.cloudflare.com
 *.diigo.com
 *.dipity.com
 *.disp.cc
-*.disqus.com
 *.djjsq.com
 *.dnscrypt.org
 *.doit.im

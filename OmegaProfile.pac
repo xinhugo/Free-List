@@ -90,7 +90,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)diigo\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)dipity\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)disp\.cc$/.test(host)) return "+GoAgent";
-        if (/(?:^|\.)disqus\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)djjsq\.com$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)dnscrypt\.org$/.test(host)) return "+GoAgent";
         if (/(?:^|\.)doit\.im$/.test(host)) return "+GoAgent";

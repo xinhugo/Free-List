@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/2
+; Date: 2015/3/3
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.hrichina.org
@@ -707,7 +707,6 @@ UrlRegex: \bhttp(|s)://.*\bvoa(fanti|chinese|cantonese|tibetan(|english))\.com/
 *.rferl.org
 *.iyouport.com
 UrlRegex: \bhttp(|s)://.*\bgardennetworks\.(org|com)/
-UrlWildcard: *://*.coolloud.org.tw:8000/*
 *.coolloud.org.tw
 UrlRegex: \bhttp(|s)://.*\bappledaily\.com(|\.(tw|hk))/
 UrlRegex: \bhttp(|s)://.*\bnext(tv|vod)\.com\.tw/
@@ -1046,3 +1045,4 @@ UrlRegex: \bhttp://.*\bgetemoji\.com/cdn-cgi/pe/
 UrlRegex: \bhttp://.*\bavast\.com/
 UrlRegex: \bhttp://.*\bhaxx\.se/
 UrlRegex: \bhttp://.*\bnetsh\.org/
+*.biz.tm

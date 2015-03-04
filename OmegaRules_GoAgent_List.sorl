@@ -323,7 +323,6 @@ images.secdns.com
 *.sharenxs.com
 *.sherrychan.net
 *.sitebro.tw
-UrlRegex: \bhttp(|s)://(www|beta)\.skype\.com/
 *.slideshare.net
 www.sodu.so
 *.oursogo.com

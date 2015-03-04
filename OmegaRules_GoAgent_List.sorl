@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/4
+; Date: 2015/3/5
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.hrichina.org
@@ -605,6 +605,7 @@ UrlRegex: \bhttp(|s)://(daily|)news\.sina\.com(\.(hk|tw)|)/
 *.minghui.org
 UrlRegex: \bhttp(|s)://.*\bmingpao(|ny|tor|van|canada|news|monthly)\.com/
 *.mingjinglishi.com
+*.mingjingnews.com
 *.mirrorbooks.com
 *.stgloballink.com
 *.singtao.com

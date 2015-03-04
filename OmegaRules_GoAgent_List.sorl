@@ -137,25 +137,25 @@ data.getadblock.com
 UrlRegex: \bhttp(|s)://(co|no)deload.github.com/
 *.internetfreedom.org
 *.goagent.biz
-*.googlevideo.com
-UrlWildcard: http://www.gmodules.com/gadgets/ifr?url=*
+UrlRegex: \bhttp://www\.gmodules\.com/gadgets/ifr\?url=
 UrlRegex: \bhttp://.*\bappspot\.com/
 UrlRegex: \bhttp://.*\bpanoramio\.com/
-UrlRegex: \bhttp(|s)://.*\b(goo.gl|g.co)/
 UrlRegex: \bhttp://.*\bgooglesyndication\.com/
 UrlRegex: \bhttp://.*\bfeedburner.com/
 UrlRegex: \bhttp://.*\bgoogleusercontent\.com/
+UrlRegex: \bhttp://(feedproxy|feedburner)\.google\.com/
 UrlRegex: \bhttp(|s)://((.+\.c\.doc-0-0-sj\.|)sj|ci\d{1,2}|oauth|webcache|\d-ps|uds|producer|lh\d)\.googleusercontent\.com/
 UrlRegex: \bhttp(|s)://(csi|maps|encrypted-tbn\d|fonts|ssl|www)\.gstatic\.com/
 UrlRegex: \bhttp(|s)://((scholar|news|accounts|adwords|books|images|map(|s)|khms\d|www)\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)/
-UrlRegex: \bhttp(|s)://((uploads\.|)code(|\.l)|.*\bdocs|doc|drive|play|plus|plus\.url|buzz|profiles|mail|apis|support|translate|wallet|checkout|talkgadget|appengine|id|security|myaccount|contacts|mt(|s)\d)\.google\.com/
-UrlRegex: \bhttp(|s)://.*\bgooglecode\.com/
-UrlRegex: \bhttp(|s)://.*\bggpht\.com/
-UrlRegex: \bhttp(|s)://.*\bgooglesource\.com/
-UrlRegex: \bhttp(|s)://.*\bandroid\.com/
-UrlRegex: \bhttp(|s)://.*\bgoogletagmanager\.com/
-UrlRegex: \bhttp(|s)://(maps|www|translate|plus|mts\d)\.googleapis\.com/
-UrlRegex: \bhttp://(feedproxy|feedburner|safebrowsing\.clients|translate)\.google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)/
+UrlRegex: \bhttp(|s)://((uploads\.|)code(|\.l)|.*\bdocs|doc|drive|play|plus|plus\.url|buzz|profiles|mail|apis|support|translate|wallet|checkout|talkgadget|appengine|id|security|myaccount|chrome|contacts|safebrowsing\.clients|clients\d|mt(|s)\d)\.google\.com/
+UrlRegex: \bhttp(|s)://(maps|www|translate|plus|ajax|mts\d)\.googleapis\.com/
+*.googlevideo.com
+*.ggpht.com
+*.gvt2.com
+*.googlesource.com
+*.googlecode.com
+*.android.com
+*.googletagmanager.com
 *.gopetition.com
 UrlRegex: \bhttp://.*\bgravatar\.com/
 *.greatfire.org
@@ -1003,9 +1003,8 @@ UrlRegex: \bhttp://.*\bksnews\.com\.tw/
 *.javideo.info
 *.ccdtr.org
 *.ucdc1998.org
-UrlRegex: ://.*\bcdp(|2006|wu|site|1998)\.org/
+UrlRegex: \bhttp(|s)://.*\bcdp(|2006|wu|site|1998)\.org/
 *.topcoo.com
-UrlRegex: ://clients\d.google.com/(chat|invalidation|voice)/
 *.tmagazine.com
 *.nytimg.com
 UrlRegex: \bhttp://.*\bblogsys\.jp/
@@ -1037,7 +1036,6 @@ UrlRegex: ://.*\bak\.live\.cntv\.cn/z/
 pds.nasa.gov
 *.getgom.com
 UrlRegex: \bhttp://.*\bgstatic.com/
-www.uukanshu.com
 UrlRegex: \bhttp://.*\btorrentproject.se/
 UrlRegex: \bhttp://.*\bus\d+\.gigya\.com/
 www.libreoffice.org

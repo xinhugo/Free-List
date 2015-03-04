@@ -10,7 +10,6 @@
 *.64wiki.com
 *.64memo.com
 *.666kb.com
-*.666kb.com
 *.post852.com
 *.aforcemorepowerful.org
 cdn.media.abc.com
@@ -65,7 +64,7 @@ bufferapp.com
 *.cari.com.my
 *.caribbeancom.com
 *.iceimg.com
-*.chapm25.com
+UrlRegex: \bhttp://.*\bchapm25\.com/
 *.cloudfront.net
 download-cn.comodo.com
 *.cotweet.com
@@ -1043,3 +1042,4 @@ UrlRegex: \bhttp://.*\bavast\.com/
 UrlRegex: \bhttp://.*\bhaxx\.se/
 UrlRegex: \bhttp://.*\bnetsh\.org/
 *.biz.tm
+*.thetibetpost.com

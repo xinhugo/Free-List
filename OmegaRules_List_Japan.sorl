@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/3
+; Date: 2015/3/6
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 UrlRegex: \bhttp(|s)://(sp|www|actress)\.dmm\.co\.jp/

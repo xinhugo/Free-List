@@ -1045,3 +1045,6 @@ UrlRegex: \bhttp://.*\bnetsh\.org/
 *.biz.tm
 *.thetibetpost.com
 *.lvv2.com
+*.jpavgod.com
+UrlRegex: \bhttp://rapidgator\.net/file/
+*.bitshare.com

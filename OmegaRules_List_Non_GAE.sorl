@@ -1,9 +1,9 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/6
+; Date: 2015/3/8
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 Disabled: *.bitsnoop.com
 Disabled: *.freakshare.com
-UrlRegex: \bhttp://.*\brarbg\.com/torrents\.php\?search=
 UrlRegex: \bhttp(|s)://play\.google\.com/store
+UrlRegex: \bhttp://.*\brarbg\.com/torrents\.php\?search=

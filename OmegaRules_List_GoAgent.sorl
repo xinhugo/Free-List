@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/8
+; Date: 2015/3/9
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.android.com
@@ -53,6 +53,7 @@ UrlRegex: \bhttp://www\.gmodules\.com/gadgets/ifr\?url=
 *.am730.com.hk
 *.amazonaws.com
 *.amazonwebapps.com
+*.amnesty.org
 *.amnesty.tw
 *.ananass.fr
 *.animecrazy.net
@@ -448,7 +449,6 @@ UrlRegex: \bhttp://www\.gmodules\.com/gadgets/ifr\?url=
 *.liuxiaobo.net
 *.livestation.com
 *.livestream.com
-*.livewire.amnesty.org
 *.localpresshk.com
 *.lockerz.com
 *.lolbin.net
@@ -806,7 +806,6 @@ UrlRegex: \bhttp://www\.gmodules\.com/gadgets/ifr\?url=
 *.xpics.us
 *.xtube.com
 *.xuite.net
-*.xvideos.com
 *.xvideosmatome.net
 *.xys.org
 *.yamedia.tw
@@ -1036,4 +1035,5 @@ www.melauto.it
 www.netflix.com
 www.savetube.com
 yuming.flnet.org
-zh.amnesty.org
+*.eroantenna.com
+*.quickpornsearch.com

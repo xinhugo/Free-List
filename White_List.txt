@@ -1,4 +1,7 @@
 [Local Hosts]
+## China Mainland Domains
+## Get the latest database: https://github.com/xinhugo/Free-List/blob/master/White_List.txt
+## Report an Issue: https://github.com/xinhugo/Free-List/issues
 .*\.cn
 .*\b0056\.cc
 .*\b009k\.net
@@ -238,6 +241,7 @@
 .*\b3911\.net
 .*\b3987\.com
 .*\b39txt\.com
+.*\b39xs\.net
 .*\b3che\.com
 .*\b3conline\.com
 .*\b3dcamega\.com

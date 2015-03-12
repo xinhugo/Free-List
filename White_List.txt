@@ -991,6 +991,7 @@
 .*\bchayiba\.com
 .*\bchcj\.net
 .*\bcheaa\.com
+.*\bchecheng123\.com
 .*\bcheckpass\.net
 .*\bcheeyeebuy\.com
 .*\bchemdrug\.com
@@ -1306,6 +1307,7 @@
 .*\bdidipai\.com
 .*\bdigitalchina\.com
 .*\bdigu365\.com
+.*\bdijiuzww\.com
 .*\bdili360\.com
 .*\bdingdean\.com
 .*\bdinggu\.net
@@ -1788,6 +1790,7 @@
 .*\bhao224\.com
 .*\bhaodf\.com
 .*\bhaodou\.com
+.*\bhaodu5\.com
 .*\bhaoduorou\.net
 .*\bhaogongju\.net
 .*\bhaokan5\.com
@@ -3355,6 +3358,7 @@
 .*\bshumilou\.com
 .*\bshunjingwenquan\.com
 .*\bshupeng\.com
+.*\bshuqi6\.com
 .*\bshushao\.com
 .*\bshwebzy\.com
 .*\bshxb\.net

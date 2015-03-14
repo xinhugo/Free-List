@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/13
+; Date: 2015/3/15
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.android.com
@@ -979,6 +979,7 @@ UrlRegex: \bhttp://adadvisor\.net/
 UrlRegex: \bhttp://ads\.contextweb\.com/TagPublish/
 UrlRegex: \bhttp://adsense\.scupio\.com/ADPInline/
 UrlRegex: \bhttp://api-public\.addthis\.com/url/
+s7.addthis.com
 UrlRegex: \bhttp://b\.scorecardresearch\.com/
 UrlRegex: \bhttp://bbs\.cantonese\.asia/
 UrlRegex: \bhttp://bdaz\.adsfactor\.net/

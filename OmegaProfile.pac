@@ -1041,6 +1041,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/\bhttp:\/\/ads\.contextweb\.com\/TagPublish\//.test(url)) return "+Srv_GoAgent";
         if (/\bhttp:\/\/adsense\.scupio\.com\/ADPInline\//.test(url)) return "+Srv_GoAgent";
         if (/\bhttp:\/\/api-public\.addthis\.com\/url\//.test(url)) return "+Srv_GoAgent";
+        if (/^s7\.addthis\.com$/.test(host)) return "+Srv_GoAgent";
         if (/\bhttp:\/\/b\.scorecardresearch\.com\//.test(url)) return "+Srv_GoAgent";
         if (/\bhttp:\/\/bbs\.cantonese\.asia\//.test(url)) return "+Srv_GoAgent";
         if (/\bhttp:\/\/bdaz\.adsfactor\.net\//.test(url)) return "+Srv_GoAgent";

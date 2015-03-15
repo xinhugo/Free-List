@@ -340,6 +340,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)freeproxyserver\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)freeshadow\.info$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)freeweibo\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)fw\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)friendfeed\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)fring\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)frontlinedefenders\.org$/.test(host)) return "+Srv_GoAgent";

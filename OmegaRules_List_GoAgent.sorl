@@ -512,7 +512,7 @@ UrlRegex: \bhttp://.*\bpanoramio\.com/
 *.nicovideo.jp
 *.nobel.se
 *.nobelprize.org
-*.notepad-plus-plus.org
+notepad-plus-plus.org
 *.notipage.com
 *.nownews.com
 *.nps.gov

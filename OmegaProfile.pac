@@ -917,6 +917,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^download\.tuxfamily\.org$/.test(host)) return "+Srv_GoAgent";
         if (/^download-cn\.comodo\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^forum\.games\.hinet\.net$/.test(host)) return "+Srv_GoAgent";
+        if (/^times\.hinet\.net$/.test(host)) return "+Srv_GoAgent";
+        if (/\bhttp:\/\/.*\btenmax\.io\//.test(url)) return "+Srv_GoAgent";
         if (/^hcd-1\.imgbox\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^hk03dl\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^i.*\.wp\.com$/.test(host)) return "+Srv_GoAgent";

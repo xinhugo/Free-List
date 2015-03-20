@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/20
+; Date: 2015/3/21
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.android.com
@@ -853,6 +853,8 @@ download.documentfoundation.org
 download.tuxfamily.org
 download-cn.comodo.com
 forum.games.hinet.net
+times.hinet.net
+UrlRegex: \bhttp://.*\btenmax\.io/
 hcd-1.imgbox.com
 hk03dl.com
 i*.wp.com

@@ -74,7 +74,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http(|s):\/\/((.+\.c\.doc-0-0-sj\.|)sj|ci\d{1,2}|oauth|webcache|\d-ps|uds|producer|lh\d|s\d|.+-opensocial|clients\d)\.googleusercontent\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/((scholar|news|accounts|adwords|books|images|map(|s)|khms\d|www)\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/((uploads\.|)code(|\.l)|.*\bdocs|doc|.*\bdrive|play|plus|plus\.url|buzz|profiles|mail|apis|support|translate|wallet|checkout|talkgadget|appengine|store|id|security|myaccount|chrome|contacts|safebrowsing(|-cache|\.clients)|calendar|clients\d|mt(|s)\d|picasa\w*|sites|fusion|reader|feed\w*|input)\.google\.com\//.test(url)) return "+Srv_GoAgent";
-        if (/^http(|s):\/\/(csi|maps|encrypted-tbn\d|fonts|ssl|www)\.gstatic\.com\//.test(url)) return "+Srv_GoAgent";
+        if (/^http(|s):\/\/(csi|maps|encrypted-tbn\d|fonts|ssl|www|t\d)\.gstatic\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/(maps|www|translate|plus|ajax|mts\d)\.googleapis\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/.*\bappspot\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/.*\bbeacons(|\d)\.gvt2\.com\//.test(url)) return "+Srv_GoAgent";
@@ -921,7 +921,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\btenmax\.io\//.test(url)) return "+Srv_GoAgent";
         if (/^hcd-1\.imgbox\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^hk03dl\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/^i.*\.wp\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)wp\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)wp\.me$/.test(host)) return "+Srv_GoAgent";
         if (/^images\.secdns\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^international\.sueddeutsche\.de$/.test(host)) return "+Srv_GoAgent";
         if (/^libs\.pixfs\.net$/.test(host)) return "+Srv_GoAgent";
@@ -1072,7 +1073,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/news\.now\.com\/home/.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/news\.tagtoo\.co\/site_media\/plugin\/nownews_tagtoo_plugin\.js/.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/p\.typekit\.net\//.test(url)) return "+Srv_GoAgent";
-        if (/^http:\/\/pixel\.wp\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/r\.skimresources\.com\/api\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/rapidgator\.net\/file\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/seehua\.com\/node\//.test(url)) return "+Srv_GoAgent";
@@ -1106,6 +1106,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)eroantenna\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)quickpornsearch\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.moneymanagerex\.org$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)thinkingtaiwan\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)whogovernstw\.org$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

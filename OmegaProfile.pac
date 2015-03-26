@@ -607,7 +607,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)pageflakes\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)pao-pao\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)paper\.li$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)passiontimes\.hk$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)pastebin\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)pbwiki\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)pbworks\.com$/.test(host)) return "+Srv_GoAgent";
@@ -843,6 +842,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)whattalking\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)wi-gadget\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)wikia\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)wikia\.net$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)wikia-beacon\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)wikia\.nocookie\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)wikileaks\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)wikilivres\.ca$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)wikimedia\.org$/.test(host)) return "+Srv_GoAgent";
@@ -1098,7 +1100,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^www\.cpuid\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.hbogo\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.imgburn\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/^www\.internetdownloadmanager\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.libreoffice\.org$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.melauto\.it$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.netflix\.com$/.test(host)) return "+Srv_GoAgent";

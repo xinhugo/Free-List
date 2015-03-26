@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/21
+; Date: 2015/3/26
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.android.com
@@ -543,7 +543,6 @@ notepad-plus-plus.org
 *.pageflakes.com
 *.pao-pao.net
 *.paper.li
-*.passiontimes.hk
 *.pastebin.com
 *.pbwiki.com
 *.pbworks.com
@@ -779,6 +778,9 @@ notepad-plus-plus.org
 *.whattalking.com
 *.wi-gadget.com
 *.wikia.com
+*.wikia.net
+*.wikia-beacon.com
+*.wikia.nocookie.net
 *.wikileaks.org
 *.wikilivres.ca
 *.wikimedia.org
@@ -1034,7 +1036,6 @@ www.blockedinchina.net
 www.cpuid.com
 www.hbogo.com
 www.imgburn.com
-www.internetdownloadmanager.com
 www.libreoffice.org
 www.melauto.it
 www.netflix.com

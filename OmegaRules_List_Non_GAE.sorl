@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/26
+; Date: 2015/3/27
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 Disabled: *.bitsnoop.com
@@ -8,3 +8,4 @@ Disabled: *.freakshare.com
 UrlRegex: ^http(|s)://play\.google\.com/store
 UrlRegex: ^http://.*\brarbg\.com/torrents\.php\?search=
 *.passiontimes.hk
+*.ltn.com.tw

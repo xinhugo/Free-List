@@ -1109,6 +1109,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)thinkingtaiwan\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)whogovernstw\.org$/.test(host)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bdisqus\.com\//.test(url)) return "+Srv_GoAgent";
+        if (/^http:\/\/.*\bpastie\.org\//.test(url)) return "+Srv_GoAgent";
+        if (/(?:^|\.)chinafile\.com$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

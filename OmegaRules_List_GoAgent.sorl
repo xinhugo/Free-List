@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/27
+; Date: 2015/3/28
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.android.com
@@ -1008,6 +1008,7 @@ UrlRegex: ^http://hkupop\.hku\.hk/chinese/
 UrlRegex: ^http://humanities\.uchicago\.edu/faculty/ywang/history
 UrlRegex: ^http://img\.readitlater\.com/i/
 UrlRegex: ^http://news\.now\.com/home
+UrlRegex: ^http://cpms\.now\.com/cpms/
 UrlRegex: ^http://news\.tagtoo\.co/site_media/plugin/nownews_tagtoo_plugin\.js
 UrlRegex: ^http://p\.typekit\.net/
 UrlRegex: ^http://r\.skimresources\.com/api/
@@ -1049,3 +1050,4 @@ UrlRegex: ^http://.*\bdisqus\.com/
 UrlRegex: ^http://.*\bpastie\.org/
 *.chinafile.com
 *.github.com
+*.githubusercontent.com

@@ -1071,6 +1071,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/humanities\.uchicago\.edu\/faculty\/ywang\/history/.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/img\.readitlater\.com\/i\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/news\.now\.com\/home/.test(url)) return "+Srv_GoAgent";
+        if (/^http:\/\/cpms\.now\.com\/cpms\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/news\.tagtoo\.co\/site_media\/plugin\/nownews_tagtoo_plugin\.js/.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/p\.typekit\.net\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/r\.skimresources\.com\/api\//.test(url)) return "+Srv_GoAgent";
@@ -1112,6 +1113,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\bpastie\.org\//.test(url)) return "+Srv_GoAgent";
         if (/(?:^|\.)chinafile\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)github\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)githubusercontent\.com$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

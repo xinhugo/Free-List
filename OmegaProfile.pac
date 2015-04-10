@@ -52,6 +52,7 @@ var FindProxyForURL = function(init, profiles) {
         "use strict";
         if (/^http(|s):\/\/(sp|www|actress)\.dmm\.co\.jp\//.test(url)) return "+Profiles_Japan";
         if (/^www\.dmm\.com$/.test(host)) return "+Profiles_Japan";
+        if (/(?:^|\.)bi-av\.com$/.test(host)) return "+Profiles_Japan";
         return "+List_Non_GAE";
     },
     "+List_Non_GAE": function(url, host, scheme) {
@@ -1121,6 +1122,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)torrentkitty\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)teamviewer\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)bloglines\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/^plaza\.jp\.rakuten-static\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)aisex\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)baisex\.me$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

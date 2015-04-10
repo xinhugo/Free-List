@@ -1058,3 +1058,6 @@ UrlRegex: ^http://.*\bpastie\.org/
 *.torrentkitty.com
 *.teamviewer.com
 *.bloglines.com
+plaza.jp.rakuten-static.com
+*.aisex.com
+*.baisex.me

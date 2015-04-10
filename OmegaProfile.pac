@@ -68,6 +68,7 @@ var FindProxyForURL = function(init, profiles) {
     "+List_GoAgent": function(url, host, scheme) {
         "use strict";
         if (/(?:^|\.)google$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)gmail\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)android\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)chrome\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)chromium\.org$/.test(host)) return "+Srv_GoAgent";

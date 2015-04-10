@@ -4,6 +4,7 @@
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.google
+*.gmail.com
 *.android.com
 *.chrome.com
 *.chromium.org

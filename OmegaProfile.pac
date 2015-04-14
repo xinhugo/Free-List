@@ -1030,6 +1030,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\btynt.com\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\budnbkk\.com\/(article|bbs)/.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bus\d+\.gigya\.com\//.test(url)) return "+Srv_GoAgent";
+        if (/^cdns\.gigya\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bv2ex\.com/.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bvideo\.ap\.org\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bviss\.me\//.test(url)) return "+Srv_GoAgent";

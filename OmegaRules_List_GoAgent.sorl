@@ -966,6 +966,7 @@ UrlRegex: ^http://.*\btumutanzi\.com/
 UrlRegex: ^http://.*\btynt.com/
 UrlRegex: ^http://.*\budnbkk\.com/(article|bbs)
 UrlRegex: ^http://.*\bus\d+\.gigya\.com/
+cdns.gigya.com
 UrlRegex: ^http://.*\bv2ex\.com
 UrlRegex: ^http://.*\bvideo\.ap\.org/
 UrlRegex: ^http://.*\bviss\.me/

@@ -1126,6 +1126,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^plaza\.jp\.rakuten-static\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)aisex\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)baisex\.me$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)zuobiao\.me$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

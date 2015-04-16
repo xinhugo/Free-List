@@ -578,7 +578,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)nicovideo\.jp$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)nobel\.se$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)nobelprize\.org$/.test(host)) return "+Srv_GoAgent";
-        if (/^notepad-plus-plus\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)notipage\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)nownews\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)nps\.gov$/.test(host)) return "+Srv_GoAgent";

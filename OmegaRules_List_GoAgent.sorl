@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/4/15
+; Date: 2015/4/16
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.google
@@ -514,7 +514,6 @@ UrlRegex: ^http://.*\bpanoramio\.com/
 *.nicovideo.jp
 *.nobel.se
 *.nobelprize.org
-notepad-plus-plus.org
 *.notipage.com
 *.nownews.com
 *.nps.gov

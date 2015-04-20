@@ -1170,6 +1170,7 @@
 .*\bcodeios\.com
 .*\bcodesky\.net
 .*\bcohim\.com
+.*\bcolafile\.com
 .*\bcoloros\.com
 .*\bcolourlife\.com
 .*\bcomgeo\.net
@@ -3825,6 +3826,7 @@
 .*\buyan\.cc
 .*\buyunad\.com
 .*\bv1baobao\.com
+.*\bv2ex\.com
 .*\bv-56\.com
 .*\bv5jp\.com
 .*\bv5kf\.com

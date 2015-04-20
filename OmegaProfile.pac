@@ -28,9 +28,12 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http(|s):\/\/(www|beta)\.skype\.com\//.test(url)) return "+Srv_GoAgent-GAE";
         if (/^http(|s):\/\/play\.google\.com\/music\//.test(url)) return "+Srv_GoAgent-GAE";
         if (/^http(|s):\/\/www\.google\.com\/voice\/[^resources|service|new|static]/.test(url)) return "+Srv_GoAgent-GAE";
-        if (/^http(|s):\/\/plus\.google\.com\/(10(1|2|3|4|5|6|7|8|9)|11(0|1|2|3|6))\d+\/(about|auto)/.test(url)) return "+Srv_GoAgent-GAE";
+        if (/^http(|s):\/\/plus\.google\.com\/(10|11(0|1|2|3|6|7))\d+\/(about|auto)/.test(url)) return "+Srv_GoAgent-GAE";
         if (/^http(|s):\/\/www\.google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)\/maps(\/place|\?(cid|q)=)/.test(url)) return "+Srv_GoAgent-GAE";
         if (false) return "+Srv_GoAgent-GAE";
+        if (/(?:^|\.)hulu\.com$/.test(host)) return "+Srv_GoAgent-GAE";
+        if (/(?:^|\.)huluim\.com$/.test(host)) return "+Srv_GoAgent-GAE";
+        if (/^www\.netflix\.com$/.test(host)) return "+Srv_GoAgent-GAE";
         return "+List_Direct-1";
     },
     "+List_Direct-1": function(url, host, scheme) {
@@ -82,7 +85,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)ytimg\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)youtube\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/((.+\.c\.doc-0-0-sj\.|)sj|ci\d{1,2}|oauth|webcache|\d-ps|uds|producer|lh\d|s\d|.+-opensocial|clients\d|translate)\.googleusercontent\.com\//.test(url)) return "+Srv_GoAgent";
-        if (/^http(|s):\/\/((scholar|news|accounts|adwords|books|images|map(|s)|khms\d|www|blogsearch|cse)\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\//.test(url)) return "+Srv_GoAgent";
+        if (/^http(|s):\/\/((scholar|news|accounts|adwords|books|images|khms\d|www|blogsearch|cse)\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/((uploads\.|)code(|\.l)|.*\bdocs|doc|.*\bdrive|play|plus|plus\.url|buzz|profiles|mail|apis|support|translate|wallet|checkout|talkgadget|appengine|store|id|security|myaccount|chrome|contacts|safebrowsing(|-cache|\.clients)|calendar|clients\d|mt(|s)\d|picasa\w*|sites|fusion|reader|feed\w*|input|research|inbox|mw\d)\.google\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/(csi|maps|encrypted-tbn\d|fonts|ssl|www|t\d)\.gstatic\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/(maps|www|translate|plus|ajax|mts\d)\.googleapis\.com\//.test(url)) return "+Srv_GoAgent";
@@ -149,7 +152,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)backtotiananmen\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)badongo\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)bahamut\.com\.tw$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)baidu\.jp$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)bannedbook\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)bayfiles\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)bbcchinese\.com$/.test(host)) return "+Srv_GoAgent";
@@ -430,8 +432,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)huanghuagang\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)huaren\.us$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)huaxia-news\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)hulu\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)huluim\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)huping\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)hutong9\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)hwinfo\.com$/.test(host)) return "+Srv_GoAgent";
@@ -1032,7 +1032,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\budnbkk\.com\/(article|bbs)/.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bus\d+\.gigya\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^cdns\.gigya\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/^http:\/\/.*\bv2ex\.com/.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bvideo\.ap\.org\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bviss\.me\//.test(url)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bvisualrevenue\.com\//.test(url)) return "+Srv_GoAgent";
@@ -1105,7 +1104,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^www\.imgburn\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.libreoffice\.org$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.melauto\.it$/.test(host)) return "+Srv_GoAgent";
-        if (/^www\.netflix\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.savetube\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^yuming\.flnet\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)eroantenna\.com$/.test(host)) return "+Srv_GoAgent";
@@ -1128,6 +1126,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)aisex\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)baisex\.me$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)zuobiao\.me$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)cool18\.com$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
@@ -1157,7 +1156,7 @@ var FindProxyForURL = function(init, profiles) {
     "+Srv_SS/Psiphon/SSH": function(url, host, scheme) {
         "use strict";
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
-        return "SOCKS5 127.0.0.1:1080";
+        return "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080";
     },
     "+Srv_GoAgent-GAE": function(url, host, scheme) {
         "use strict";

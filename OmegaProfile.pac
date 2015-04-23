@@ -71,6 +71,7 @@ var FindProxyForURL = function(init, profiles) {
     "+List_GoAgent": function(url, host, scheme) {
         "use strict";
         if (/(?:^|\.)google$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)goo\.gl$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)gmail\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)android\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)chrome\.com$/.test(host)) return "+Srv_GoAgent";
@@ -1128,6 +1129,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)zuobiao\.me$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)cool18\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)thestandnews\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)piratescreen\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)thetimenow\.com$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

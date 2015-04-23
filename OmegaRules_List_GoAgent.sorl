@@ -1,9 +1,10 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/4/21
+; Date: 2015/4/23
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.google
+*.goo.gl
 *.gmail.com
 *.android.com
 *.chrome.com
@@ -1061,3 +1062,5 @@ plaza.jp.rakuten-static.com
 *.zuobiao.me
 *.cool18.com
 *.thestandnews.com
+*.piratescreen.com
+*.thetimenow.com

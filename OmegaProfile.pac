@@ -66,6 +66,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
         if (/(?:^|\.)passiontimes\.hk$/.test(host)) return "+Profiles_Free";
         if (/(?:^|\.)ltn\.com\.tw$/.test(host)) return "+Profiles_Free";
+        if (/(?:^|\.)ck101\.com$/.test(host)) return "+Profiles_Free";
         return "+List_GoAgent";
     },
     "+List_GoAgent": function(url, host, scheme) {
@@ -240,7 +241,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)civicparty\.hk$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)civilhrfront\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)civilmedia\.tw$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)ck101\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)cloudfront\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)cloudmonitor\.ca\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)cna\.com\.tw$/.test(host)) return "+Srv_GoAgent";

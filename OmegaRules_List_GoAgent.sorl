@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/4/23
+; Date: 2015/4/24
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.google
@@ -173,7 +173,6 @@ UrlRegex: ^http://.*\bpanoramio\.com/
 *.civicparty.hk
 *.civilhrfront.org
 *.civilmedia.tw
-*.ck101.com
 *.cloudfront.net
 *.cloudmonitor.ca.com
 *.cna.com.tw

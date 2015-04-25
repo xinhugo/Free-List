@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/4/24
+; Date: 2015/4/25
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.google
@@ -1053,7 +1053,6 @@ UrlRegex: ^http://.*\bpastie\.org/
 *.imgkeep.com
 *.hotchyx.com
 *.torrentkitty.com
-*.teamviewer.com
 *.bloglines.com
 plaza.jp.rakuten-static.com
 *.aisex.com

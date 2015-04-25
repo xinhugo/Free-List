@@ -1121,7 +1121,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)imgkeep\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)hotchyx\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)torrentkitty\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)teamviewer\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)bloglines\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^plaza\.jp\.rakuten-static\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)aisex\.com$/.test(host)) return "+Srv_GoAgent";

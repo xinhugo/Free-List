@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/4/29
+; Date: 2015/4/30
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.google
@@ -1064,3 +1064,5 @@ plaza.jp.rakuten-static.com
 *.thetimenow.com
 *.javblog.biz
 *.ltn.com.tw
+*.mingshengbao.com
+*.intermargins.net

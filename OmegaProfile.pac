@@ -1132,6 +1132,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)thetimenow\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)javblog\.biz$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)ltn\.com\.tw$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)mingshengbao\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)intermargins\.net$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

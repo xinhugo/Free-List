@@ -62,10 +62,10 @@ var FindProxyForURL = function(init, profiles) {
         "use strict";
         if (false) return "+Profiles_Free";
         if (false) return "+Profiles_Free";
+        if (false) return "+Profiles_Free";
         if (/^http(|s):\/\/play\.google\.com\/store/.test(url)) return "+Profiles_Free";
         if (/^http:\/\/.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
         if (/(?:^|\.)passiontimes\.hk$/.test(host)) return "+Profiles_Free";
-        if (/(?:^|\.)ltn\.com\.tw$/.test(host)) return "+Profiles_Free";
         if (/(?:^|\.)ck101\.com$/.test(host)) return "+Profiles_Free";
         return "+List_GoAgent";
     },
@@ -1130,6 +1130,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)thestandnews\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)piratescreen\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)thetimenow\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)javblog\.biz$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)ltn\.com\.tw$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

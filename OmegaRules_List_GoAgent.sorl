@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/4/30
+; Date: 2015/5/1
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.google
@@ -188,7 +188,6 @@ UrlRegex: ^http://.*\bpanoramio\.com/
 *.crazys.cc
 *.creaders.net
 *.creadersnet.com
-*.crystalmark.info
 *.c--spanarchives.-org
 *.c-spanvideo.org
 *.cts.com.tw
@@ -252,7 +251,6 @@ UrlRegex: ^http://.*\bpanoramio\.com/
 *.ettoday.net
 *.extremetube.com
 *.extremetube.phncdn.com
-*.eyny.com
 *.facebook.com
 *.fangeming.com
 *.fanqianghou.com
@@ -303,7 +301,6 @@ UrlRegex: ^http://.*\bpanoramio\.com/
 *.getgom.com
 *.getpocket.com
 *.gigacircle.com
-*.gimp.org
 *.git-scm.com
 *.globalvoicesonline.org
 *.goagent.biz
@@ -850,7 +847,6 @@ UrlRegex: ^http://.*\bensighten\.com/
 UrlRegex: ^http://.*\bwebtrendslive\.com/
 community.emc.com
 data.getadblock.com
-donate.libreoffice.org
 download.documentfoundation.org
 download.tuxfamily.org
 download-cn.comodo.com
@@ -1028,20 +1024,16 @@ UrlRegex: ^http://www\.manictime\.com/setup/
 UrlRegex: ^http://www\.marxists\.org/chinese
 UrlRegex: ^https://.*\bonebitbug\.me/
 UrlRegex: ^https://www\.wireshark\.org/
-windows.microsoft.com
 woeser.middle-way.net
-www.aida64.com
 www.blockedinchina.net
 www.cpuid.com
 www.hbogo.com
-www.imgburn.com
-www.libreoffice.org
+UrlRegex: ^http(|s)://(donate|www)\.libreoffice\.org/
 www.melauto.it
 www.savetube.com
 yuming.flnet.org
 *.eroantenna.com
 *.quickpornsearch.com
-www.moneymanagerex.org
 *.thinkingtaiwan.com
 *.whogovernstw.org
 UrlRegex: ^http://.*\bdisqus\.com/
@@ -1066,3 +1058,6 @@ plaza.jp.rakuten-static.com
 *.ltn.com.tw
 *.mingshengbao.com
 *.intermargins.net
+*.i2ocr.com
+*.picrar.com
+*.picpar.com

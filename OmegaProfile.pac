@@ -67,6 +67,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
         if (/(?:^|\.)passiontimes\.hk$/.test(host)) return "+Profiles_Free";
         if (/(?:^|\.)ck101\.com$/.test(host)) return "+Profiles_Free";
+        if (/(?:^|\.)eyny\.com$/.test(host)) return "+Profiles_Free";
         return "+List_GoAgent";
     },
     "+List_GoAgent": function(url, host, scheme) {
@@ -256,7 +257,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)crazys\.cc$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)creaders\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)creadersnet\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)crystalmark\.info$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)c--spanarchives\.-org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)c-spanvideo\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)cts\.com\.tw$/.test(host)) return "+Srv_GoAgent";
@@ -320,7 +320,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)ettoday\.net$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)extremetube\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)extremetube\.phncdn\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)eyny\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)facebook\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)fangeming\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)fanqianghou\.com$/.test(host)) return "+Srv_GoAgent";
@@ -371,7 +370,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)getgom\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)getpocket\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)gigacircle\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/(?:^|\.)gimp\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)git-scm\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)globalvoicesonline\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)goagent\.biz$/.test(host)) return "+Srv_GoAgent";
@@ -918,7 +916,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\bwebtrendslive\.com\//.test(url)) return "+Srv_GoAgent";
         if (/^community\.emc\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^data\.getadblock\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/^donate\.libreoffice\.org$/.test(host)) return "+Srv_GoAgent";
         if (/^download\.documentfoundation\.org$/.test(host)) return "+Srv_GoAgent";
         if (/^download\.tuxfamily\.org$/.test(host)) return "+Srv_GoAgent";
         if (/^download-cn\.comodo\.com$/.test(host)) return "+Srv_GoAgent";
@@ -1096,20 +1093,16 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/www\.marxists\.org\/chinese/.test(url)) return "+Srv_GoAgent";
         if (/^https:\/\/.*\bonebitbug\.me\//.test(url)) return "+Srv_GoAgent";
         if (/^https:\/\/www\.wireshark\.org\//.test(url)) return "+Srv_GoAgent";
-        if (/^windows\.microsoft\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^woeser\.middle-way\.net$/.test(host)) return "+Srv_GoAgent";
-        if (/^www\.aida64\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.blockedinchina\.net$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.cpuid\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.hbogo\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/^www\.imgburn\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/^www\.libreoffice\.org$/.test(host)) return "+Srv_GoAgent";
+        if (/^http(|s):\/\/(donate|www)\.libreoffice\.org\//.test(url)) return "+Srv_GoAgent";
         if (/^www\.melauto\.it$/.test(host)) return "+Srv_GoAgent";
         if (/^www\.savetube\.com$/.test(host)) return "+Srv_GoAgent";
         if (/^yuming\.flnet\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)eroantenna\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)quickpornsearch\.com$/.test(host)) return "+Srv_GoAgent";
-        if (/^www\.moneymanagerex\.org$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)thinkingtaiwan\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)whogovernstw\.org$/.test(host)) return "+Srv_GoAgent";
         if (/^http:\/\/.*\bdisqus\.com\//.test(url)) return "+Srv_GoAgent";
@@ -1134,6 +1127,21 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)ltn\.com\.tw$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)mingshengbao\.com$/.test(host)) return "+Srv_GoAgent";
         if (/(?:^|\.)intermargins\.net$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)i2ocr\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)picrar\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/(?:^|\.)picpar\.com$/.test(host)) return "+Srv_GoAgent";
+        return "+List_Page-Monitor";
+    },
+    "+List_Page-Monitor": function(url, host, scheme) {
+        "use strict";
+        if (false) return "+Srv_GoAgent";
+        if (/^http(|s):\/\/www\.dhzw\.com\/book\//.test(url)) return "+Srv_GoAgent";
+        if (false) return "+Srv_GoAgent";
+        if (false) return "+Srv_GoAgent";
+        if (/^http(|s):\/\/www\.aida64\.com\/downloads\//.test(url)) return "+Srv_GoAgent";
+        if (/^http(|s):\/\/windows\.microsoft\.com\/.*\/windows\/themes/.test(url)) return "+Srv_GoAgent";
+        if (/^www\.imgburn\.com$/.test(host)) return "+Srv_GoAgent";
+        if (/^www\.moneymanagerex\.org$/.test(host)) return "+Srv_GoAgent";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

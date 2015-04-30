@@ -1,7 +1,7 @@
 ﻿[Local Hosts]
 ## China Mainland Domains
 ## Get the latest database: https://github.com/xinhugo/Free-List/blob/master/White_List.txt
-## Last update: 2015-04-20
+## Last update: 2015-05-1
 ## Report an Issue: https://github.com/xinhugo/Free-List/issues
 .*\.cn
 .*\b0056\.cc
@@ -54,6 +54,7 @@
 .*\b114zhaofang\.com
 .*\b114zw\.com
 .*\b115\.com
+.*\b115img\.com
 .*\b11688.net
 .*\b117show\.com
 .*\b117yes\.com
@@ -223,6 +224,8 @@
 .*\b360kxr\.com
 .*\b360myb\.com
 .*\b360safe\.com
+.*\b360so\.com
+.*\b360sou\.co
 .*\b360top\.com
 .*\b360tpcdn\.com
 .*\b360u9\.com
@@ -1816,6 +1819,7 @@
 .*\bhaokan5\.com
 .*\bhaolexiang\.com
 .*\bhaomad\.com
+.*\bhaosou\.com
 .*\bhaotoufa\.com
 .*\bhaowan5\.com
 .*\bhaoyer\.com
@@ -3477,6 +3481,7 @@
 .*\bsosg\.net
 .*\bsoso\.com
 .*\bsosohaha\.com
+.*\bsou\.com
 .*\bsouchiwang\.com
 .*\bsoudoc\.com
 .*\bsoufun\.com
@@ -3696,7 +3701,6 @@
 .*\btotoolaw\.com
 .*\btouthe\.com
 .*\btoutiao\.com
-.*\btowords\.com
 .*\btpooo\.com
 .*\btqun\.com
 .*\btrademessenger\.com

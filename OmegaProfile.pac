@@ -1136,7 +1136,7 @@ var FindProxyForURL = function(init, profiles) {
         "use strict";
         if (false) return "+Srv_GoAgent";
         if (/^http(|s):\/\/www\.dhzw\.com\/book\//.test(url)) return "+Srv_GoAgent";
-        if (false) return "+Srv_GoAgent";
+        if (/^http(|s):\/\/www\.gimp\.org\/downloads\//.test(url)) return "+Srv_GoAgent";
         if (false) return "+Srv_GoAgent";
         if (/^http(|s):\/\/www\.aida64\.com\/downloads\//.test(url)) return "+Srv_GoAgent";
         if (/^http(|s):\/\/windows\.microsoft\.com\/.*\/windows\/themes/.test(url)) return "+Srv_GoAgent";

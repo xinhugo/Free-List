@@ -3,7 +3,7 @@
 ; Date: 2015/5/5
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
-Disabled: ^http(|s)://www\.aszw\.com/book/
+UrlRegex: ^http(|s)://www\.aszw\.com/book/
 UrlRegex: ^http(|s)://www\.dhzw\.com/book/
 UrlRegex: ^http(|s)://www\.gimp\.org/downloads/
 Disabled: ^http(|s)://crystalmark.info/download/

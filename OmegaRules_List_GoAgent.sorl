@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/5/9
+; Date: 2015/5/10
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.google
@@ -1064,3 +1064,4 @@ plaza.jp.rakuten-static.com
 *.picpar.com
 UrlRegex: ^http://.*\boo-software\.com/
 *.cdjp.org
+*.passiontimes.hk

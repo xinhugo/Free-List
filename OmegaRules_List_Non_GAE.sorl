@@ -1,13 +1,13 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/4/30
+; Date: 2015/5/10
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 Disabled: *.bitsnoop.com
 Disabled: *.freakshare.com
 Disabled: *.ltn.com.tw
+Disabled: *.passiontimes.hk
 UrlRegex: ^http(|s)://play\.google\.com/store
 UrlRegex: ^http://.*\brarbg\.com/torrents\.php\?search=
-*.passiontimes.hk
 *.ck101.com
 *.eyny.com

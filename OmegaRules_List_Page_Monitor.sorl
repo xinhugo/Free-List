@@ -1,12 +1,12 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/5/5
+; Date: 2015/5/9
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 UrlRegex: ^http(|s)://www\.aszw\.com/book/
 UrlRegex: ^http(|s)://www\.dhzw\.com/book/
 UrlRegex: ^http(|s)://www\.gimp\.org/downloads/
-Disabled: ^http(|s)://crystalmark.info/download/
+UrlRegex: ^http(|s)://crystalmark.info/download/
 UrlRegex: ^http(|s)://www\.aida64\.com/downloads/
 UrlRegex: ^http(|s)://windows\.microsoft\.com/.*/windows/themes
 www.imgburn.com

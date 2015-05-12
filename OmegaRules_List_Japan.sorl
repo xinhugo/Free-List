@@ -1,8 +1,8 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/4/10
+; Date: 2015/5/12
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 UrlRegex: ^http(|s)://(sp|www|actress)\.dmm\.co\.jp/
 www.dmm.com
-*.bi-av.com
+Disabled: *.bi-av.com

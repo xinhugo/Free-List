@@ -3,6 +3,7 @@
 ; Date: 2015/5/12
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
+Disabled: *.client-channel.google.com
 *.google
 *.goo.gl
 *.gmail.com

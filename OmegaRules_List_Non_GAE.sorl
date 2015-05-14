@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/5/10
+; Date: 2015/5/14
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 Disabled: *.bitsnoop.com
@@ -11,3 +11,4 @@ UrlRegex: ^http(|s)://play\.google\.com/store
 UrlRegex: ^http://.*\brarbg\.com/torrents\.php\?search=
 *.ck101.com
 *.eyny.com
+UrlRegex: \bhttp(|s)://www\.rfa\.org/cantonese/

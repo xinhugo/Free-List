@@ -61,6 +61,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
         if (/(?:^|\.)ck101\.com$/.test(host)) return "+Profiles_Free";
         if (/(?:^|\.)eyny\.com$/.test(host)) return "+Profiles_Free";
+        if (/\bhttp(|s):\/\/www\.rfa\.org\/cantonese\//.test(url)) return "+Profiles_Free";
         return "+List_Google";
     },
     "+List_Google": function(url, host, scheme) {

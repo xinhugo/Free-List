@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/5/14
+; Date: 2015/5/15
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1038,3 +1038,4 @@ www.melauto.it
 www.savetube.com
 yuming.flnet.org
 *.whotalking.com
+*.trib.al

@@ -1141,11 +1141,11 @@ var FindProxyForURL = function(init, profiles) {
         if (/^www\.savetube\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^yuming\.flnet\.org$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)whotalking\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)trib\.al$/.test(host)) return "+Profiles_GoAgent";
         return "+List_Page-Monitor";
     },
     "+List_Page-Monitor": function(url, host, scheme) {
         "use strict";
-        if (/^http(|s):\/\/www\.aszw\.com\/book\//.test(url)) return "+Profiles_GoAgent";
         if (/^http(|s):\/\/www\.dhzw\.com\/book\//.test(url)) return "+Profiles_GoAgent";
         if (/^http(|s):\/\/www\.gimp\.org\/downloads\//.test(url)) return "+Profiles_GoAgent";
         if (/^http(|s):\/\/crystalmark.info\/download\//.test(url)) return "+Profiles_GoAgent";

@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/5/15
+; Date: 2015/5/18
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -851,7 +851,6 @@ community.emc.com
 data.getadblock.com
 download.documentfoundation.org
 download.tuxfamily.org
-download-cn.comodo.com
 forum.games.hinet.net
 hcd-1.imgbox.com
 hk03dl.com
@@ -1039,3 +1038,7 @@ www.savetube.com
 yuming.flnet.org
 *.whotalking.com
 *.trib.al
+*.wegfw.com
+*.uhrp.org
+*.uyghuramerican.org
+*.uyghurpress.com

@@ -61,7 +61,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
         if (/(?:^|\.)ck101\.com$/.test(host)) return "+Profiles_Free";
         if (/(?:^|\.)eyny\.com$/.test(host)) return "+Profiles_Free";
-        if (/\bhttp(|s):\/\/www\.rfa\.org\/cantonese\//.test(url)) return "+Profiles_Free";
+        if (/\bhttp(|s):\/\/www\.rfa\.org\/cantonese\/(.*png|firewall_features|graphics|features|news|june4_2005|video|bookclub|multimedia)/.test(url)) return "+Profiles_Free";
+        if (/\bhttp(|s):\/\/www\.rfa\.org\/mandarin\/(zhuanlan|yataibaodao\/(shaoshuminzu|renquanfazhi))/.test(url)) return "+Profiles_Free";
         return "+List_Google";
     },
     "+List_Google": function(url, host, scheme) {
@@ -954,7 +955,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^data\.getadblock\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^download\.documentfoundation\.org$/.test(host)) return "+Profiles_GoAgent";
         if (/^download\.tuxfamily\.org$/.test(host)) return "+Profiles_GoAgent";
-        if (/^download-cn\.comodo\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^forum\.games\.hinet\.net$/.test(host)) return "+Profiles_GoAgent";
         if (/^hcd-1\.imgbox\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^hk03dl\.com$/.test(host)) return "+Profiles_GoAgent";
@@ -1142,6 +1142,10 @@ var FindProxyForURL = function(init, profiles) {
         if (/^yuming\.flnet\.org$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)whotalking\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)trib\.al$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)wegfw\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)uhrp\.org$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)uyghuramerican\.org$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)uyghurpress\.com$/.test(host)) return "+Profiles_GoAgent";
         return "+List_Page-Monitor";
     },
     "+List_Page-Monitor": function(url, host, scheme) {

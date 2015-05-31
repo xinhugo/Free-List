@@ -1,8 +1,8 @@
 ﻿[Local Hosts]
 ## China Mainland Domains
 ## Get the latest database: https://github.com/xinhugo/Free-List/blob/master/White_List.txt
-## Last update: 2015-05-1
 ## Report an Issue: https://github.com/xinhugo/Free-List/issues
+## Last update: 2015-05-01
 .*\.cn
 .*\b0056\.cc
 .*\b009k\.net

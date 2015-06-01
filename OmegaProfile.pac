@@ -1149,6 +1149,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)uyghuramerican\.org$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)uyghurpress\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)starboard-pro\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/^http:\/\/.*\bhkxforce\.net\/wordpress\//.test(url)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)freetufu\.com$/.test(host)) return "+Profiles_GoAgent";
         return "+List_Page-Monitor";
     },
     "+List_Page-Monitor": function(url, host, scheme) {

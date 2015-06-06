@@ -16,18 +16,19 @@ var FindProxyForURL = function(init, profiles) {
     },
     "+List_Temp": function(url, host, scheme) {
         "use strict";
-        if (/^http(|s):\/\/www\.dhzw\.com\/book\//.test(url)) return "+Profiles_COW";
-        if (/^http(|s):\/\/www\.gimp\.org\/downloads\//.test(url)) return "+Profiles_COW";
-        if (/^http(|s):\/\/crystalmark.info\/download\//.test(url)) return "+Profiles_COW";
-        if (/^http(|s):\/\/www\.aida64\.com\/downloads\//.test(url)) return "+Profiles_COW";
-        if (/^http(|s):\/\/windows\.microsoft\.com\/.*\/windows\/themes/.test(url)) return "+Profiles_COW";
-        if (/^www\.imgburn\.com$/.test(host)) return "+Profiles_COW";
-        if (/^www\.moneymanagerex\.org$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)cpuid\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)amazonaws\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)cpuid\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)github\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)github\.io$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)githubusercontent\.com$/.test(host)) return "+Profiles_COW";
+        if (/^\^http\($|^s\):\/\/www\\\.aszw\\\.com\/book\/$/.test(host)) return "+Profiles_COW";
+        if (/^http(|s):\/\/crystalmark.info\/download\//.test(url)) return "+Profiles_COW";
+        if (/^http(|s):\/\/windows\.microsoft\.com\/.*\/windows\/themes/.test(url)) return "+Profiles_COW";
+        if (/^http(|s):\/\/www\.aida64\.com\/downloads\//.test(url)) return "+Profiles_COW";
+        if (/^http(|s):\/\/www\.dhzw\.com\/book\//.test(url)) return "+Profiles_COW";
+        if (/^http(|s):\/\/www\.gimp\.org\/downloads\//.test(url)) return "+Profiles_COW";
+        if (/^www\.imgburn\.com$/.test(host)) return "+Profiles_COW";
+        if (/^www\.moneymanagerex\.org$/.test(host)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {

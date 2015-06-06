@@ -289,7 +289,6 @@ UrlRegex: ^http://.*\bgetpocket\.com/
 *.greatfirewallofchina.org
 *.greatzhonghua.org
 *.greenparty.org.tw
-*.guerrillamail.com
 *.gvm.com.tw
 *.h528.com
 *.haixiainfo.com.tw
@@ -851,7 +850,7 @@ pds.nasa.gov
 plaza.jp.rakuten-static.com
 s1.pir.fm
 s7.addthis.com
-^http://search\.aol\.com/aol/search\?q=
+^http://search\.aol\.com/
 times.hinet.net
 torrent.ubuntu.com
 tweets.seraph.me

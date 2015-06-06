@@ -424,7 +424,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)greatfirewallofchina\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)greatzhonghua\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)greenparty\.org\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)guerrillamail\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)gvm\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)h528\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)haixiainfo\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -986,7 +985,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^plaza\.jp\.rakuten-static\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^s1\.pir\.fm$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^s7\.addthis\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^\^http:\/\/search\\\.aol\\\.com\/aol\/search\\.q=$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^\^http:\/\/search\\\.aol\\\.com\/$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^times\.hinet\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^torrent\.ubuntu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^tweets\.seraph\.me$/.test(host)) return "+Profiles_GoAgent-GAE";

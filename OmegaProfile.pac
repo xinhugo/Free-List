@@ -34,7 +34,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)wikileaks\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wikilivres\.ca$/.test(host)) return "+Profiles_COW";
         if (/^https:\/\/.*\bwikimedia\.org\//.test(url)) return "+Profiles_COW";
-        if (/^\^https:\/\/\..*\\bwikipedia\\\.org\/$/.test(host)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bwikipedia\.org\//.test(url)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {

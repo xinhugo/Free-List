@@ -114,7 +114,6 @@
 *.cdef.org
 *.cdjp.org
 *.cdnews.com.tw
-*.cdninstagram.com
 *.cdns.com.tw
 *.cecc.gov
 *.cenews.eu
@@ -377,7 +376,7 @@
 *.inmediahk.net
 *.inote.tw
 *.inside.com.tw
-*.instagram.com
+UrlRegex: ^http://.*\b(cdn|)instagram\.com/
 *.intermargins.net
 *.internet.org
 *.internetfreedom.org

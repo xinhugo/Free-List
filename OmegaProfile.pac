@@ -35,6 +35,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)wikilivres\.ca$/.test(host)) return "+Profiles_COW";
         if (/^https:\/\/.*\bwikimedia\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bwikipedia\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\b(cdn|)instagram\.com\//.test(url)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {
@@ -246,7 +247,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)cdef\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cdjp\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cdnews\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)cdninstagram\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cdns\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cecc\.gov$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cenews\.eu$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -509,7 +509,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)inmediahk\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)inote\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)inside\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)instagram\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\b(cdn|)instagram\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)intermargins\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)internet\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)internetfreedom\.org$/.test(host)) return "+Profiles_GoAgent-GAE";

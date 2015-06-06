@@ -36,6 +36,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/.*\bwikimedia\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bwikipedia\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\b(cdn|)instagram\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bfeedly\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bgetpocket\.com\//.test(url)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {
@@ -169,7 +171,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)ananass\.fr$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)animecrazy\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)anygoing\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)aolnews\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\baolnews\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)aomiwang\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)aoqinet\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)app2\.hkatv\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -372,7 +374,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)fc2\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)fdc89\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)feedjit\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)feedly\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bfeedly\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)feedsportal\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)felixcat\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)filesor\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -408,7 +410,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)geocities\.co\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)getfoxyproxy\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)getgom\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)getpocket\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bgetpocket\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)gigacircle\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)git-scm\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)globalvoicesonline\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -984,7 +986,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^plaza\.jp\.rakuten-static\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^s1\.pir\.fm$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^s7\.addthis\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^search\.aol\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^\^http:\/\/search\\\.aol\\\.com\/aol\/search\\.q=$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^times\.hinet\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^torrent\.ubuntu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^tweets\.seraph\.me$/.test(host)) return "+Profiles_GoAgent-GAE";

@@ -25,6 +25,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/^www\.moneymanagerex\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)cpuid\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)amazonaws\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)github\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)github\.io$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)githubusercontent\.com$/.test(host)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {
@@ -399,9 +402,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)getgom\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)getpocket\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)gigacircle\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)github\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)github\.io$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)githubusercontent\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)git-scm\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)globalvoicesonline\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)goagent\.biz$/.test(host)) return "+Profiles_GoAgent-GAE";

@@ -16,3 +16,4 @@ UrlRegex: ^http(|s)://www\.dhzw\.com/book/
 UrlRegex: ^http(|s)://www\.gimp\.org/downloads/
 www.imgburn.com
 www.moneymanagerex.org
+*.cloudmonitor.ca.com

@@ -7,3 +7,4 @@ UrlRegex: (^http(|s)://www\.|^http://.*\b)youtube\.(^|com\.af|com\.ag|com\.ai|co
 *.googlevideo.com
 *.xvideos.com
 *.1pondo.tv
+UrlRegex: ^http(|s)://.*\bak\.live\.cntv\.cn/z/

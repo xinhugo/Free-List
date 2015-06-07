@@ -32,3 +32,5 @@ UrlRegex: ^https://.*\bpsiphon\.ca/
 UrlRegex: ^https://.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org/
 UrlRegex: ^https://.*\bmediawiki\.org/
 UrlRegex: ^https://.*\bcloudfront\.net/
+UrlRegex: ^https://.*\bwiktionary\.org/
+UrlRegex: ^https://.*\bwikimediafoundation\.org/

@@ -45,6 +45,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bmediawiki\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bcloudfront\.net\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bwiktionary\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bwikimediafoundation\.org\//.test(url)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {
@@ -1097,6 +1099,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\bwhoer\.net\/check\?host=/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bmediawiki\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bwiktionary\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bwikimediafoundation\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bwoopra\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bwzyboy\.im\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\byahoo\.(com|com\.(hk|tw))\//.test(url)) return "+Profiles_GoAgent-GAE";

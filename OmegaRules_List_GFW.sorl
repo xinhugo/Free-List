@@ -955,6 +955,8 @@ UrlRegex: ^http://.*\bwebtrendslive\.com/
 UrlRegex: ^http://.*\bwhoer\.net/check\?host=
 UrlRegex: ^http://.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org/
 UrlRegex: ^http://.*\bmediawiki\.org/
+UrlRegex: ^http://.*\bwiktionary\.org/
+UrlRegex: ^http://.*\bwikimediafoundation\.org/
 UrlRegex: ^http://.*\bwoopra\.com/
 UrlRegex: ^http://.*\bwzyboy\.im/
 UrlRegex: ^http://.*\byahoo\.(com|com\.(hk|tw))/

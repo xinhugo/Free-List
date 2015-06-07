@@ -33,14 +33,18 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)libreoffice\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wikileaks\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wikilivres\.ca$/.test(host)) return "+Profiles_COW";
-        if (/^https:\/\/.*\bwikimedia\.org\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/.*\bwikipedia\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\b(cdn|)instagram\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bfeedly\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bgetpocket\.com\//.test(url)) return "+Profiles_COW";
         if (/(?:^|\.)ftchinese\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)chinatimes\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)yowindow\.com$/.test(host)) return "+Profiles_COW";
+        if (/^https:\/\/.*\btorproject\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bpsiphon3\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bpsiphon\.ca\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bmediawiki\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bcloudfront\.net\//.test(url)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {
@@ -285,7 +289,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)civicparty\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)civilhrfront\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)civilmedia\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)cloudfront\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bcloudfront\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cna\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cnd\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cnliberals\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -816,7 +820,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)tokyocn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)topcoo\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)topsy\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)torproject\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\btorproject\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)torrentcrazy\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)torrentkitty\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)trackon\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -907,8 +911,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)wikia\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wikia\.nocookie\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wikia-beacon\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/.*\bwikimedia\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/.*\bwikipedia\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wiztechnologies\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wordpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1073,6 +1075,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\bpo\.st\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bprisacom\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bpsiphon3\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bpsiphon\.ca\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bpuffstore\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bquantserve\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\brevsci\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -1092,15 +1095,15 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\bvisualrevenue\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bwebtrendslive\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bwhoer\.net\/check\?host=/.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/.*\bwiki(source|news)\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/.*\bwikiquote\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bmediawiki\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bwoopra\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bwzyboy\.im\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\byahoo\.(com|com\.(hk|tw))\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\byandex\.ru\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\byoutu\.be\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bzedo\.com\/asw\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/\b67\.220\.92\.21\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/67\.220\.92\.21\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/66\.147\.244\.112\/~hchinaor\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/ad\.tagtoo\.co\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/adadvisor\.net\//.test(url)) return "+Profiles_GoAgent-GAE";

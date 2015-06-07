@@ -147,7 +147,7 @@ UrlRegex: ^http://.*\baolnews\.com/
 *.civicparty.hk
 *.civilhrfront.org
 *.civilmedia.tw
-*.cloudfront.net
+UrlRegex: ^http://.*\bcloudfront\.net/
 *.cna.com.tw
 *.cnd.org
 *.cnliberals.com
@@ -678,7 +678,7 @@ UrlRegex: ^http://.*\b(cdn|)instagram\.com/
 *.tokyocn.com
 *.topcoo.com
 *.topsy.com
-*.torproject.org
+UrlRegex: ^http://.*\btorproject\.org/
 *.torrentcrazy.com
 *.torrentkitty.com
 *.trackon.org
@@ -769,8 +769,6 @@ UrlRegex: ^http://.*\b(cdn|)instagram\.com/
 *.wikia.net
 *.wikia.nocookie.net
 *.wikia-beacon.com
-UrlRegex: ^http://.*\bwikimedia\.org/
-UrlRegex: ^http://.*\bwikipedia\.org/
 *.wiztechnologies.jp
 *.wn.com
 *.wordpress.com
@@ -935,6 +933,7 @@ UrlRegex: ^http://.*\bpixnet\.net/
 UrlRegex: ^http://.*\bpo\.st/
 UrlRegex: ^http://.*\bprisacom\.com/
 UrlRegex: ^http://.*\bpsiphon3\.com/
+UrlRegex: ^http://.*\bpsiphon\.ca/
 UrlRegex: ^http://.*\bpuffstore\.com/
 UrlRegex: ^http://.*\bquantserve\.com/
 UrlRegex: ^http://.*\brevsci\.net/
@@ -954,15 +953,15 @@ UrlRegex: ^http://.*\bviss\.me/
 UrlRegex: ^http://.*\bvisualrevenue\.com/
 UrlRegex: ^http://.*\bwebtrendslive\.com/
 UrlRegex: ^http://.*\bwhoer\.net/check\?host=
-UrlRegex: ^http://.*\bwiki(source|news)\.org/
-UrlRegex: ^http://.*\bwikiquote\.org/
+UrlRegex: ^http://.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org/
+UrlRegex: ^http://.*\bmediawiki\.org/
 UrlRegex: ^http://.*\bwoopra\.com/
 UrlRegex: ^http://.*\bwzyboy\.im/
 UrlRegex: ^http://.*\byahoo\.(com|com\.(hk|tw))/
 UrlRegex: ^http://.*\byandex\.ru/
 UrlRegex: ^http://.*\byoutu\.be/
 UrlRegex: ^http://.*\bzedo\.com/asw/
-UrlRegex: ^http://\b67\.220\.92\.21/
+UrlRegex: ^http://67\.220\.92\.21/
 UrlRegex: ^http://66\.147\.244\.112/~hchinaor/
 UrlRegex: ^http://ad\.tagtoo\.co/
 UrlRegex: ^http://adadvisor\.net/

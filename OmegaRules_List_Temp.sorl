@@ -20,11 +20,15 @@ www.moneymanagerex.org
 *.libreoffice.org
 *.wikileaks.org
 *.wikilivres.ca
-UrlRegex: ^https://.*\bwikimedia\.org/
-UrlRegex: ^https://.*\bwikipedia\.org/
 UrlRegex: ^https://.*\b(cdn|)instagram\.com/
 UrlRegex: ^https://.*\bfeedly\.com/
 UrlRegex: ^https://.*\bgetpocket\.com/
 *.ftchinese.com
 *.chinatimes.com
 *.yowindow.com
+UrlRegex: ^https://.*\btorproject\.org/
+UrlRegex: ^https://.*\bpsiphon3\.com/
+UrlRegex: ^https://.*\bpsiphon\.ca/
+UrlRegex: ^https://.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org/
+UrlRegex: ^https://.*\bmediawiki\.org/
+UrlRegex: ^https://.*\bcloudfront\.net/

@@ -132,7 +132,6 @@ UrlRegex: ^http://.*\baolnews\.com/
 *.chinainperspective.com
 *.chinapress.com.my
 *.chinarightsia.org
-*.chinatimes.com
 *.china-week.com
 *.chinesedaily.com
 *.chinesenewsnet.com
@@ -259,7 +258,6 @@ UrlRegex: ^http://.*\bfeedly\.com/
 *.friendfeed.com
 *.fring.com
 *.frontlinedefenders.org
-*.ftchinese.com
 *.fukugan.com
 *.fullyillustrated.com
 *.fungchiwood.com
@@ -812,7 +810,6 @@ UrlRegex: ^http://.*\bwikipedia\.org/
 *.youmaker.com
 *.youporn.com
 *.youthwant.com.tw
-*.yowindow.com
 *.yzzk.com
 *.zhengjian.org
 *.zhenlibu1984.com

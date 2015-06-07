@@ -38,6 +38,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/.*\b(cdn|)instagram\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bfeedly\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bgetpocket\.com\//.test(url)) return "+Profiles_COW";
+        if (/(?:^|\.)ftchinese\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)chinatimes\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)yowindow\.com$/.test(host)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {
@@ -267,7 +270,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)chinainperspective\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)chinapress\.com\.my$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)chinarightsia\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)chinatimes\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)china-week\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)chinesedaily\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)chinesenewsnet\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -394,7 +396,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)friendfeed\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)fring\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)frontlinedefenders\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)ftchinese\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)fukugan\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)fullyillustrated\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)fungchiwood\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -947,7 +948,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)youmaker\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)youporn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)youthwant\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)yowindow\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)yzzk\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)zhengjian\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)zhenlibu1984\.com$/.test(host)) return "+Profiles_GoAgent-GAE";

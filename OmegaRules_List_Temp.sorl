@@ -25,3 +25,6 @@ UrlRegex: ^https://.*\bwikipedia\.org/
 UrlRegex: ^https://.*\b(cdn|)instagram\.com/
 UrlRegex: ^https://.*\bfeedly\.com/
 UrlRegex: ^https://.*\bgetpocket\.com/
+*.ftchinese.com
+*.chinatimes.com
+*.yowindow.com

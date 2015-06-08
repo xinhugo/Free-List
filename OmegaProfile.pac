@@ -1180,8 +1180,6 @@ var FindProxyForURL = function(init, profiles) {
         if (false) return "+Profiles_GoAgent";
         if (/^http(|s):\/\/www\.internetdownloadmanager\.com\/data\/\d+\/register\.cgi/.test(url)) return "+Srv_Banned";
         if (/(?:^|\.)internetdownloadmanager\.com$/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)cpuid\.com$/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)amazonaws\.com$/.test(host)) return "+Profiles_GoAgent";
         return "DIRECT";
     },
     "+Profiles_GoAgent": "+Srv_GoAgent",

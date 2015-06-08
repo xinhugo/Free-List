@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/8
+; Date: 2015/6/9
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -374,7 +374,7 @@ UrlRegex: ^http://.*\bgetpocket\.com/
 *.inmediahk.net
 *.inote.tw
 *.inside.com.tw
-UrlRegex: ^http://.*\b(cdn|)instagram\.com/
+UrlRegex: ^http://.*\binstagram\.com/
 *.intermargins.net
 *.internet.org
 *.internetfreedom.org

@@ -47,6 +47,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/.*\bcloudfront\.net\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bwiktionary\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bwikimediafoundation\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bcloudflare\.com\//.test(url)) return "+Profiles_COW";
+        if (/(?:^|\.)evernote\.com$/.test(host)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {
@@ -292,6 +294,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)civilhrfront\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)civilmedia\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bcloudfront\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bcloudflare\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cna\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cnd\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cnliberals\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -973,7 +976,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^bufferapp\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^c\.statcounter\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^cdn\.media\.abc\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^cdnjs\.cloudflare\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^cdns\.gigya\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^chinese\.engadget\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^community\.emc\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1120,8 +1122,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/bgp\.he\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/bs\.serving-sys\.com\/BurstingPipe\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/ca\.pcrookie\.net\/blog_images\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/cdn1\.evernote\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/cdn-static\.cloudflare\.com\/images\/thumbs\/458-1989report\.hkja\.org\.hk\.png/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/chinese\.irib\.ir\/index\.php\/2010-07-25-10-42-26\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/citytalk\.tw\/event/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/cn\.last\.fm\/facebook\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -1169,7 +1169,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)uhrp\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)uyghuramerican\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)uyghurpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)starboard-pro\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bstarboard-pro\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bhkxforce\.net\/wordpress\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)freetufu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)myradio\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";

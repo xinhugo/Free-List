@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/7
+; Date: 2015/6/8
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -148,6 +148,7 @@ UrlRegex: ^http://.*\baolnews\.com/
 *.civilhrfront.org
 *.civilmedia.tw
 UrlRegex: ^http://.*\bcloudfront\.net/
+UrlRegex: ^http://.*\bcloudflare\.com/
 *.cna.com.tw
 *.cnd.org
 *.cnliberals.com
@@ -829,7 +830,6 @@ bbs.51.ca
 bufferapp.com
 c.statcounter.com
 cdn.media.abc.com
-cdnjs.cloudflare.com
 cdns.gigya.com
 chinese.engadget.com
 community.emc.com
@@ -976,8 +976,6 @@ UrlRegex: ^http://bdaz\.adsfactor\.net/
 UrlRegex: ^http://bgp\.he\.net/
 UrlRegex: ^http://bs\.serving-sys\.com/BurstingPipe/
 UrlRegex: ^http://ca\.pcrookie\.net/blog_images/
-UrlRegex: ^http://cdn1\.evernote\.com/
-UrlRegex: ^http://cdn-static\.cloudflare\.com/images/thumbs/458-1989report\.hkja\.org\.hk\.png
 UrlRegex: ^http://chinese\.irib\.ir/index\.php/2010-07-25-10-42-26/
 UrlRegex: ^http://citytalk\.tw/event
 UrlRegex: ^http://cn\.last\.fm/facebook/
@@ -1025,7 +1023,7 @@ yuming.flnet.org
 *.uhrp.org
 *.uyghuramerican.org
 *.uyghurpress.com
-*.starboard-pro.com
+UrlRegex: ^http://.*\bstarboard-pro\.com/
 UrlRegex: ^http://.*\bhkxforce\.net/wordpress/
 *.freetufu.com
 *.myradio.hk

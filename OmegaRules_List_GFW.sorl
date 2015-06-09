@@ -195,7 +195,8 @@ UrlRegex: ^http://.*\bcloudflare\.com/
 *.download.aircrack-ng.org
 *.dphk.org
 *.dpp.org.tw
-*.dropbox.com
+UrlRegex: ^http://.*\bdropbox\.com/
+UrlRegex: ^http://.*\bdropboxusercontent\.com/
 *.drsunacademy.com
 *.dtiblog.com
 *.duga.jp

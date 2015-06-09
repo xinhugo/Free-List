@@ -36,3 +36,8 @@ UrlRegex: ^https://.*\bcloudflare\.com/
 *.evernote.com
 UrlRegex: ^https://.*\baddthis\.com/
 UrlRegex: ^https://.*\bopendns\.com/
+UrlRegex: ^https://.*\bdropbox\.com/
+UrlRegex: ^http://.*\bdropboxusercontent\.com/
+UrlRegex: ^https://.*\bbtdigg\.org/
+*.notepad-plus-plus.org
+*.imgur.com

@@ -49,6 +49,11 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)evernote\.com$/.test(host)) return "+Profiles_COW";
         if (/^https:\/\/.*\baddthis\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/.*\bopendns\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bdropbox\.com\//.test(url)) return "+Profiles_COW";
+        if (/^http:\/\/.*\bdropboxusercontent\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bbtdigg\.org\//.test(url)) return "+Profiles_COW";
+        if (/(?:^|\.)notepad-plus-plus\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)imgur\.com$/.test(host)) return "+Profiles_COW";
         return "+List_Non_China";
     },
     "+List_Non_China": function(url, host, scheme) {
@@ -342,7 +347,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)download\.aircrack-ng\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)dphk\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)dpp\.org\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)dropbox\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bdropbox\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bdropboxusercontent\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)drsunacademy\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)dtiblog\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)duga\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";

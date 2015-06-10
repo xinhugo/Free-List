@@ -56,7 +56,6 @@ UrlRegex: ^http://.*\baolnews\.com/
 *.backchina.com
 *.backtotiananmen.com
 *.badongo.com
-*.bahamut.com.tw
 *.baisex.me
 *.bannedbook.org
 *.bayfiles.net
@@ -267,7 +266,6 @@ UrlRegex: ^http://.*\bfeedly\.com/
 *.gaeproxy.com
 *.gamebase.com.tw
 *.gameclub.tw
-*.gamer.com.tw
 *.ganges.com
 *.gcpnews.com
 *.geocities.co.jp

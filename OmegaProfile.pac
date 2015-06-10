@@ -214,7 +214,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)backchina\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)backtotiananmen\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)badongo\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)bahamut\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)baisex\.me$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)bannedbook\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)bayfiles\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -425,7 +424,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)gaeproxy\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)gamebase\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)gameclub\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)gamer\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)ganges\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)gcpnews\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)geocities\.co\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";

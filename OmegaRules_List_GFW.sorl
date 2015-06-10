@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/9
+; Date: 2015/6/10
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -909,7 +909,6 @@ UrlRegex: ^http://.*\beslite\.com/product
 UrlRegex: ^http://.*\bflip\.it/
 UrlRegex: ^http://.*\bfout.jp/
 UrlRegex: ^http://.*\bgetemoji\.com/cdn-cgi/pe/
-UrlRegex: ^http://.*\bgravatar\.com/
 UrlRegex: ^http://.*\bgstatic.com/
 UrlRegex: ^http://.*\bhaxx\.se/
 UrlRegex: ^http://.*\bimrworldwide.com/

@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/9
+; Date: 2015/6/10
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.amazonaws.com
@@ -41,3 +41,6 @@ UrlRegex: ^http://.*\bdropboxusercontent\.com/
 UrlRegex: ^https://.*\bbtdigg\.org/
 *.notepad-plus-plus.org
 *.imgur.com
+*.eff.org
+*.life.com.tw
+*.gravatar.com

@@ -215,7 +215,6 @@ UrlRegex: ^http://.*\bdropboxusercontent\.com/
 *.edicypages.com
 *.edoors.com
 *.efcc.org.hk
-*.eff.org
 *.eic-av.com
 *.e-info.org.tw
 *.elpais.com
@@ -423,7 +422,6 @@ UrlRegex: ^http://.*\binstagram\.com/
 *.lesoir.be
 *.letscorp.net
 *.libertytimes.com.tw
-*.life.com.tw
 *.linkbucks.com
 *.listhub.net
 *.liuxiaobo.net
@@ -909,7 +907,6 @@ UrlRegex: ^http://.*\beslite\.com/product
 UrlRegex: ^http://.*\bflip\.it/
 UrlRegex: ^http://.*\bfout.jp/
 UrlRegex: ^http://.*\bgetemoji\.com/cdn-cgi/pe/
-UrlRegex: ^http://.*\bgstatic.com/
 UrlRegex: ^http://.*\bhaxx\.se/
 UrlRegex: ^http://.*\bimrworldwide.com/
 UrlRegex: ^http://.*\bkakao\.com/

@@ -370,7 +370,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)edicypages\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)edoors\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)efcc\.org\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)eff\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)eic-av\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)e-info\.org\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)elpais\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -578,7 +577,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)lesoir\.be$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)letscorp\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)libertytimes\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)life\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)linkbucks\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)listhub\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)liuxiaobo\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1064,7 +1062,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\bflip\.it\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bfout.jp\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bgetemoji\.com\/cdn-cgi\/pe\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/.*\bgstatic.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bhaxx\.se\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bimrworldwide.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/.*\bkakao\.com\//.test(url)) return "+Profiles_GoAgent-GAE";

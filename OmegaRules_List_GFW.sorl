@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/10
+; Date: 2015/6/11
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -19,7 +19,6 @@
 *.ablwang.com
 *.aboluowang.com
 *.actimes.com.au
-*.adblockplus.org
 *.adultblogranking.com
 *.aforcemorepowerful.org
 *.aisex.com
@@ -369,7 +368,7 @@ UrlRegex: ^http://.*\bgetpocket\.com/
 *.imgkeep.com
 *.imgly.net
 *.imgtiger.com
-*.imgur.com
+UrlRegex: ^http://.*\bimgur\.com/
 *.immoral.jp
 *.inmediahk.net
 *.inote.tw
@@ -625,7 +624,6 @@ UrlRegex: ^http://.*\binstagram\.com/
 *.soundofhope.org
 *.soup-dev.com
 *.southnews.com.tw
-*.spaces.live.com
 *.spankwire.com
 *.stgloballink.com
 *.stickeraction.com
@@ -843,7 +841,6 @@ libs.pixfs.net
 pds.nasa.gov
 plaza.jp.rakuten-static.com
 s1.pir.fm
-s7.addthis.com
 ^http://search\.aol\.com/
 times.hinet.net
 torrent.ubuntu.com
@@ -1024,3 +1021,5 @@ UrlRegex: ^http://.*\bstarboard-pro\.com/
 UrlRegex: ^http://.*\bhkxforce\.net/wordpress/
 *.freetufu.com
 *.myradio.hk
+*.moedict.tw
+*.bowenpress.com

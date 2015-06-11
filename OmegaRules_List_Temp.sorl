@@ -46,3 +46,4 @@ UrlRegex: ^https://.*\bbtdigg\.org/
 *.gravatar.com
 *.adblockplus.org
 *.chinesetoday.com
+*.ckcdn.com

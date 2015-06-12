@@ -656,7 +656,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)prestige-av\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)prettyvirgin\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)privoxy\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)ptt\.cc$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bptt\.cc\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)pubu\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)qidian\.ca$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)qiwen\.lu$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -751,7 +751,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)taiwandaily\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)taiwanus\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)talkonly\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)tampermonkey\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)tavis\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)tca\.org\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)techinasia\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1178,6 +1177,10 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)adblockplus\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)chinesetoday\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)ckcdn\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)tampermonkey\.net$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)sourceforge\.net$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)woolyss\.com$/.test(host)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bptt\.cc\//.test(url)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": function(url, host, scheme) {

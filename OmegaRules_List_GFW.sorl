@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/11
+; Date: 2015/6/12
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -547,7 +547,7 @@ UrlRegex: ^http://.*\binstagram\.com/
 *.prestige-av.com
 *.prettyvirgin.com
 *.privoxy.org
-*.ptt.cc
+UrlRegex: ^http://.*\bptt\.cc/
 *.pubu.com.tw
 *.qidian.ca
 *.qiwen.lu
@@ -642,7 +642,6 @@ UrlRegex: ^http://.*\binstagram\.com/
 *.taiwandaily.net
 *.taiwanus.net
 *.talkonly.net
-*.tampermonkey.net
 *.tavis.tw
 *.tca.org.tw
 *.techinasia.com

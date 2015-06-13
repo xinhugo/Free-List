@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/12
+; Date: 2015/6/13
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -654,7 +654,7 @@ UrlRegex: ^http://.*\bptt\.cc/
 *.theglobalmail.org
 *.theguardian.com
 *.thehousenews.com
-*.thestandnews.com
+UrlRegex: ^http://.*\bthestandnews\.com
 *.the-sun.on.cc
 *.thetibetpost.com
 *.thetimenow.com
@@ -853,7 +853,6 @@ UrlRegex: ^http(|s)://.*\bappledaily\.com(|\.(tw|hk))/
 UrlRegex: ^http(|s)://.*\bavlang\d+\.com/
 UrlRegex: ^http(|s)://.*\bbbc(i|)\.co\.uk/
 UrlRegex: ^http(|s)://.*\bbbc\.(com|in)/
-UrlRegex: ^http(|s)://.*\bblogblog\.com/
 UrlRegex: ^http(|s)://.*\bbloomberg\.(com|(i|c)n)/
 UrlRegex: ^http(|s)://.*\bcdp(|2006|wu|site|1998)\.org/
 UrlRegex: ^http(|s)://.*\bdwnews\.(com|net(:\d+|))/

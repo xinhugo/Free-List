@@ -42,7 +42,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https(|s):\/\/(www\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\/(^|bookmarks|homepage|calendar|jsapi|earth|gen_|coop|uds|search\/about|mobile|logos|finance|chrome|css|url|pagead|cse|about|press|intl|js|\+\/images\/learnmore\/common|trends|images|hangouts|.{8}-.{4}-.{4}-.{4}-.{12}|elections|nikcollection|flushot|tv|business|adsense|glass|ads|edu|design|nexus|patents|appsstatus|onlinechallenge|weddings|inbox|webdesigner|wallet|analytics|intx|apps[^erve]|drive|work|toolbar|music|play|news|translate|photos|books|sites|cloudprint\/learn|scholar|picasa|preferences|preferences|support|extern_chrome|xjs|textinputassistant|green|local_url|help|googlefinance|imgres|imgevent|interstitial|get|webmasters|santatracker|(recaptcha\/(intro|api2))|imghover|cast|inputtools|async|pagead|local|maps|adwords|admob|inbox|keep|retail|contact[^s]|services|ventures|loon|tagmanager|sheets|landing|forms|get|docs|css|ads)/.test(url)) return "+Profiles_COW";
         if (/^http(|s):\/\/(post|cwb)\.gov\.tw\//.test(url)) return "+Profiles_COW";
         if (/^http(|s):\/\/www\.google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\/.*q=.*&tbm=(isch|nws|vid|shop|bks|app)/.test(url)) return "+Profiles_COW";
-        if (/^http(|s):\/\/mail\.google\.com\/mail\/u\/\d+\/channel\//.test(url)) return "+Profiles_COW";
         return "+List_Japan";
     },
     "+List_Japan": function(url, host, scheme) {
@@ -108,6 +107,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/.*\bpanoramio\.com\//.test(url)) return "+Profiles_GoAgent";
         if (/^http(|s):\/\/.*\b(blogger|blogspot)\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\//.test(url)) return "+Profiles_GoAgent";
         if (/^g\.co$/.test(host)) return "+Profiles_GoAgent";
+        if (/^http(|s):\/\/.*\bblogblog\.com\//.test(url)) return "+Profiles_GoAgent";
+        if (/^https:\/\/www\.gstatic\.cn\/onebox\/weather\//.test(url)) return "+Profiles_GoAgent";
         return "+List_GFW";
     },
     "+List_GFW": function(url, host, scheme) {
@@ -763,7 +764,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)theglobalmail\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)theguardian\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)thehousenews\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)thestandnews\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/.*\bthestandnews\.com/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)the-sun\.on\.cc$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)thetibetpost\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)thetimenow\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -962,7 +963,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http(|s):\/\/.*\bavlang\d+\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/.*\bbbc(i|)\.co\.uk\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/.*\bbbc\.(com|in)\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http(|s):\/\/.*\bblogblog\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/.*\bbloomberg\.(com|(i|c)n)\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/.*\bcdp(|2006|wu|site|1998)\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/.*\bdwnews\.(com|net(:\d+|))\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -1181,6 +1181,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)sourceforge\.net$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)woolyss\.com$/.test(host)) return "+Profiles_COW";
         if (/^https:\/\/.*\bptt\.cc\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/.*\bthestandnews\.com\//.test(url)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": function(url, host, scheme) {

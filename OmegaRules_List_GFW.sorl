@@ -1019,3 +1019,5 @@ UrlRegex: ^http://.[^/]*\bhkxforce\.net/wordpress/
 *.myradio.hk
 *.moedict.tw
 *.bowenpress.com
+UrlRegex: ^http://cdn\.unwire\.hk/wp-content/uploads/.*(WordPress|www\.youtube\.com)
+UrlRegex: ^http://.*\bstatic-file\.com/shared/upload/video/.*0604

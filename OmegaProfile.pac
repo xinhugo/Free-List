@@ -1130,7 +1130,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)moedict\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)bowenpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/cdn\.unwire\.hk\/wp-content\/uploads\/.*(WordPress|www\.youtube\.com)/.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/.*\bstatic-file\.com\/shared\/upload\/video\/.*0604/.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bstatic-file\.com\/shared\/upload\/video\/.*0604/.test(url)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

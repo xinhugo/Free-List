@@ -8,7 +8,7 @@ Disabled: *.freakshare.com
 Disabled: *.ltn.com.tw
 Disabled: *.passiontimes.hk
 UrlRegex: ^http(|s)://play\.google\.com/store
-UrlRegex: ^http://.[^/]*\brarbg\.com/torrents\.php\?search=
+UrlRegex: ^http://(.[^/])*\brarbg\.com/torrents\.php\?search=
 *.ck101.com
 *.eyny.com
 UrlRegex: \bhttp(|s)://www\.rfa\.org/cantonese/(.*png|firewall_features|graphics|features|news|june4_2005|video|bookclub|multimedia)

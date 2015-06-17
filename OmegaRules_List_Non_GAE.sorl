@@ -9,7 +9,7 @@ Disabled: *.bitsnoop.com
 Disabled: *.freakshare.com
 Disabled: *.ltn.com.tw
 Disabled: *.passiontimes.hk
-UrlRegex: \bhttp(|s)://www\.rfa\.org/cantonese/(.*png|firewall_features|graphics|features|news|june4_2005|video|bookclub|multimedia)
-UrlRegex: \bhttp(|s)://www\.rfa\.org/mandarin/(zhuanlan|yataibaodao/(shaoshuminzu|renquanfazhi))
+UrlRegex: ^http(|s)://www\.rfa\.org/cantonese/(.*png|firewall_features|graphics|features|news|june4_2005|video|bookclub|multimedia)
+UrlRegex: ^http(|s)://www\.rfa\.org/mandarin/(zhuanlan|yataibaodao/(shaoshuminzu|renquanfazhi))
 UrlRegex: ^http(|s)://play\.google\.com/store
 UrlRegex: ^http://(.[^/])*\.*\brarbg\.com/torrents\.php\?search=

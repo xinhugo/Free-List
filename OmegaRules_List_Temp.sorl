@@ -53,3 +53,5 @@ UrlRegex: ^https://(.[^/])*\.*\bbtdigg\.org/
 UrlRegex: ^https://(.[^/])*\.*\bptt\.cc/
 UrlRegex: ^https://(.[^/])*\.*\bthestandnews\.com/
 *.static-file.com
+*.file-static.com
+*.c.bigcache.googleapis.com

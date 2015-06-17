@@ -35,7 +35,6 @@
 *.ananass.fr
 *.animecrazy.net
 *.anygoing.com
-UrlRegex: ^http://(.[^/])*\.*\baolnews\.com/
 *.aomiwang.com
 *.aoqinet.com
 *.app2.hkatv.com
@@ -83,6 +82,7 @@ UrlRegex: ^http://(.[^/])*\.*\baolnews\.com/
 *.books.com.tw
 *.botanwang.com
 *.botanwang.org
+*.bowenpress.com
 *.boxun.com
 *.boxun.us
 *.break.com
@@ -145,8 +145,6 @@ UrlRegex: ^http://(.[^/])*\.*\baolnews\.com/
 *.civicparty.hk
 *.civilhrfront.org
 *.civilmedia.tw
-UrlRegex: ^http://(.[^/])*\.*\bcloudfront\.net/
-UrlRegex: ^http://(.[^/])*\.*\bcloudflare\.com/
 *.cna.com.tw
 *.cnd.org
 *.cnliberals.com
@@ -193,8 +191,6 @@ UrlRegex: ^http://(.[^/])*\.*\bcloudflare\.com/
 *.download.aircrack-ng.org
 *.dphk.org
 *.dpp.org.tw
-UrlRegex: ^http://(.[^/])*\.*\bdropbox\.com/
-UrlRegex: ^http://(.[^/])*\.*\bdropboxusercontent\.com/
 *.drsunacademy.com
 *.dtiblog.com
 *.duga.jp
@@ -237,7 +233,6 @@ UrlRegex: ^http://(.[^/])*\.*\bdropboxusercontent\.com/
 *.fc2.com
 *.fdc89.jp
 *.feedjit.com
-UrlRegex: ^http://(.[^/])*\.*\bfeedly\.com/
 *.feedsportal.com
 *.felixcat.net
 *.filesor.com
@@ -253,6 +248,7 @@ UrlRegex: ^http://(.[^/])*\.*\bfeedly\.com/
 *.freedomhouse.org
 *.freeproxyserver.net
 *.freeshadow.info
+*.freetufu.com
 *.freeweibo.com
 *.friendfeed.com
 *.fring.com
@@ -271,7 +267,6 @@ UrlRegex: ^http://(.[^/])*\.*\bfeedly\.com/
 *.geocities.co.jp
 *.getfoxyproxy.org
 *.getgom.com
-UrlRegex: ^http://(.[^/])*\.*\bgetpocket\.com/
 *.gigacircle.com
 *.git-scm.com
 *.globalvoicesonline.org
@@ -366,12 +361,10 @@ UrlRegex: ^http://(.[^/])*\.*\bgetpocket\.com/
 *.imgkeep.com
 *.imgly.net
 *.imgtiger.com
-UrlRegex: ^http://(.[^/])*\.*\bimgur\.com/
 *.immoral.jp
 *.inmediahk.net
 *.inote.tw
 *.inside.com.tw
-UrlRegex: ^http://(.[^/])*\.*\binstagram\.com/
 *.intermargins.net
 *.internet.org
 *.internetfreedom.org
@@ -457,6 +450,7 @@ UrlRegex: ^http://(.[^/])*\.*\binstagram\.com/
 *.mobile01.com
 *.mobileways.de
 *.mobypicture.com
+*.moedict.tw
 *.molihua.org
 *.mp3ye.eu
 *.msguancha.com
@@ -465,6 +459,7 @@ UrlRegex: ^http://(.[^/])*\.*\binstagram\.com/
 *.mycould.com
 *.myfreshnet.com
 *.myradio.com.hk
+*.myradio.hk
 *.mysinablog.com
 *.nanyang.com
 *.nanyangpost.com
@@ -547,7 +542,6 @@ UrlRegex: ^http://(.[^/])*\.*\binstagram\.com/
 *.prestige-av.com
 *.prettyvirgin.com
 *.privoxy.org
-UrlRegex: ^http://(.[^/])*\.*\bptt\.cc/
 *.pubu.com.tw
 *.qidian.ca
 *.qiwen.lu
@@ -654,7 +648,6 @@ UrlRegex: ^http://(.[^/])*\.*\bptt\.cc/
 *.theglobalmail.org
 *.theguardian.com
 *.thehousenews.com
-UrlRegex: ^http://(.[^/])*\.*\bthestandnews\.com
 *.the-sun.on.cc
 *.thetibetpost.com
 *.thetimenow.com
@@ -673,12 +666,12 @@ UrlRegex: ^http://(.[^/])*\.*\bthestandnews\.com
 *.tokyocn.com
 *.topcoo.com
 *.topsy.com
-UrlRegex: ^http://(.[^/])*\.*\btorproject\.org/
 *.torrentcrazy.com
 *.torrentkitty.com
 *.trackon.org
 *.transparency.org
 *.trendsmap.com
+*.trib.al
 *.trouw.nl
 *.trtc.com.tw
 *.trueimages.ru
@@ -711,6 +704,7 @@ UrlRegex: ^http://(.[^/])*\.*\btorproject\.org/
 *.udn.com
 *.udn.com.tw
 *.ugo.com
+*.uhrp.org
 *.uighurbiz.net
 *.ultrareach.com
 *.unblock.cn.com
@@ -719,6 +713,8 @@ UrlRegex: ^http://(.[^/])*\.*\btorproject\.org/
 *.ustream.tv
 *.utorrent.com
 *.uwants.com
+*.uyghuramerican.org
+*.uyghurpress.com
 *.uyl.me
 *.van698.com
 *.vaticanradio.org
@@ -750,6 +746,7 @@ UrlRegex: ^http://(.[^/])*\.*\btorproject\.org/
 *.weblagu.com
 *.websitepulse.com
 *.webwarper.net
+*.wegfw.com
 *.weibosuite.com
 *.weijingsheng.org
 *.weiquanwang.org
@@ -759,6 +756,7 @@ UrlRegex: ^http://(.[^/])*\.*\btorproject\.org/
 *.westkit.net
 *.whattalking.com
 *.whogovernstw.org
+*.whotalking.com
 *.wi-gadget.com
 *.wikia.com
 *.wikia.net
@@ -818,6 +816,7 @@ UrlRegex: ^http://(.[^/])*\.*\btorproject\.org/
 *.zxing.org
 *.zyzc.greatzhonghua.org
 \bhttp://(.[^/])*\.*\bdelicious\.com/
+^http://search\.aol\.com/
 184.154.128.246
 75.119.209.87
 bbs.51.ca
@@ -832,21 +831,6 @@ download.tuxfamily.org
 forum.games.hinet.net
 hcd-1.imgbox.com
 hk03dl.com
-images.secdns.com
-international.sueddeutsche.de
-libs.pixfs.net
-pds.nasa.gov
-plaza.jp.rakuten-static.com
-s1.pir.fm
-^http://search\.aol\.com/
-times.hinet.net
-torrent.ubuntu.com
-tweets.seraph.me
-twimg.edgesuite.net
-UrlRegex: ^http://(library|mjlsh)\.usc\.cuhk\.edu\.hk/
-UrlRegex: ^http://(.[^/])*\.*\b(home|forum)\.gamer\.com\.tw
-HostRegex: ^(daily|)news\.sina\.com(\.(hk|tw)|)
-HostRegex: ^(space|bbs)\.qoos\.com
 HostRegex: ^(.[^/])*\.*\b(scmp(chinese|)|nanzao)\.com
 HostRegex: ^(.[^/])*\.*\balanleong\.(net|com)
 HostRegex: ^(.[^/])*\.*\bappledaily\.com(|\.(tw|hk))
@@ -871,7 +855,20 @@ HostRegex: ^(.[^/])*\.*\bthywords\.com(|\.tw)
 HostRegex: ^(.[^/])*\.*\bvoa(fanti|chinese|cantonese|tibetan(|english))\.com
 HostRegex: ^(.[^/])*\.*\bvoanews\.(com|eu)
 HostRegex: ^(.[^/])*\.*\bwsj\.(com|net)
+HostRegex: ^(daily|)news\.sina\.com(\.(hk|tw)|)
+HostRegex: ^(space|bbs)\.qoos\.com
 HostRegex: ^38\.103\.161\.\d{1,3}
+images.secdns.com
+international.sueddeutsche.de
+libs.pixfs.net
+pds.nasa.gov
+plaza.jp.rakuten-static.com
+s1.pir.fm
+times.hinet.net
+torrent.ubuntu.com
+tweets.seraph.me
+twimg.edgesuite.net
+UrlRegex: ^http://(.[^/])*\.*\b(home|forum)\.gamer\.com\.tw
 UrlRegex: ^http://(.[^/])*\.*\b(news|blog)\.cnyes\.com/
 UrlRegex: ^http://(.[^/])*\.*\b(news|popblog)\.tvbs\.com\.tw/
 UrlRegex: ^http://(.[^/])*\.*\b(showbiz|forum|news|cling)\.omy\.sg/
@@ -879,6 +876,7 @@ UrlRegex: ^http://(.[^/])*\.*\b(trans|blog)wenweipo\.com/
 UrlRegex: ^http://(.[^/])*\.*\b2o7\.net/
 UrlRegex: ^http://(.[^/])*\.*\b881903\.com/Page/ZH-TW/index
 UrlRegex: ^http://(.[^/])*\.*\badsbro\.com/
+UrlRegex: ^http://(.[^/])*\.*\baolnews\.com/
 UrlRegex: ^http://(.[^/])*\.*\bavast\.com/
 UrlRegex: ^http://(.[^/])*\.*\bbitly\.com/
 UrlRegex: ^http://(.[^/])*\.*\bblogsys\.jp/
@@ -888,26 +886,36 @@ UrlRegex: ^http://(.[^/])*\.*\bbuzzhand\.com/
 UrlRegex: ^http://(.[^/])*\.*\bcable(v|news)\.i-cable\.com/
 UrlRegex: ^http://(.[^/])*\.*\bchapm25\.com/
 UrlRegex: ^http://(.[^/])*\.*\bchartbeat\.net/
+UrlRegex: ^http://(.[^/])*\.*\bcloudflare\.com/
+UrlRegex: ^http://(.[^/])*\.*\bcloudfront\.net/
 UrlRegex: ^http://(.[^/])*\.*\bclustrmaps.com/
 UrlRegex: ^http://(.[^/])*\.*\bcrwdcntrl\.net/
 UrlRegex: ^http://(.[^/])*\.*\bcxense.com/
 UrlRegex: ^http://(.[^/])*\.*\bdisqus\.com/
 UrlRegex: ^http://(.[^/])*\.*\bdowjoneson.com/
+UrlRegex: ^http://(.[^/])*\.*\bdropbox\.com/
+UrlRegex: ^http://(.[^/])*\.*\bdropboxusercontent\.com/
 UrlRegex: ^http://(.[^/])*\.*\bdxtl\.net/
 UrlRegex: ^http://(.[^/])*\.*\bdynamicyield\.com/
 UrlRegex: ^http://(.[^/])*\.*\bensighten\.com/
 UrlRegex: ^http://(.[^/])*\.*\beslite\.com/product
+UrlRegex: ^http://(.[^/])*\.*\bfeedly\.com/
 UrlRegex: ^http://(.[^/])*\.*\bflip\.it/
 UrlRegex: ^http://(.[^/])*\.*\bfout.jp/
 UrlRegex: ^http://(.[^/])*\.*\bgetemoji\.com/cdn-cgi/pe/
+UrlRegex: ^http://(.[^/])*\.*\bgetpocket\.com/
 UrlRegex: ^http://(.[^/])*\.*\bhaxx\.se/
+UrlRegex: ^http://(.[^/])*\.*\bhkxforce\.net/wordpress/
+UrlRegex: ^http://(.[^/])*\.*\bimgur\.com/
 UrlRegex: ^http://(.[^/])*\.*\bimrworldwide.com/
+UrlRegex: ^http://(.[^/])*\.*\binstagram\.com/
 UrlRegex: ^http://(.[^/])*\.*\bkakao\.com/
 UrlRegex: ^http://(.[^/])*\.*\bkrxd\.net/
 UrlRegex: ^http://(.[^/])*\.*\bksnews\.com\.tw/
 UrlRegex: ^http://(.[^/])*\.*\blijit\.com/
 UrlRegex: ^http://(.[^/])*\.*\bline\.me/
 UrlRegex: ^http://(.[^/])*\.*\blongurl\.org/
+UrlRegex: ^http://(.[^/])*\.*\bmediawiki\.org/
 UrlRegex: ^http://(.[^/])*\.*\bmetrohk\.com\.hk/\?cmd=detail&categoryID=2
 UrlRegex: ^http://(.[^/])*\.*\bmoby\.to/
 UrlRegex: ^http://(.[^/])*\.*\bmyhd1080\.com/
@@ -922,15 +930,20 @@ UrlRegex: ^http://(.[^/])*\.*\bpastie\.org/
 UrlRegex: ^http://(.[^/])*\.*\bpixnet\.net/
 UrlRegex: ^http://(.[^/])*\.*\bpo\.st/
 UrlRegex: ^http://(.[^/])*\.*\bprisacom\.com/
-UrlRegex: ^http://(.[^/])*\.*\bpsiphon3\.com/
 UrlRegex: ^http://(.[^/])*\.*\bpsiphon\.ca/
+UrlRegex: ^http://(.[^/])*\.*\bpsiphon3\.com/
+UrlRegex: ^http://(.[^/])*\.*\bptt\.cc/
 UrlRegex: ^http://(.[^/])*\.*\bpuffstore\.com/
 UrlRegex: ^http://(.[^/])*\.*\bquantserve\.com/
 UrlRegex: ^http://(.[^/])*\.*\brevsci\.net/
 UrlRegex: ^http://(.[^/])*\.*\bsharethis\.com/
 UrlRegex: ^http://(.[^/])*\.*\bsinchew(|-i)\.com(|\.my)/node
+UrlRegex: ^http://(.[^/])*\.*\bstarboard-pro\.com/
+UrlRegex: ^http://(.[^/])*\.*\bstatic-file\.com/shared/upload/video/.*0604
 UrlRegex: ^http://(.[^/])*\.*\btalkboxapp.com/
 UrlRegex: ^http://(.[^/])*\.*\btenmax\.io/
+UrlRegex: ^http://(.[^/])*\.*\bthestandnews\.com
+UrlRegex: ^http://(.[^/])*\.*\btorproject\.org/
 UrlRegex: ^http://(.[^/])*\.*\btorrentproject.se/
 UrlRegex: ^http://(.[^/])*\.*\btraffic\.alexa\.com/
 UrlRegex: ^http://(.[^/])*\.*\btumblr\.com
@@ -944,17 +957,17 @@ UrlRegex: ^http://(.[^/])*\.*\bvisualrevenue\.com/
 UrlRegex: ^http://(.[^/])*\.*\bwebtrendslive\.com/
 UrlRegex: ^http://(.[^/])*\.*\bwhoer\.net/check\?host=
 UrlRegex: ^http://(.[^/])*\.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org/
-UrlRegex: ^http://(.[^/])*\.*\bmediawiki\.org/
-UrlRegex: ^http://(.[^/])*\.*\bwiktionary\.org/
 UrlRegex: ^http://(.[^/])*\.*\bwikimediafoundation\.org/
+UrlRegex: ^http://(.[^/])*\.*\bwiktionary\.org/
 UrlRegex: ^http://(.[^/])*\.*\bwoopra\.com/
 UrlRegex: ^http://(.[^/])*\.*\bwzyboy\.im/
 UrlRegex: ^http://(.[^/])*\.*\byahoo\.(com|com\.(hk|tw))/
 UrlRegex: ^http://(.[^/])*\.*\byandex\.ru/
 UrlRegex: ^http://(.[^/])*\.*\byoutu\.be/
 UrlRegex: ^http://(.[^/])*\.*\bzedo\.com/asw/
-UrlRegex: ^http://67\.220\.92\.21/
+UrlRegex: ^http://(library|mjlsh)\.usc\.cuhk\.edu\.hk/
 UrlRegex: ^http://66\.147\.244\.112/~hchinaor/
+UrlRegex: ^http://67\.220\.92\.21/
 UrlRegex: ^http://ad\.tagtoo\.co/
 UrlRegex: ^http://adadvisor\.net/
 UrlRegex: ^http://ads\.contextweb\.com/TagPublish/
@@ -966,6 +979,7 @@ UrlRegex: ^http://bdaz\.adsfactor\.net/
 UrlRegex: ^http://bgp\.he\.net/
 UrlRegex: ^http://bs\.serving-sys\.com/BurstingPipe/
 UrlRegex: ^http://ca\.pcrookie\.net/blog_images/
+UrlRegex: ^http://cdn\.unwire\.hk/wp-content/uploads/.*(WordPress|www\.youtube\.com)
 UrlRegex: ^http://chinese\.irib\.ir/index\.php/2010-07-25-10-42-26/
 UrlRegex: ^http://citytalk\.tw/event
 UrlRegex: ^http://cn\.last\.fm/facebook/
@@ -1007,17 +1021,3 @@ www.hbogo.com
 www.melauto.it
 www.savetube.com
 yuming.flnet.org
-*.whotalking.com
-*.trib.al
-*.wegfw.com
-*.uhrp.org
-*.uyghuramerican.org
-*.uyghurpress.com
-UrlRegex: ^http://(.[^/])*\.*\bstarboard-pro\.com/
-UrlRegex: ^http://(.[^/])*\.*\bhkxforce\.net/wordpress/
-*.freetufu.com
-*.myradio.hk
-*.moedict.tw
-*.bowenpress.com
-UrlRegex: ^http://cdn\.unwire\.hk/wp-content/uploads/.*(WordPress|www\.youtube\.com)
-UrlRegex: ^http://(.[^/])*\.*\bstatic-file\.com/shared/upload/video/.*0604

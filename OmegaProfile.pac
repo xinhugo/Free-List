@@ -17,15 +17,15 @@ var FindProxyForURL = function(init, profiles) {
     "+List_Non_China": function(url, host, scheme) {
         "use strict";
         if (/^www\.uukanshu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)hulu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)huluim\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (false) return "+Profiles_GoAgent-GAE";
         if (false) return "+Profiles_GoAgent-GAE";
         if (/^(www|beta)\.skype\.com/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/play\.google\.com\/music\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http(|s):\/\/www\.google\.com\/voice\/[^resources|service|new|static]/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/plus\.google\.com\/(10|11(0|1|2|3|6|7))\d+\/(about|auto)/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/www\.google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)\/maps(\/place|\?(cid|q)=)/.test(url)) return "+Profiles_GoAgent-GAE";
-        if (false) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)hulu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)huluim\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http(|s):\/\/www\.google\.com\/voice\/[^resources|service|new|static]/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^www\.netflix\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Direct-1";
     },
@@ -46,7 +46,6 @@ var FindProxyForURL = function(init, profiles) {
     },
     "+List_Japan": function(url, host, scheme) {
         "use strict";
-        if (false) return "+Profiles_Japan";
         if (/^(sp|www|actress)\.dmm\.co\.jp/.test(host)) return "+Profiles_Japan";
         if (/^www\.dmm\.com$/.test(host)) return "+Profiles_Japan";
         if (/^www\.r18\.com$/.test(host)) return "+Profiles_Japan";
@@ -54,61 +53,61 @@ var FindProxyForURL = function(init, profiles) {
     },
     "+List_Non_GAE": function(url, host, scheme) {
         "use strict";
-        if (false) return "+Profiles_Free";
-        if (false) return "+Profiles_Free";
-        if (false) return "+Profiles_Free";
-        if (false) return "+Profiles_Free";
-        if (/^http(|s):\/\/play\.google\.com\/store/.test(url)) return "+Profiles_Free";
-        if (/^http:\/\/(.[^\/])*\.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
         if (/(?:^|\.)ck101\.com$/.test(host)) return "+Profiles_Free";
         if (/(?:^|\.)eyny\.com$/.test(host)) return "+Profiles_Free";
+        if (false) return "+Profiles_Free";
+        if (false) return "+Profiles_Free";
+        if (false) return "+Profiles_Free";
+        if (false) return "+Profiles_Free";
         if (/\bhttp(|s):\/\/www\.rfa\.org\/cantonese\/(.*png|firewall_features|graphics|features|news|june4_2005|video|bookclub|multimedia)/.test(url)) return "+Profiles_Free";
         if (/\bhttp(|s):\/\/www\.rfa\.org\/mandarin\/(zhuanlan|yataibaodao\/(shaoshuminzu|renquanfazhi))/.test(url)) return "+Profiles_Free";
+        if (/^http(|s):\/\/play\.google\.com\/store/.test(url)) return "+Profiles_Free";
+        if (/^http:\/\/(.[^\/])*\.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
         return "+List_Streaming";
     },
     "+List_Streaming": function(url, host, scheme) {
         "use strict";
-        if (/^www\.youtube\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)/.test(host)) return "+Profiles_Streaming";
-        if (/^http:\/\/(.[^\/])*\.*\byoutube\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\//.test(url)) return "+Profiles_Streaming";
+        if (/(?:^|\.)1pondo\.tv$/.test(host)) return "+Profiles_Streaming";
         if (/(?:^|\.)googlevideo\.com$/.test(host)) return "+Profiles_Streaming";
         if (/(?:^|\.)xvideos\.com$/.test(host)) return "+Profiles_Streaming";
-        if (/(?:^|\.)1pondo\.tv$/.test(host)) return "+Profiles_Streaming";
+        if (/^www\.youtube\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)/.test(host)) return "+Profiles_Streaming";
         if (/^http(|s):\/\/(.[^\/])*\.*\bak\.live\.cntv\.cn\/z\//.test(url)) return "+Profiles_Streaming";
+        if (/^http:\/\/(.[^\/])*\.*\byoutube\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)\//.test(url)) return "+Profiles_Streaming";
         return "+List_Google";
     },
     "+List_Google": function(url, host, scheme) {
         "use strict";
-        if (/(?:^|\.)google$/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)goo\.gl$/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)gmail\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)android\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)appspot\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)blogblog\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)chrome\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)chromium\.org$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)feedburner\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)g\.co$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)ggpht\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)gmail\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)goo\.gl$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)google$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)googlecode\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)googlesource\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)googletagmanager\.com$/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)feedburner\.com$/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)appspot\.com$/.test(host)) return "+Profiles_GoAgent";
-        if (/^wenda\.google\.com\.hk$/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)ytimg\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)panoramio\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/(?:^|\.)youtube\.com$/.test(host)) return "+Profiles_GoAgent";
-        if (/^http(|s):\/\/\d+\.client-channel\.google\.com\/client-channel\/js\//.test(url)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)ytimg\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^((.+\.c\.doc-0-0-sj\.|)sj|ci\d{1,2}|oauth|webcache|\d-ps|uds|producer|lh\d|s\d|.+-opensocial|clients\d|translate|mail-attachment)\.googleusercontent\.com/.test(host)) return "+Profiles_GoAgent";
         if (/^((id|scholar|news|accounts|adwords|books|images|khms\d|www|blogsearch|cse|encrypted|m)\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)/.test(host)) return "+Profiles_GoAgent";
         if (/^((uploads\.|)code(|\.l)|.*\bdocs|doc|.*\bdrive|play|plus|plus\.url|buzz|profiles|mail|apis|support|translate|wallet|checkout|talkgadget|appengine|store|security|myaccount|chrome|contacts|safebrowsing(|-cache|\.clients)|calendar|clients\d|mt(|s)\d|picasa\w*|sites|fusion|reader|feed\w*|input|research|inbox|mw\d|gg|peering|events|fit|tools)\.google\.com/.test(host)) return "+Profiles_GoAgent";
-        if (/^(csi|maps|encrypted-tbn\d|ssl|www|t\d)\.gstatic\.com/.test(host)) return "+Profiles_GoAgent";
-        if (/^(maps|www|translate|plus|ajax|mts\d|commondatastorage|chart|storage)\.googleapis\.com/.test(host)) return "+Profiles_GoAgent";
+        if (/^(.[^\/])*\.*\b(blogger|blogspot)\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)/.test(host)) return "+Profiles_GoAgent";
         if (/^(.[^\/])*\.*\bbeacons(|\d)\.gvt2\.com/.test(host)) return "+Profiles_GoAgent";
-        if (/^(skins|www(|\.ig))\.gmodules\.com/.test(host)) return "+Profiles_GoAgent";
+        if (/^(csi|maps|encrypted-tbn\d|ssl|www|t\d)\.gstatic\.com/.test(host)) return "+Profiles_GoAgent";
         if (/^(feedproxy|feedburner)\.google\.com/.test(host)) return "+Profiles_GoAgent";
+        if (/^(maps|www|translate|plus|ajax|mts\d|commondatastorage|chart|storage)\.googleapis\.com/.test(host)) return "+Profiles_GoAgent";
+        if (/^(skins|www(|\.ig))\.gmodules\.com/.test(host)) return "+Profiles_GoAgent";
+        if (/^http(|s):\/\/\d+\.client-channel\.google\.com\/client-channel\/js\//.test(url)) return "+Profiles_GoAgent";
         if (/^http:\/\/(.[^\/])*\.*\bgoogle-analytics\.com\//.test(url)) return "+Profiles_GoAgent";
         if (/^http:\/\/(.[^\/])*\.*\bgooglesyndication\.com\//.test(url)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)panoramio\.com$/.test(host)) return "+Profiles_GoAgent";
-        if (/^(.[^\/])*\.*\b(blogger|blogspot)\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)g\.co$/.test(host)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)blogblog\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^https:\/\/www\.gstatic\.cn\/onebox\/weather\//.test(url)) return "+Profiles_GoAgent";
+        if (/^wenda\.google\.com\.hk$/.test(host)) return "+Profiles_GoAgent";
         return "+List_GFW";
     },
     "+List_GFW": function(url, host, scheme) {
@@ -145,7 +144,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)ananass\.fr$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)animecrazy\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)anygoing\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\baolnews\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)aomiwang\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)aoqinet\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)app2\.hkatv\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -193,6 +191,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)books\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)botanwang\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)botanwang\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)bowenpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)boxun\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)boxun\.us$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)break\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -255,8 +254,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)civicparty\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)civilhrfront\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)civilmedia\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bcloudfront\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bcloudflare\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cna\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cnd\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)cnliberals\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -303,8 +300,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)download\.aircrack-ng\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)dphk\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)dpp\.org\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bdropbox\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bdropboxusercontent\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)drsunacademy\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)dtiblog\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)duga\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -347,7 +342,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)fc2\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)fdc89\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)feedjit\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bfeedly\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)feedsportal\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)felixcat\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)filesor\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -363,6 +357,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)freedomhouse\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)freeproxyserver\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)freeshadow\.info$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)freetufu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)freeweibo\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)friendfeed\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)fring\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -381,7 +376,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)geocities\.co\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)getfoxyproxy\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)getgom\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bgetpocket\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)gigacircle\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)git-scm\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)globalvoicesonline\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -476,12 +470,10 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)imgkeep\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)imgly\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)imgtiger\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bimgur\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)immoral\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)inmediahk\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)inote\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)inside\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\binstagram\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)intermargins\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)internet\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)internetfreedom\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -567,6 +559,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)mobile01\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)mobileways\.de$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)mobypicture\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)moedict\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)molihua\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)mp3ye\.eu$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)msguancha\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -575,6 +568,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)mycould\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)myfreshnet\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)myradio\.com\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)myradio\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)mysinablog\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)nanyang\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)nanyangpost\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -657,7 +651,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)prestige-av\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)prettyvirgin\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)privoxy\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bptt\.cc\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)pubu\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)qidian\.ca$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)qiwen\.lu$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -764,7 +757,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)theglobalmail\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)theguardian\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)thehousenews\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bthestandnews\.com/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)the-sun\.on\.cc$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)thetibetpost\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)thetimenow\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -783,12 +775,12 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)tokyocn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)topcoo\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)topsy\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\btorproject\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)torrentcrazy\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)torrentkitty\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)trackon\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)transparency\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)trendsmap\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)trib\.al$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)trouw\.nl$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)trtc\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)trueimages\.ru$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -821,6 +813,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)udn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)udn\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)ugo\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)uhrp\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)uighurbiz\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)ultrareach\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)unblock\.cn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -829,6 +822,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)ustream\.tv$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)utorrent\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)uwants\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)uyghuramerican\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)uyghurpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)uyl\.me$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)van698\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)vaticanradio\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -860,6 +855,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)weblagu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)websitepulse\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)webwarper\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)wegfw\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)weibosuite\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)weijingsheng\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)weiquanwang\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -869,6 +865,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)westkit\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)whattalking\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)whogovernstw\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)whotalking\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wi-gadget\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wikia\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wikia\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -928,6 +925,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)zxing\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)zyzc\.greatzhonghua\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^\\bhttp:\/\/\(\.\[\^\/]\).*\\\..*\\bdelicious\\\.com\/$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^\^http:\/\/search\\\.aol\\\.com\/$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^184\.154\.128\.246$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^75\.119\.209\.87$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^bbs\.51\.ca$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -942,21 +940,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^forum\.games\.hinet\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^hcd-1\.imgbox\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^hk03dl\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^images\.secdns\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^international\.sueddeutsche\.de$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^libs\.pixfs\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^pds\.nasa\.gov$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^plaza\.jp\.rakuten-static\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^s1\.pir\.fm$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^\^http:\/\/search\\\.aol\\\.com\/$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^times\.hinet\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^torrent\.ubuntu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^tweets\.seraph\.me$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^twimg\.edgesuite\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(library|mjlsh)\.usc\.cuhk\.edu\.hk\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\b(home|forum)\.gamer\.com\.tw/.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^(daily|)news\.sina\.com(\.(hk|tw)|)/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^(space|bbs)\.qoos\.com/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^(.[^\/])*\.*\b(scmp(chinese|)|nanzao)\.com/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^(.[^\/])*\.*\balanleong\.(net|com)/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^(.[^\/])*\.*\bappledaily\.com(|\.(tw|hk))/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -981,7 +964,20 @@ var FindProxyForURL = function(init, profiles) {
         if (/^(.[^\/])*\.*\bvoa(fanti|chinese|cantonese|tibetan(|english))\.com/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^(.[^\/])*\.*\bvoanews\.(com|eu)/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^(.[^\/])*\.*\bwsj\.(com|net)/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^(daily|)news\.sina\.com(\.(hk|tw)|)/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^(space|bbs)\.qoos\.com/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^38\.103\.161\.\d{1,3}/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^images\.secdns\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^international\.sueddeutsche\.de$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^libs\.pixfs\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^pds\.nasa\.gov$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^plaza\.jp\.rakuten-static\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^s1\.pir\.fm$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^times\.hinet\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^torrent\.ubuntu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^tweets\.seraph\.me$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^twimg\.edgesuite\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\b(home|forum)\.gamer\.com\.tw/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\b(news|blog)\.cnyes\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\b(news|popblog)\.tvbs\.com\.tw\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\b(showbiz|forum|news|cling)\.omy\.sg\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -989,6 +985,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\b2o7\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\b881903\.com\/Page\/ZH-TW\/index/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\badsbro\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\baolnews\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bavast\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bbitly\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bblogsys\.jp\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -998,26 +995,36 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bcable(v|news)\.i-cable\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bchapm25\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bchartbeat\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bcloudflare\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bcloudfront\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bclustrmaps.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bcrwdcntrl\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bcxense.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bdisqus\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bdowjoneson.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bdropbox\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bdropboxusercontent\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bdxtl\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bdynamicyield\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bensighten\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\beslite\.com\/product/.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bfeedly\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bflip\.it\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bfout.jp\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bgetemoji\.com\/cdn-cgi\/pe\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bgetpocket\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bhaxx\.se\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bhkxforce\.net\/wordpress\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bimgur\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bimrworldwide.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\binstagram\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bkakao\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bkrxd\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bksnews\.com\.tw\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\blijit\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bline\.me\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\blongurl\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bmediawiki\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bmetrohk\.com\.hk\/\?cmd=detail&categoryID=2/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bmoby\.to\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bmyhd1080\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -1032,15 +1039,20 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bpixnet\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bpo\.st\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bprisacom\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bpsiphon3\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bpsiphon\.ca\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bpsiphon3\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bptt\.cc\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bpuffstore\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bquantserve\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\brevsci\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bsharethis\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bsinchew(|-i)\.com(|\.my)\/node/.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bstarboard-pro\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bstatic-file\.com\/shared\/upload\/video\/.*0604/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\btalkboxapp.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\btenmax\.io\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bthestandnews\.com/.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\btorproject\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\btorrentproject.se\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\btraffic\.alexa\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\btumblr\.com/.test(url)) return "+Profiles_GoAgent-GAE";
@@ -1054,17 +1066,17 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bwebtrendslive\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bwhoer\.net\/check\?host=/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bmediawiki\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bwiktionary\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bwikimediafoundation\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bwiktionary\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bwoopra\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bwzyboy\.im\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\byahoo\.(com|com\.(hk|tw))\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\byandex\.ru\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\byoutu\.be\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bzedo\.com\/asw\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/67\.220\.92\.21\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(library|mjlsh)\.usc\.cuhk\.edu\.hk\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/66\.147\.244\.112\/~hchinaor\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/67\.220\.92\.21\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/ad\.tagtoo\.co\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/adadvisor\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/ads\.contextweb\.com\/TagPublish\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -1076,6 +1088,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/bgp\.he\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/bs\.serving-sys\.com\/BurstingPipe\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/ca\.pcrookie\.net\/blog_images\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/cdn\.unwire\.hk\/wp-content\/uploads\/.*(WordPress|www\.youtube\.com)/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/chinese\.irib\.ir\/index\.php\/2010-07-25-10-42-26\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/citytalk\.tw\/event/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/cn\.last\.fm\/facebook\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -1117,94 +1130,80 @@ var FindProxyForURL = function(init, profiles) {
         if (/^www\.melauto\.it$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^www\.savetube\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^yuming\.flnet\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)whotalking\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)trib\.al$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)wegfw\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)uhrp\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)uyghuramerican\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)uyghurpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bstarboard-pro\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bhkxforce\.net\/wordpress\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)freetufu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)myradio\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)moedict\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)bowenpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/cdn\.unwire\.hk\/wp-content\/uploads\/.*(WordPress|www\.youtube\.com)/.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/(.[^\/])*\.*\bstatic-file\.com\/shared\/upload\/video\/.*0604/.test(url)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
         "use strict";
+        if (/(?:^|\.)adblockplus\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)aida64\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)amazonaws\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)c\.bigcache\.googleapis\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)chinatimes\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)chinesetoday\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)ckcdn\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)cloudmonitor\.ca\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)cpuid\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)crystalmark\.info$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)eff\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)evernote\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)file-static\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)ftchinese\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)gimp\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)github\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)github\.io$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)githubusercontent\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)crystalmark\.info$/.test(host)) return "+Profiles_COW";
-        if (/^http(|s):\/\/windows\.microsoft\.com\/.*\/windows\/themes/.test(url)) return "+Profiles_COW";
-        if (/(?:^|\.)aida64\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)gimp\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)gravatar\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)imgburn\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)moneymanagerex\.org$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)cloudmonitor\.ca\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)imgur\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)libreoffice\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)life\.com\.tw$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)moneymanagerex\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)notepad-plus-plus\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)sourceforge\.net$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)static-file\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)tampermonkey\.net$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wikileaks\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wikilivres\.ca$/.test(host)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\binstagram.com\//.test(url)) return "+Profiles_COW";
+        if (/(?:^|\.)woolyss\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)yowindow\.com$/.test(host)) return "+Profiles_COW";
+        if (/^http(|s):\/\/windows\.microsoft\.com\/.*\/windows\/themes/.test(url)) return "+Profiles_COW";
+        if (/^http:\/\/(.[^\/])*\.*\bdropboxusercontent\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\baddthis\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bbtdigg\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bcloudflare\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bcloudfront\.net\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bdropbox\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bfeedly\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bgetpocket\.com\//.test(url)) return "+Profiles_COW";
-        if (/(?:^|\.)ftchinese\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)chinatimes\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)yowindow\.com$/.test(host)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\btorproject\.org\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bpsiphon3\.com\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bpsiphon\.ca\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\binstagram.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bmediawiki\.org\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bcloudfront\.net\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bwiktionary\.org\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bwikimediafoundation\.org\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bcloudflare\.com\//.test(url)) return "+Profiles_COW";
-        if (/(?:^|\.)evernote\.com$/.test(host)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\baddthis\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bopendns\.com\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bdropbox\.com\//.test(url)) return "+Profiles_COW";
-        if (/^http:\/\/(.[^\/])*\.*\bdropboxusercontent\.com\//.test(url)) return "+Profiles_COW";
-        if (/^https:\/\/(.[^\/])*\.*\bbtdigg\.org\//.test(url)) return "+Profiles_COW";
-        if (/(?:^|\.)notepad-plus-plus\.org$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)imgur\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)eff\.org$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)life\.com\.tw$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)gravatar\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)adblockplus\.org$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)chinesetoday\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)ckcdn\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)tampermonkey\.net$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)sourceforge\.net$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)woolyss\.com$/.test(host)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bpsiphon\.ca\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bpsiphon3\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bptt\.cc\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bthestandnews\.com\//.test(url)) return "+Profiles_COW";
-        if (/(?:^|\.)static-file\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)file-static\.com$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)c\.bigcache\.googleapis\.com$/.test(host)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\btorproject\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bwikimediafoundation\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bwiktionary\.org\//.test(url)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": function(url, host, scheme) {
         "use strict";
-        if (/^http(|s):\/\/www\.internetdownloadmanager\.com\/data\/\d+\/register\.cgi/.test(url)) return "+Srv_Banned";
         if (/(?:^|\.)internetdownloadmanager\.com$/.test(host)) return "+Profiles_GoAgent";
+        if (/^http(|s):\/\/www\.internetdownloadmanager\.com\/data\/\d+\/register\.cgi/.test(url)) return "+Srv_Banned";
         return "DIRECT";
-    },
-    "+Srv_Banned": function(url, host, scheme) {
-        "use strict";
-        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
-        return "PROXY 0.0.0.0:1";
     },
     "+Profiles_GoAgent": "+Srv_GoAgent",
     "+Srv_GoAgent": function(url, host, scheme) {
         "use strict";
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
         return "PROXY 127.0.0.1:8087";
+    },
+    "+Srv_Banned": function(url, host, scheme) {
+        "use strict";
+        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
+        return "PROXY 0.0.0.0:1";
     },
     "+Profiles_COW": "+Srv_COW",
     "+Srv_COW": function(url, host, scheme) {

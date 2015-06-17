@@ -1,6 +1,0 @@
-[SwitchyOmega Conditions]
-; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/3/26
-; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
-
-UrlRegex: ^http(|s)://www\.google\.com/searchdomaincheck

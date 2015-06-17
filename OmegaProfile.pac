@@ -8,8 +8,8 @@ var FindProxyForURL = function(init, profiles) {
         } while (typeof result !== "string" || result.charCodeAt(0) === 43);
         return result;
     };
-}("+List_Banned", {
-    "+List_Banned": function(url, host, scheme) {
+}("+\u81ea\u52a8\u5207\u6362", {
+    "+\u81ea\u52a8\u5207\u6362": function(url, host, scheme) {
         "use strict";
         if (/^http(|s):\/\/www\.google\.com\/searchdomaincheck/.test(url)) return "+Srv_Banned";
         return "+List_Non_China";

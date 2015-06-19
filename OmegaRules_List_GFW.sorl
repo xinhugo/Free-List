@@ -830,33 +830,33 @@ download.tuxfamily.org
 forum.games.hinet.net
 hcd-1.imgbox.com
 hk03dl.com
-HostRegex: ^.*\b(scmp(chinese|)|nanzao)\.com
-HostRegex: ^.*\balanleong\.(net|com)
-HostRegex: ^.*\bappledaily\.com(|\.(tw|hk))
-HostRegex: ^.*\bavlang\d+\.com
-HostRegex: ^.*\bbbc(i|)\.co\.uk
-HostRegex: ^.*\bbbc\.(com|in)
-HostRegex: ^.*\bbloomberg\.(com|(i|c)n)
-HostRegex: ^.*\bcdp(|2006|wu|site|1998)\.org
-HostRegex: ^.*\bdwnews\.(com|net(:\d+|))
-HostRegex: ^.*\bepoch(times(-romania|tr|-bg)|tw|hk)\.com
-HostRegex: ^.*\bepochtimes\.(com\.(tw|hk|ua)|com|fr|de|co\.(il|kr)|jp|ru|it|se)
-HostRegex: ^.*\bg(nci|cc)\.org\.hk
-HostRegex: ^.*\bgardennetworks\.(org|com)
-HostRegex: ^.*\bgreatroc\.(tw|org)
-HostRegex: ^.*\bkagoya\.(net|jp)
-HostRegex: ^.*\bkanzhongguo\.(com(\.au|)|eu)
-HostRegex: ^.*\bmingpao(|ny|tor|van|canada|news|monthly)\.com
-HostRegex: ^.*\bnext(tv|vod)\.com\.tw
-HostRegex: ^.*\bntdtv(|-dc)\.com
-HostRegex: ^.*\bthepiratebay\.(s(e|x)|org)
-HostRegex: ^.*\bthywords\.com(|\.tw)
-HostRegex: ^.*\bvoa(fanti|chinese|cantonese|tibetan(|english))\.com
-HostRegex: ^.*\bvoanews\.(com|eu)
-HostRegex: ^.*\bwsj\.(com|net)
-HostRegex: ^(daily|)news\.sina\.com(\.(hk|tw)|)
-HostRegex: ^(space|bbs)\.qoos\.com
-HostRegex: ^38\.103\.161\.\d{1,3}
+HostRegex: ^.*\b(scmp(chinese|)|nanzao)\.com$
+HostRegex: ^.*\balanleong\.(net|com)$
+HostRegex: ^.*\bappledaily\.com(|\.(tw|hk))$
+HostRegex: ^.*\bavlang\d+\.com$
+HostRegex: ^.*\bbbc(i|)\.co\.uk$
+HostRegex: ^.*\bbbc\.(com|in)$
+HostRegex: ^.*\bbloomberg\.(com|(i|c)n)$
+HostRegex: ^.*\bcdp(|2006|wu|site|1998)\.org$
+HostRegex: ^.*\bdwnews\.(com|net(:\d+|))$
+HostRegex: ^.*\bepoch(times(-romania|tr|-bg)|tw|hk)\.com$
+HostRegex: ^.*\bepochtimes\.(com\.(tw|hk|ua)|com|fr|de|co\.(il|kr)|jp|ru|it|se)$
+HostRegex: ^.*\bg(nci|cc)\.org\.hk$
+HostRegex: ^.*\bgardennetworks\.(org|com)$
+HostRegex: ^.*\bgreatroc\.(tw|org)$
+HostRegex: ^.*\bkagoya\.(net|jp)$
+HostRegex: ^.*\bkanzhongguo\.(com(\.au|)|eu)$
+HostRegex: ^.*\bmingpao(|ny|tor|van|canada|news|monthly)\.com$
+HostRegex: ^.*\bnext(tv|vod)\.com\.tw$
+HostRegex: ^.*\bntdtv(|-dc)\.com$
+HostRegex: ^.*\bthepiratebay\.(s(e|x)|org)$
+HostRegex: ^.*\bthywords\.com(|\.tw)$
+HostRegex: ^.*\bvoa(fanti|chinese|cantonese|tibetan(|english))\.com$
+HostRegex: ^.*\bvoanews\.(com|eu)$
+HostRegex: ^.*\bwsj\.(com|net)$
+HostRegex: ^(daily|)news\.sina\.com(\.(hk|tw)|)$
+HostRegex: ^(space|bbs)\.qoos\.com$
+HostRegex: ^38\.103\.161\.\d{1,3}$
 images.secdns.com
 international.sueddeutsche.de
 libs.pixfs.net

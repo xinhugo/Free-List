@@ -513,7 +513,6 @@
 *.pao-pao.net
 *.paper.li
 *.passiontimes.hk
-*.pastebin.com
 *.pbwiki.com
 *.pbworks.com
 *.pcdvd.com.tw
@@ -1024,3 +1023,9 @@ yuming.flnet.org
 *.bx.tl
 UrlRegex: ^http://(.[^/])*\.*\bduckduckgo\.com/
 *.twitterknowhow.com
+UrlRegex: ^http://(.[^/])*\.*\bpastebin\.com/
+UrlRegex: ^http://(.[^/])*\.*\bsitemeter\.com/
+UrlRegex: ^http://(.[^/])*\.*\barchive\.org/
+UrlRegex: ^http://(.[^/])*\.*\barchive\.is/
+UrlRegex: ^http://api\.microsofttranslator\.com/
+*.chinaworker.info

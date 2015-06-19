@@ -622,7 +622,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)pao-pao\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)paper\.li$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)passiontimes\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)pastebin\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)pbwiki\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)pbworks\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)pcdvd\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1133,6 +1132,12 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)bx\.tl$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bduckduckgo\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)twitterknowhow\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bpastebin\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bsitemeter\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\barchive\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\barchive\.is\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/api\.microsofttranslator\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)chinaworker\.info$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
@@ -1190,6 +1195,10 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/(.[^\/])*\.*\bwikimediafoundation\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bwiktionary\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bduckduckgo\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bpastebin\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bsitemeter\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\barchive\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\barchive\.is\//.test(url)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": function(url, host, scheme) {

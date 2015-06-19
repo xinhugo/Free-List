@@ -56,3 +56,7 @@ UrlRegex: ^https://(.[^/])*\.*\bwiki(source|quote|books|news|voyage|versity|data
 UrlRegex: ^https://(.[^/])*\.*\bwikimediafoundation\.org/
 UrlRegex: ^https://(.[^/])*\.*\bwiktionary\.org/
 UrlRegex: ^https://(.[^/])*\.*\bduckduckgo\.com/
+UrlRegex: ^https://(.[^/])*\.*\bpastebin\.com/
+UrlRegex: ^https://(.[^/])*\.*\bsitemeter\.com/
+UrlRegex: ^https://(.[^/])*\.*\barchive\.org/
+UrlRegex: ^https://(.[^/])*\.*\barchive\.is/

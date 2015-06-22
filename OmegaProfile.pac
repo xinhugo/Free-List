@@ -1199,6 +1199,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/(.[^\/])*\.*\bsitemeter\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\barchive\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\barchive\.is\//.test(url)) return "+Profiles_COW";
+        if (/^www\.teamviewer\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)akamaihd\.net$/.test(host)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": function(url, host, scheme) {

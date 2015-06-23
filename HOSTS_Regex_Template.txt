@@ -113,6 +113,8 @@ ghs	www.googlesciencefair.com
 ghs	www.azofreeware.com
 ghs	www.googleforentrepreneurs.com
 ghs	img.feedly.com
+ghs	.*\bchromestatus\.com
+
  #Special Domain -¡ü
  
  #Groups & Sites

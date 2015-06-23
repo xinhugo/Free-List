@@ -104,7 +104,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^(maps|www|translate|plus|ajax|mts\d|commondatastorage|chart|storage)\.googleapis\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^(skins|www(|\.ig))\.gmodules\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^http(|s):\/\/\d+\.client-channel\.google\.com\/client-channel\/js\//.test(url)) return "+Profiles_GoAgent";
-        if (/(?:^|\.)google-analytics\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^http:\/\/(.[^\/])*\.*\bgooglesyndication\.com\//.test(url)) return "+Profiles_GoAgent";
         if (/^https:\/\/www\.gstatic\.cn\/onebox\/weather\//.test(url)) return "+Profiles_GoAgent";
         if (/^wenda\.google\.com\.hk$/.test(host)) return "+Profiles_GoAgent";

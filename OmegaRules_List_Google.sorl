@@ -30,7 +30,6 @@ HostRegex: ^(feedproxy|feedburner)\.google\.com$
 HostRegex: ^(maps|www|translate|plus|ajax|mts\d|commondatastorage|chart|storage)\.googleapis\.com$
 HostRegex: ^(skins|www(|\.ig))\.gmodules\.com$
 UrlRegex: ^http(|s)://\d+\.client-channel\.google\.com/client-channel/js/
-*.google-analytics.com
 UrlRegex: ^http://(.[^/])*\.*\bgooglesyndication\.com/
 UrlRegex: ^https://www\.gstatic\.cn/onebox/weather/
 wenda.google.com.hk

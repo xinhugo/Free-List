@@ -1196,7 +1196,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/(.[^\/])*\.*\bsitemeter\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\barchive\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\barchive\.is\//.test(url)) return "+Profiles_COW";
-        if (/^www\.teamviewer\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)teamviewer\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)akamaihd\.net$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)adobe\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wp\.com$/.test(host)) return "+Profiles_COW";
@@ -1205,20 +1205,20 @@ var FindProxyForURL = function(init, profiles) {
     },
     "+List_PAC": function(url, host, scheme) {
         "use strict";
-        if (/(?:^|\.)internetdownloadmanager\.com$/.test(host)) return "+Profiles_GoAgent";
         if (/^http(|s):\/\/www\.internetdownloadmanager\.com\/data\/\d+\/register\.cgi/.test(url)) return "+Srv_Banned";
+        if (/(?:^|\.)internetdownloadmanager\.com$/.test(host)) return "+Profiles_GoAgent";
         return "DIRECT";
+    },
+    "+Srv_Banned": function(url, host, scheme) {
+        "use strict";
+        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
+        return "PROXY 0.0.0.0:1";
     },
     "+Profiles_GoAgent": "+Srv_GoAgent",
     "+Srv_GoAgent": function(url, host, scheme) {
         "use strict";
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
         return "PROXY 127.0.0.1:8087";
-    },
-    "+Srv_Banned": function(url, host, scheme) {
-        "use strict";
-        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
-        return "PROXY 0.0.0.0:1";
     },
     "+Profiles_COW": "+Srv_COW",
     "+Srv_COW": function(url, host, scheme) {

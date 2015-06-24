@@ -874,8 +874,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)wordpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)worldcat\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)worldjournal\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)wp\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)wp\.me$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wrchina\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wretch\.cc$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wuala\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1200,6 +1198,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/(.[^\/])*\.*\barchive\.is\//.test(url)) return "+Profiles_COW";
         if (/^www\.teamviewer\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)akamaihd\.net$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)adobe\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)wp\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)wp\.me$/.test(host)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": function(url, host, scheme) {

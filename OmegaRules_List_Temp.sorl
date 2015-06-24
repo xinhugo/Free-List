@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/23
+; Date: 2015/6/24
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.adblockplus.org
@@ -62,3 +62,6 @@ UrlRegex: ^https://(.[^/])*\.*\barchive\.org/
 UrlRegex: ^https://(.[^/])*\.*\barchive\.is/
 www.teamviewer.com
 *.akamaihd.net
+*.adobe.com
+*.wp.com
+*.wp.me

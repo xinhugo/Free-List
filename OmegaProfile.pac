@@ -60,8 +60,8 @@ var FindProxyForURL = function(init, profiles) {
         if (false) return "+Profiles_Free";
         if (false) return "+Profiles_Free";
         if (false) return "+Profiles_Free";
-        if (/^http(|s):\/\/www\.rfa\.org\/cantonese\/(.*png|firewall_features|graphics|features|news|june4_2005|video|bookclub|multimedia)/.test(url)) return "+Profiles_Free";
-        if (/^http(|s):\/\/www\.rfa\.org\/mandarin\/(zhuanlan|yataibaodao\/(shaoshuminzu|renquanfazhi))/.test(url)) return "+Profiles_Free";
+        if (/^http(|s):\/\/www\.rfa\.org\/cantonese\/(firewall_features|graphics|features|news|june4_2005|video|bookclub|multimedia|\?|.*png)/.test(url)) return "+Profiles_Free";
+        if (/^http(|s):\/\/www\.rfa\.org\/mandarin\/(zhuanlan|yataibaodao\/(shaoshuminzu|renquanfazhi|huanjing)|Xinwen|.*\.png)/.test(url)) return "+Profiles_Free";
         if (/^http(|s):\/\/play\.google\.com\/store/.test(url)) return "+Profiles_Free";
         if (/^http:\/\/(.[^\/])*\.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
         return "+List_Streaming";

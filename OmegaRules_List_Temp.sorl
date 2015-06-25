@@ -60,7 +60,7 @@ UrlRegex: ^https://(.[^/])*\.*\bpastebin\.com/
 UrlRegex: ^https://(.[^/])*\.*\bsitemeter\.com/
 UrlRegex: ^https://(.[^/])*\.*\barchive\.org/
 UrlRegex: ^https://(.[^/])*\.*\barchive\.is/
-*.teamviewer.com
+www.teamviewer.com
 *.akamaihd.net
 *.adobe.com
 *.wp.com

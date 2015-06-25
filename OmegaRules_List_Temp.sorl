@@ -65,3 +65,4 @@ UrlRegex: ^https://(.[^/])*\.*\barchive\.is/
 *.adobe.com
 *.wp.com
 *.wp.me
+*.git.io

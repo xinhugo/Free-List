@@ -1135,6 +1135,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\barchive\.is\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/api\.microsofttranslator\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)chinaworker\.info$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^downloadap1\.teamviewer\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)atdmt\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
@@ -1201,6 +1203,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)adobe\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wp\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wp\.me$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)git\.io$/.test(host)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": function(url, host, scheme) {

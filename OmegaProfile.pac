@@ -64,6 +64,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http(|s):\/\/www\.rfa\.org\/mandarin\/(zhuanlan|yataibaodao\/(shaoshuminzu|renquanfazhi|huanjing)|Xinwen|.*\.png)/.test(url)) return "+Profiles_Free";
         if (/^http(|s):\/\/play\.google\.com\/store/.test(url)) return "+Profiles_Free";
         if (/^http:\/\/(.[^\/])*\.*\brarbg\.com\/torrents\.php\?search=/.test(url)) return "+Profiles_Free";
+        if (/^http:\/\/(.[^\/])*\.*\balexa\.com\/siteinfo/.test(url)) return "+Profiles_Free";
         return "+List_Streaming";
     },
     "+List_Streaming": function(url, host, scheme) {

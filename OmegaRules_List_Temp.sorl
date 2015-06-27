@@ -65,3 +65,8 @@ www.teamviewer.com
 *.wp.com
 *.wp.me
 *.git.io
+UrlRegex: ^https://(.[^/])*\.*\bhootsuite\.com/
+UrlRegex: ^https://(.[^/])*\.*\btorrentz\.eu/
+UrlRegex: ^https://(.[^/])*\.*\bscribd\.com/
+UrlRegex: ^https://(.[^/])*\.*\bchange\.org/
+UrlRegex: ^https://(.[^/])*\.*\bmassrelevance\.com/

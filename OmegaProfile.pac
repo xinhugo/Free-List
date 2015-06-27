@@ -421,7 +421,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)hkupop\.hku\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)hkusu\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)hkwcc\.org\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)hootsuite\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bhootsuite\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)hotchyx\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)hotspotshield\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)hrichina\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1129,6 +1129,17 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)chinaworker\.info$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^downloadap1\.teamviewer\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)atdmt\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\btorrentz\.eu\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bscribd\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)bet365\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)myfreecams\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)liveleak\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)porn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)swagbucks\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)youjizz\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^cdn\.viafoura\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bchange\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bmassrelevance\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
@@ -1195,6 +1206,11 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)wp\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wp\.me$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)git\.io$/.test(host)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bhootsuite\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\btorrentz\.eu\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bscribd\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bchange\.org\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bmassrelevance\.com\//.test(url)) return "+Profiles_COW";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {

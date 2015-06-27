@@ -70,3 +70,6 @@ UrlRegex: ^https://(.[^/])*\.*\btorrentz\.eu/
 UrlRegex: ^https://(.[^/])*\.*\bscribd\.com/
 UrlRegex: ^https://(.[^/])*\.*\bchange\.org/
 UrlRegex: ^https://(.[^/])*\.*\bmassrelevance\.com/
+UrlRegex: ^https://(.[^/])*\.*\bvimeo\.com/
+UrlRegex: ^https://(.[^/])*\.*\bwordpress\.com/
+UrlRegex: ^https://(.[^/])*\.*\bxing\.com/

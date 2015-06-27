@@ -825,8 +825,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)viber\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)video\.pbs\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)vietdaikynguyen\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)vimeo\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)vimeocdn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)visiontimes\.ca$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)vjmedia\.com\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)vot\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -863,7 +861,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)wikia-beacon\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wiztechnologies\.jp$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)wordpress\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)worldcat\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)worldjournal\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)wrchina\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -875,7 +872,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)wwitv\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xanga\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xbookcn\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)xing\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xinmiao\.com\.hk$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xinyubbs\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xiti\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1142,6 +1138,17 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bmassrelevance\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)shutterstock\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)ixxx\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)wetransfer\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)ero-video\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)sex\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)xhamster\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)olx\.com\.br$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)theblaze\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)gittigidiyor\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\boutbrain\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bvimeo\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bwordpress\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bxing\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
@@ -1213,6 +1220,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/(.[^\/])*\.*\bscribd\.com\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bchange\.org\//.test(url)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bmassrelevance\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bvimeo\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bwordpress\.com\//.test(url)) return "+Profiles_COW";
+        if (/^https:\/\/(.[^\/])*\.*\bxing\.com\//.test(url)) return "+Profiles_COW";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {

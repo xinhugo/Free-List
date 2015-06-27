@@ -725,8 +725,6 @@ UrlRegex: ^http://(.[^/])*\.*\bhootsuite\.com/
 *.viber.com
 *.video.pbs.org
 *.vietdaikynguyen.com
-*.vimeo.com
-*.vimeocdn.com
 *.visiontimes.ca
 *.vjmedia.com.hk
 *.vot.org
@@ -763,7 +761,6 @@ UrlRegex: ^http://(.[^/])*\.*\bhootsuite\.com/
 *.wikia-beacon.com
 *.wiztechnologies.jp
 *.wn.com
-*.wordpress.com
 *.worldcat.org
 *.worldjournal.com
 *.wrchina.org
@@ -775,7 +772,6 @@ UrlRegex: ^http://(.[^/])*\.*\bhootsuite\.com/
 *.wwitv.com
 *.xanga.com
 *.xbookcn.net
-*.xing.com
 *.xinmiao.com.hk
 *.xinyubbs.net
 *.xiti.com
@@ -1042,3 +1038,14 @@ UrlRegex: ^http://(.[^/])*\.*\bchange\.org/
 UrlRegex: ^http://(.[^/])*\.*\bmassrelevance\.com/
 *.shutterstock.com
 *.ixxx.com
+*.wetransfer.com
+*.ero-video.net
+*.sex.com
+*.xhamster.com
+*.olx.com.br
+*.theblaze.com
+*.gittigidiyor.com
+UrlRegex: ^http://(.[^/])*\.*\boutbrain\.com/
+UrlRegex: ^http://(.[^/])*\.*\bvimeo\.com/
+UrlRegex: ^http://(.[^/])*\.*\bwordpress\.com/
+UrlRegex: ^http://(.[^/])*\.*\bxing\.com/

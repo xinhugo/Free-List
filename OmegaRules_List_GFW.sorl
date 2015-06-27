@@ -1040,3 +1040,5 @@ UrlRegex: ^http://(.[^/])*\.*\bscribd\.com/
 cdn.viafoura.net
 UrlRegex: ^http://(.[^/])*\.*\bchange\.org/
 UrlRegex: ^http://(.[^/])*\.*\bmassrelevance\.com/
+*.shutterstock.com
+*.ixxx.com

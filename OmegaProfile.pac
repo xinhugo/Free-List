@@ -1140,6 +1140,8 @@ var FindProxyForURL = function(init, profiles) {
         if (/^cdn\.viafoura\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bchange\.org\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bmassrelevance\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)shutterstock\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)ixxx\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

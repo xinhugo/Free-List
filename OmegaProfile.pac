@@ -29,19 +29,10 @@ var FindProxyForURL = function(init, profiles) {
         if (/^www\.netflix\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Direct-1";
     },
-    "+List_Direct-1": function(url, host, scheme) {
-        "use strict";
-        if (false) return "+Profiles_GoAgent";
-        if (false) return "+Profiles_GoAgent";
-        if (false) return "+Profiles_GoAgent";
-        if (false) return "+Profiles_GoAgent";
-        return "+List_Direct-2";
-    },
+    "+List_Direct-1": "+List_Direct-2",
     "+List_Direct-2": function(url, host, scheme) {
         "use strict";
-        if (false) return "+Profiles_COW";
         if (/^(post|cwb)\.gov\.tw$/.test(host)) return "+Profiles_COW";
-        if (false) return "+Profiles_COW";
         if (/(?:^|\.)googlesyndication\.com$/.test(host)) return "+Profiles_COW";
         return "+List_Japan";
     },
@@ -1205,6 +1196,11 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)wp\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)wp\.me$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)git\.io$/.test(host)) return "+Profiles_COW";
+        return "+List_Page Monitor";
+    },
+    "+List_Page Monitor": function(url, host, scheme) {
+        "use strict";
+        if (/^http:\/\/www\.moneymanagerex\.org\/development\/changelog/.test(url)) return "+Profiles_GoAgent-GAE";
         return "+List_PAC";
     },
     "+List_PAC": function(url, host, scheme) {
@@ -1224,17 +1220,17 @@ var FindProxyForURL = function(init, profiles) {
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
         return "PROXY 127.0.0.1:8087";
     },
-    "+Profiles_COW": "+Srv_COW",
-    "+Srv_COW": function(url, host, scheme) {
-        "use strict";
-        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
-        return "PROXY 127.0.0.1:7777";
-    },
     "+Profiles_GoAgent-GAE": "+Srv_GoAgent-GAE",
     "+Srv_GoAgent-GAE": function(url, host, scheme) {
         "use strict";
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
         return "PROXY 127.0.0.1:8089";
+    },
+    "+Profiles_COW": "+Srv_COW",
+    "+Srv_COW": function(url, host, scheme) {
+        "use strict";
+        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
+        return "PROXY 127.0.0.1:7777";
     },
     "+Profiles_Streaming": "+Profiles_GoAgent-GAE",
     "+Profiles_Free": "+Srv_Lantern",

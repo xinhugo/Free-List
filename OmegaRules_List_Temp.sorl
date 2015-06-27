@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/6/25
+; Date: 2015/6/27
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.adblockplus.org
@@ -26,7 +26,6 @@
 *.imgur.com
 *.libreoffice.org
 *.life.com.tw
-*.moneymanagerex.org
 *.notepad-plus-plus.org
 *.sourceforge.net
 *.static-file.com

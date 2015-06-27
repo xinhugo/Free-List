@@ -1156,7 +1156,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)imgur\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)libreoffice\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)life\.com\.tw$/.test(host)) return "+Profiles_COW";
-        if (/(?:^|\.)moneymanagerex\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)notepad-plus-plus\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)sourceforge\.net$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)static-file\.com$/.test(host)) return "+Profiles_COW";

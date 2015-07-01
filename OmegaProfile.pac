@@ -653,7 +653,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)readingtimes\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)recovery\.org\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)redchinacn\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)reddit\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)redsquirrel87\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)redtube\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)referer\.us$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1149,6 +1148,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bvimeo\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bwordpress\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bxing\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)bwp\.im$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

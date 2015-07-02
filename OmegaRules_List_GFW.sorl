@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/7/2
+; Date: 2015/7/3
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -779,7 +779,7 @@ UrlRegex: ^http://(.[^/])*\.*\bhootsuite\.com/
 *.xn--fiq681d48s.org
 *.xpics.us
 *.xtube.com
-*.xuite.net
+*.blog.xuite.net
 *.xvideosmatome.net
 *.xys.org
 *.yamedia.tw

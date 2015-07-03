@@ -880,6 +880,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)xpics\.us$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xtube\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)blog\.xuite\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^vlog\.xuite\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xvideosmatome\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xys\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)yamedia\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";

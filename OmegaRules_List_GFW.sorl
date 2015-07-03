@@ -780,6 +780,7 @@ UrlRegex: ^http://(.[^/])*\.*\bhootsuite\.com/
 *.xpics.us
 *.xtube.com
 *.blog.xuite.net
+vlog.xuite.net
 *.xvideosmatome.net
 *.xys.org
 *.yamedia.tw

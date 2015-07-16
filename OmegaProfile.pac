@@ -1152,6 +1152,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)bwp\.im$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bmoneydj\.com\/(KMDJ|kmdj)/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)btku\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)storm\.mg$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
@@ -1228,6 +1229,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/^https:\/\/(.[^\/])*\.*\bxing\.com\//.test(url)) return "+Profiles_COW";
         if (/(?:^|\.)aszw\.com$/.test(host)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\bsharethis\.com\//.test(url)) return "+Profiles_COW";
+        if (/(?:^|\.)rarbg\.to$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)openstreetmap\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)soduso\.com$/.test(host)) return "+Profiles_COW";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {

@@ -1060,7 +1060,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bzedo\.com\/asw\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(library|mjlsh)\.usc\.cuhk\.edu\.hk\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/66\.147\.244\.112\/~hchinaor\//.test(url)) return "+Profiles_GoAgent-GAE";
-        if (/^http:\/\/67\.220\.92\.21\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/67\.220\.92\.\d+\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/ad\.tagtoo\.co\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/adadvisor\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/ads\.contextweb\.com\/TagPublish\//.test(url)) return "+Profiles_GoAgent-GAE";
@@ -1153,6 +1153,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bmoneydj\.com\/(KMDJ|kmdj)/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)btku\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)storm\.mg$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)dw\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

@@ -1241,22 +1241,18 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/www\.moneymanagerex\.org\/development\/changelog/.test(url)) return "+Profiles_GoAgent-GAE";
         return "+List_PAC";
     },
-    "+List_PAC": function(url, host, scheme) {
+    "+List_PAC": "DIRECT",
+    "+Profiles_GoAgent-GAE": "+Srv_GoAgent-GAE",
+    "+Srv_GoAgent-GAE": function(url, host, scheme) {
         "use strict";
-        if (/^http:\/\/(www|mirror\d)\.internetdownloadmanager\.com\/.+\.(exe|zip|txt|html)/.test(url)) return "+Profiles_COW";
-        return "DIRECT";
+        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
+        return "PROXY 127.0.0.1:8089";
     },
     "+Profiles_COW": "+Srv_COW",
     "+Srv_COW": function(url, host, scheme) {
         "use strict";
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
         return "PROXY 127.0.0.1:7777";
-    },
-    "+Profiles_GoAgent-GAE": "+Srv_GoAgent-GAE",
-    "+Srv_GoAgent-GAE": function(url, host, scheme) {
-        "use strict";
-        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
-        return "PROXY 127.0.0.1:8089";
     },
     "+Profiles_GoAgent": "+Srv_GoAgent",
     "+Srv_GoAgent": function(url, host, scheme) {

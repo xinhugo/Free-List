@@ -1243,7 +1243,7 @@ var FindProxyForURL = function(init, profiles) {
     },
     "+List_PAC": function(url, host, scheme) {
         "use strict";
-        if (/^http:\/\/(www|mirror\d)\.internetdownloadmanager\.com\/.+\.(exe|zip)/.test(url)) return "+Profiles_COW";
+        if (/^http:\/\/(www|mirror\d)\.internetdownloadmanager\.com\/.+\.(exe|zip|txt|html)/.test(url)) return "+Profiles_COW";
         return "DIRECT";
     },
     "+Profiles_COW": "+Srv_COW",

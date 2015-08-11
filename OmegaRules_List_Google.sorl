@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/7/11
+; Date: 2015/8/11
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.android.com
@@ -33,3 +33,4 @@ UrlRegex: ^http(|s)://\d+\.client-channel\.google\.com/client-channel/js/
 UrlRegex: ^http://(.[^/])*\.*\bgooglesyndication\.com/
 UrlRegex: ^https://www\.gstatic\.cn/onebox/weather/
 wenda.google.com.hk
+*.abc.xyz

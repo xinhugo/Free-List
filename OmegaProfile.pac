@@ -99,6 +99,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bgooglesyndication\.com\//.test(url)) return "+Profiles_GoAgent";
         if (/^https:\/\/www\.gstatic\.cn\/onebox\/weather\//.test(url)) return "+Profiles_GoAgent";
         if (/^wenda\.google\.com\.hk$/.test(host)) return "+Profiles_GoAgent";
+        if (/(?:^|\.)abc\.xyz$/.test(host)) return "+Profiles_GoAgent";
         return "+List_GFW";
     },
     "+List_GFW": function(url, host, scheme) {
@@ -1239,7 +1240,7 @@ var FindProxyForURL = function(init, profiles) {
     },
     "+List_Page Monitor": function(url, host, scheme) {
         "use strict";
-        if (/^http:\/\/www\.moneymanagerex\.org\/development\/changelog/.test(url)) return "+Profiles_GoAgent-GAE";
+        if (false) return "+Profiles_GoAgent-GAE";
         return "+List_PAC";
     },
     "+List_PAC": "DIRECT",

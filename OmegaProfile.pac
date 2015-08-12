@@ -1157,6 +1157,11 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)dw\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bmediafire\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bnyaa\.se\//.test(url)) return "+Profiles_GoAgent-GAE";
+        return "+List_Page Monitor";
+    },
+    "+List_Page Monitor": function(url, host, scheme) {
+        "use strict";
+        if (false) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
@@ -1236,25 +1241,20 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)rarbg\.to$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)openstreetmap\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)soduso\.com$/.test(host)) return "+Profiles_COW";
-        return "+List_Page Monitor";
-    },
-    "+List_Page Monitor": function(url, host, scheme) {
-        "use strict";
-        if (false) return "+Profiles_GoAgent-GAE";
         return "+List_PAC";
     },
     "+List_PAC": "DIRECT",
-    "+Profiles_GoAgent-GAE": "+Srv_GoAgent-GAE",
-    "+Srv_GoAgent-GAE": function(url, host, scheme) {
-        "use strict";
-        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
-        return "PROXY 127.0.0.1:8089";
-    },
     "+Profiles_COW": "+Srv_COW",
     "+Srv_COW": function(url, host, scheme) {
         "use strict";
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
         return "PROXY 127.0.0.1:7777";
+    },
+    "+Profiles_GoAgent-GAE": "+Srv_GoAgent-GAE",
+    "+Srv_GoAgent-GAE": function(url, host, scheme) {
+        "use strict";
+        if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
+        return "PROXY 127.0.0.1:8089";
     },
     "+Profiles_GoAgent": "+Srv_GoAgent",
     "+Srv_GoAgent": function(url, host, scheme) {

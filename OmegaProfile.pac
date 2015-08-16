@@ -483,7 +483,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)javfree\.me$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)javideo\.info$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)javsharing\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
-        if (/(?:^|\.)jayxon\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)jbtalks\.cc$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)jinbushe\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)jingfeng\.info$/.test(host)) return "+Profiles_GoAgent-GAE";
@@ -1162,6 +1161,7 @@ var FindProxyForURL = function(init, profiles) {
     "+List_Page Monitor": function(url, host, scheme) {
         "use strict";
         if (false) return "+Profiles_GoAgent-GAE";
+        if (false) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {
@@ -1241,6 +1241,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)rarbg\.to$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)openstreetmap\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)soduso\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)jayxon\.com$/.test(host)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": "DIRECT",

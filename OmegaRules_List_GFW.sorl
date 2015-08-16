@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/8/11
+; Date: 2015/8/16
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -382,7 +382,6 @@ UrlRegex: ^http://(.[^/])*\.*\bhootsuite\.com/
 *.javfree.me
 *.javideo.info
 *.javsharing.com
-*.jayxon.com
 *.jbtalks.cc
 *.jinbushe.org
 *.jingfeng.info

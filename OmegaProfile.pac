@@ -1156,6 +1156,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)dw\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bmediafire\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bnyaa\.se\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)anti1984\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {

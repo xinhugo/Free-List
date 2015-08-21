@@ -1157,6 +1157,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http:\/\/(.[^\/])*\.*\bmediafire\.com\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bnyaa\.se\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)anti1984\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)nyti\.ms$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)vpnxunlu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)mpfinance\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {
@@ -1243,6 +1246,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)openstreetmap\.org$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)soduso\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)jayxon\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)rebecca-web\.com$/.test(host)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": "DIRECT",

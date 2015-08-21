@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/8/20
+; Date: 2015/8/22
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1056,3 +1056,6 @@ UrlRegex: ^http://(.[^/])*\.*\bmoneydj\.com/(KMDJ|kmdj)
 UrlRegex: ^http://(.[^/])*\.*\bmediafire\.com/
 UrlRegex: ^http://(.[^/])*\.*\bnyaa\.se/
 *.anti1984.com
+*.nyti.ms
+*.vpnxunlu.com
+*.mpfinance.com

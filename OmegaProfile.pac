@@ -34,6 +34,7 @@ var FindProxyForURL = function(init, profiles) {
         "use strict";
         if (/^(post|cwb)\.gov\.tw$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)googlesyndication\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)googletagservices\.com$/.test(host)) return "+Profiles_COW";
         return "+List_Japan";
     },
     "+List_Japan": function(url, host, scheme) {

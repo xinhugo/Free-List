@@ -1062,3 +1062,6 @@ UrlRegex: ^http://(.[^/])*\.*\bnyaa\.se/
 *.kankan.today
 *.kan.center
 *.dfzdaili.com
+*.hongkongtibetfilmfestival2015.com
+UrlRegex: ^http://(.[^/])*\.*\ba164\.edgecastcdn\.net/
+*.transformativeworks.org

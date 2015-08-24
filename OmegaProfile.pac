@@ -27,6 +27,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http(|s):\/\/www\.google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)\/maps(\/place|\?(cid|q)=)/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^http(|s):\/\/www\.google\.com\/voice\/[^resources|service|new|static]/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^www\.netflix\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(www\.|)h-douga\.net/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Direct-1";
     },
     "+List_Direct-1": "+List_Direct-2",
@@ -1164,6 +1165,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)kankan\.today$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)kan\.center$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)dfzdaili\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)hongkongtibetfilmfestival2015\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\ba164\.edgecastcdn\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)transformativeworks\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {
@@ -1252,6 +1256,11 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)jayxon\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)rebecca-web\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)cnpolitics\.org$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)minnano-av\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)bootstrapcdn\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)i-mobile\.co\.jp$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)microad\.jp$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)xvideos-field5\.com$/.test(host)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": "DIRECT",

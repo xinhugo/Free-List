@@ -1161,6 +1161,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)nyti\.ms$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)vpnxunlu\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)mpfinance\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)kankan\.today$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)kan\.center$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)dfzdaili\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {
@@ -1248,6 +1251,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)soduso\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)jayxon\.com$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)rebecca-web\.com$/.test(host)) return "+Profiles_COW";
+        if (/(?:^|\.)cnpolitics\.org$/.test(host)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": "DIRECT",

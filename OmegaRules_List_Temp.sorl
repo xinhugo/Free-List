@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/8/22
+; Date: 2015/8/24
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.adblockplus.org
@@ -80,3 +80,4 @@ UrlRegex: ^https://(.[^/])*\.*\bsharethis\.com/
 *.soduso.com
 *.jayxon.com
 *.rebecca-web.com
+*.cnpolitics.org

@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/8/31
+; Date: 2015/9/3
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1065,3 +1065,6 @@ UrlRegex: ^http://(.[^/])*\.*\bnyaa\.se/
 *.hongkongtibetfilmfestival2015.com
 UrlRegex: ^http://(.[^/])*\.*\ba164\.edgecastcdn\.net/
 *.transformativeworks.org
+*.xiaochuncnjp.com
+*.hexieshe.com
+*.xunluvpn.com

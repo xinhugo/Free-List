@@ -1168,6 +1168,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)hongkongtibetfilmfestival2015\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\ba164\.edgecastcdn\.net\//.test(url)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)transformativeworks\.org$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)xiaochuncnjp\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)hexieshe\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)xunluvpn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {

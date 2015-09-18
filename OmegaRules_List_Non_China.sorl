@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/8/24
+; Date: 2015/9/19
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 www.uukanshu.com
@@ -15,3 +15,4 @@ UrlRegex: ^http(|s)://www\.google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com
 UrlRegex: ^http(|s)://www\.google\.com/voice/[^resources|service|new|static]
 www.netflix.com
 HostRegex: (www\.|)h-douga\.net
+www.millionbook.net

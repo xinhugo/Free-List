@@ -28,6 +28,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^http(|s):\/\/www\.google\.com\/voice\/[^resources|service|new|static]/.test(url)) return "+Profiles_GoAgent-GAE";
         if (/^www\.netflix\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(www\.|)h-douga\.net/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^www\.millionbook\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Direct-1";
     },
     "+List_Direct-1": "+List_Direct-2",
@@ -1171,6 +1172,12 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)xiaochuncnjp\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)hexieshe\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/(?:^|\.)xunluvpn\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)jiruan\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\breferer\.pixplug\.in\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bapi\.i\.pixnet\.cc\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)nextmag\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^irs0\.4sqi\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bsmarturl\.it\//.test(url)) return "+Profiles_GoAgent-GAE";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {

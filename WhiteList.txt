@@ -1,7 +1,7 @@
 ﻿[Local Hosts]
 ## China Mainland Domains
 ## Get the latest database: https://github.com/xinhugo/Free-List/blob/master/White_List.txt
-## Last update: 2015-09-04
+## Last update: 2015-09-25
 ## Report an Issue: https://github.com/xinhugo/Free-List/issues
 .*\.cn
 .*\b0056\.cc
@@ -2467,6 +2467,7 @@
 .*\blandtu\.com
 .*\blangxi\.org
 .*\blangyeweb\.com
+.*\blanke\.cc
 .*\blanou3g\.com
 .*\blanree\.com
 .*\blanrenzhijia\.com

@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/9/19
+; Date: 2015/10/18
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1074,3 +1074,5 @@ UrlRegex: ^http://(.[^/])*\.*\bapi\.i\.pixnet\.cc/
 *.nextmag.com.tw
 irs0.4sqi.net
 UrlRegex: ^http://(.[^/])*\.*\bsmarturl\.it/
+UrlRegex: ^http://(.[^/])*\.*\bnews\.singtao\.ca/
+*.mycnnews.com

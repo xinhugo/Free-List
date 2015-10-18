@@ -1178,10 +1178,13 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)nextmag\.com\.tw$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^irs0\.4sqi\.net$/.test(host)) return "+Profiles_GoAgent-GAE";
         if (/^http:\/\/(.[^\/])*\.*\bsmarturl\.it\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/^http:\/\/(.[^\/])*\.*\bnews\.singtao\.ca\//.test(url)) return "+Profiles_GoAgent-GAE";
+        if (/(?:^|\.)mycnnews\.com$/.test(host)) return "+Profiles_GoAgent-GAE";
         return "+List_Page Monitor";
     },
     "+List_Page Monitor": function(url, host, scheme) {
         "use strict";
+        if (false) return "+Profiles_GoAgent-GAE";
         if (false) return "+Profiles_GoAgent-GAE";
         if (false) return "+Profiles_GoAgent-GAE";
         return "+List_Temp";
@@ -1272,6 +1275,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)microad\.jp$/.test(host)) return "+Profiles_COW";
         if (/(?:^|\.)xvideos-field5\.com$/.test(host)) return "+Profiles_COW";
         if (/^https:\/\/(.[^\/])*\.*\byahoo\.(com|com\.(hk|tw)|co\.jp)\//.test(url)) return "+Profiles_COW";
+        if (/^pics\.dmm\.co\.jp$/.test(host)) return "+Profiles_COW";
         return "+List_PAC";
     },
     "+List_PAC": "DIRECT",

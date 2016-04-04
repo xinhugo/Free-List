@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/10/18
+; Date: 2016/4/4
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.adblockplus.org
@@ -88,3 +88,4 @@ UrlRegex: ^https://(.[^/])*\.*\bsharethis\.com/
 *.xvideos-field5.com
 UrlRegex: ^https://(.[^/])*\.*\byahoo\.(com|com\.(hk|tw)|co\.jp)/
 pics.dmm.co.jp
+*.dbanotes.net

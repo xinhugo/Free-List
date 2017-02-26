@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2016/4/4
+; Date: 2017/2/26
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -235,6 +235,7 @@
 *.extremetube.com
 *.extremetube.phncdn.com
 *.facebook.com
+*.facebook.net
 *.fangeming.com
 *.fanqianghou.com
 *.farxian.com
@@ -304,6 +305,7 @@
 *.h-china.org
 *.hcocoa.com
 *.hd1080.org
+*.hdtongzhi.com
 *.hdtransform.com
 *.hechaji.com
 *.helpzhuling.org
@@ -446,6 +448,7 @@
 *.loved.hk
 *.lrip.org
 *.lsd.org.hk
+*.lsj1080.cc
 *.ltn.com.tw
 *.lvv2.com
 *.mail-archive.com
@@ -478,10 +481,12 @@
 *.msguancha.com
 *.myca168.com
 *.mychinanews.com
+*.mychinese.news
 *.mycnnews.com
 *.mycould.com
 *.myfreecams.com
 *.myfreshnet.com
+*.myhd1080.tv
 *.myradio.com.hk
 *.myradio.hk
 *.mysinablog.com
@@ -637,6 +642,7 @@
 *.sitebro.tw
 *.slideshare.net
 *.smhric.org
+*.smtianxia.com
 *.softether-download.com
 *.sohcradio.com
 *.sondelespoir.org

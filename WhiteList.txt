@@ -1,7 +1,7 @@
 ﻿[Local Hosts]
 ## China Mainland Domains
 ## Get the latest database: https://github.com/xinhugo/Free-List/blob/master/WhiteList.txt
-## Last update: 2015-09-26
+## Last update: 2015-10-09
 ## Report an Issue: https://github.com/xinhugo/Free-List/issues
 .*\.cn
 .*\b0056\.cc
@@ -1584,6 +1584,7 @@
 .*\bfglt\.net
 .*\bfhldns\.com
 .*\bfillseo\.com
+.*\bwww\.firefox\.net\.cn
 .*\bfilseclab\.com
 .*\bfishjava\.com
 .*\bfixqz\.com

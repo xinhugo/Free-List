@@ -1,91 +1,92 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2016/4/4
+; Date: 2018/11/17
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.adblockplus.org
+*.adobe.com
 *.aida64.com
+*.akamaihd.net
 *.amazonaws.com
+*.apple.com
+*.aszw.com
+*.bootstrapcdn.com
 *.c.bigcache.googleapis.com
 *.chinatimes.com
 *.chinesetoday.com
 *.ckcdn.com
 *.cloudmonitor.ca.com
+*.cnpolitics.org
 *.cpuid.com
 *.crystalmark.info
+*.dbanotes.net
 *.eff.org
 *.evernote.com
 *.file-static.com
 *.ftchinese.com
 *.gimp.org
+*.git.io
 *.github.com
 *.github.io
 *.githubusercontent.com
 *.gravatar.com
+*.icloud.com
 *.imgburn.com
 *.imgur.com
+*.i-mobile.co.jp
+*.jayxon.com
 *.libreoffice.org
 *.life.com.tw
+*.microad.jp
+*.minnano-av.com
 *.notepad-plus-plus.org
+*.openstreetmap.org
+*.rarbg.to
+*.rebecca-web.com
+*.soduso.com
 *.sourceforge.net
 *.static-file.com
 *.tampermonkey.net
 *.wikileaks.org
 *.wikilivres.ca
 *.woolyss.com
+*.wp.com
+*.wp.me
+*.xvideos-field5.com
 *.yowindow.com
 UrlRegex: ^http(|s)://windows\.microsoft\.com/.*/windows/themes
 UrlRegex: ^http://(.[^/])*\.*\bdropboxusercontent\.com/
 UrlRegex: ^https://(.[^/])*\.*\baddthis\.com/
+UrlRegex: ^https://(.[^/])*\.*\barchive\.is/
+UrlRegex: ^https://(.[^/])*\.*\barchive\.org/
 UrlRegex: ^https://(.[^/])*\.*\bbtdigg\.org/
+UrlRegex: ^https://(.[^/])*\.*\bchange\.org/
 UrlRegex: ^https://(.[^/])*\.*\bcloudflare\.com/
 UrlRegex: ^https://(.[^/])*\.*\bcloudfront\.net/
 UrlRegex: ^https://(.[^/])*\.*\bdropbox\.com/
+UrlRegex: ^https://(.[^/])*\.*\bduckduckgo\.com/
 UrlRegex: ^https://(.[^/])*\.*\bfeedly\.com/
 UrlRegex: ^https://(.[^/])*\.*\bgetpocket\.com/
+UrlRegex: ^https://(.[^/])*\.*\bhootsuite\.com/
 UrlRegex: ^https://(.[^/])*\.*\binstagram.com/
+UrlRegex: ^https://(.[^/])*\.*\bmassrelevance\.com/
 UrlRegex: ^https://(.[^/])*\.*\bmediawiki\.org/
 UrlRegex: ^https://(.[^/])*\.*\bopendns\.com/
+UrlRegex: ^https://(.[^/])*\.*\bpastebin\.com/
 UrlRegex: ^https://(.[^/])*\.*\bpsiphon\.ca/
 UrlRegex: ^https://(.[^/])*\.*\bpsiphon3\.com/
 UrlRegex: ^https://(.[^/])*\.*\bptt\.cc/
+UrlRegex: ^https://(.[^/])*\.*\bscribd\.com/
+UrlRegex: ^https://(.[^/])*\.*\bsharethis\.com/
+UrlRegex: ^https://(.[^/])*\.*\bsitemeter\.com/
 UrlRegex: ^https://(.[^/])*\.*\bthestandnews\.com/
 UrlRegex: ^https://(.[^/])*\.*\btorproject\.org/
+UrlRegex: ^https://(.[^/])*\.*\btorrentz\.eu/
+UrlRegex: ^https://(.[^/])*\.*\bvimeo\.com/
 UrlRegex: ^https://(.[^/])*\.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org/
 UrlRegex: ^https://(.[^/])*\.*\bwikimediafoundation\.org/
 UrlRegex: ^https://(.[^/])*\.*\bwiktionary\.org/
-UrlRegex: ^https://(.[^/])*\.*\bduckduckgo\.com/
-UrlRegex: ^https://(.[^/])*\.*\bpastebin\.com/
-UrlRegex: ^https://(.[^/])*\.*\bsitemeter\.com/
-UrlRegex: ^https://(.[^/])*\.*\barchive\.org/
-UrlRegex: ^https://(.[^/])*\.*\barchive\.is/
-www.teamviewer.com
-*.akamaihd.net
-*.adobe.com
-*.wp.com
-*.wp.me
-*.git.io
-UrlRegex: ^https://(.[^/])*\.*\bhootsuite\.com/
-UrlRegex: ^https://(.[^/])*\.*\btorrentz\.eu/
-UrlRegex: ^https://(.[^/])*\.*\bscribd\.com/
-UrlRegex: ^https://(.[^/])*\.*\bchange\.org/
-UrlRegex: ^https://(.[^/])*\.*\bmassrelevance\.com/
-UrlRegex: ^https://(.[^/])*\.*\bvimeo\.com/
 UrlRegex: ^https://(.[^/])*\.*\bwordpress\.com/
 UrlRegex: ^https://(.[^/])*\.*\bxing\.com/
-*.aszw.com
-UrlRegex: ^https://(.[^/])*\.*\bsharethis\.com/
-*.rarbg.to
-*.openstreetmap.org
-*.soduso.com
-*.jayxon.com
-*.rebecca-web.com
-*.cnpolitics.org
-*.minnano-av.com
-*.bootstrapcdn.com
-*.i-mobile.co.jp
-*.microad.jp
-*.xvideos-field5.com
 UrlRegex: ^https://(.[^/])*\.*\byahoo\.(com|com\.(hk|tw)|co\.jp)/
-pics.dmm.co.jp
-*.dbanotes.net
+www.teamviewer.com

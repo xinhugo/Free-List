@@ -1,8 +1,8 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2015/8/22
+; Date: 2018/11/17
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
-HostRegex: ^(post|cwb)\.gov\.tw$
-*.googlesyndication.com
-*.googletagservices.com
+HostRegex: ^(sp|www|actress)\.dmm\.co\.jp$
+www.dmm.com
+www.r18.com

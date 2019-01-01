@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2018/11/18
+; Date: 2019/1/1
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1182,3 +1182,9 @@ support.mozilla.org
 *.lsj1080.cc
 *.medium.com
 *.google.com
+*.firebaseio.com
+*.dropboxusercontent.com
+*.hksilicon.com
+*.startpage.com
+*.resilio.com
+*.globalvoices.org

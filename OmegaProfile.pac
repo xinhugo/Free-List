@@ -1255,6 +1255,12 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)lsj1080\.cc$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)medium\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)google\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)firebaseio\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)dropboxusercontent\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)hksilicon\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)startpage\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)resilio\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)globalvoices\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

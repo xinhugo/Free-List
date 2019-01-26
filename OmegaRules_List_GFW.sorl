@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2019/1/1
+; Date: 2019/1/26
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -220,6 +220,7 @@
 *.dphk.org
 *.dpp.org.tw
 *.dropbox.com
+*.dropboxusercontent.com
 *.drsunacademy.com
 *.dtiblog.com
 *.duga.jp
@@ -270,6 +271,7 @@
 *.filecroco.com
 *.filesor.com
 *.filestube.com
+*.firebaseio.com
 *.firepic.org
 *.fmnnow.com
 *.foofind.is
@@ -307,14 +309,17 @@
 *.gigacircle.com
 *.git-scm.com
 *.gittigidiyor.com
+*.globalvoices.org
 *.globalvoicesonline.org
 *.gmail.com
 *.goagent.biz
 *.goo.gl
 *.google
+*.google.com
 *.googlecode.com
 *.googlesource.com
 *.googletagmanager.com
+*.googleusercontent.com
 *.gopetition.com
 *.gospelherald.com
 *.gospelherald.com.hk
@@ -362,6 +367,7 @@
 *.hkptu.org
 *.hk-pub.com
 *.hkreporter.com
+*.hksilicon.com
 *.hkumall.com
 *.hkupop.hku.hk
 *.hkusu.org
@@ -480,6 +486,7 @@
 *.loved.hk
 *.lrip.org
 *.lsd.org.hk
+*.lsj1080.cc
 *.lsj1080.net
 *.lsj1080.tv
 *.ltn.com.tw
@@ -488,6 +495,7 @@
 *.maiplus.com
 *.malaysiakini.com
 *.mattwilcox.net
+*.medium.com
 *.mefeedia.com
 *.memehk.com
 *.merit-times.com
@@ -513,6 +521,7 @@
 *.mokeedev.com
 *.molihua.org
 *.moonbbs.com
+*.mozilla.net
 *.mp3ye.eu
 *.mpfinance.com
 *.msguancha.com
@@ -605,6 +614,7 @@
 *.piring.com
 *.pixshock.net
 *.playno1.com
+*.playno1.com.tw
 *.popvote.hk
 *.popyard.com
 *.popyard.org
@@ -636,6 +646,7 @@
 *.relink.us
 *.rendsmap.com
 *.renminbao.com
+*.resilio.com
 *.restorehk.com
 *.reuters.com
 *.rfa.org
@@ -699,6 +710,7 @@
 *.southnews.com.tw
 *.spankwire.com
 *.spring4u.info
+*.startpage.com
 *.stgloballink.com
 *.stickeraction.com
 *.stooorage.com
@@ -803,6 +815,7 @@
 *.ultrareach.com
 *.unblock.cn.com
 *.uncyclopedia.tw
+*.upmedia.mg
 *.uproxy.org
 *.ustream.tv
 *.utorrent.com
@@ -921,6 +934,7 @@
 184.154.128.246
 75.119.209.87
 ad.dmm.com
+addons-amo.cdn.mozilla.net
 bbs.51.ca
 bufferapp.com
 c.statcounter.com
@@ -984,6 +998,7 @@ mirrorbits.lineageos.org
 pds.nasa.gov
 plaza.jp.rakuten-static.com
 s1.pir.fm
+support.mozilla.org
 times.hinet.net
 torrent.ubuntu.com
 tweets.seraph.me
@@ -1174,17 +1189,3 @@ www.melauto.it
 www.resilio.com
 www.savetube.com
 yuming.flnet.org
-addons-amo.cdn.mozilla.net
-support.mozilla.org
-*.mozilla.net
-*.playno1.com
-*.playno1.com.tw
-*.lsj1080.cc
-*.medium.com
-*.google.com
-*.firebaseio.com
-*.dropboxusercontent.com
-*.hksilicon.com
-*.startpage.com
-*.resilio.com
-*.globalvoices.org

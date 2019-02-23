@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2019/1/26
+; Date: 2019/2/23
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -30,6 +30,7 @@
 *.alliance.org.hk
 *.allinfa.com
 *.am730.com.hk
+*.amazon.co.jp
 *.amazonwebapps.com
 *.amnesty.org
 *.amnesty.tw
@@ -80,6 +81,7 @@
 *.bjs.org
 *.bjzc.org
 *.blinkx.com
+*.blockedinchina.net
 *.blog.jp
 *.blog.xuite.net
 *.blog.yam.com
@@ -186,6 +188,7 @@
 *.c--spanarchives.-org
 *.c-spanvideo.org
 *.cts.com.tw
+*.cw.com.tw
 *.d100.net
 *.d2pass.com
 *.dadazim.com
@@ -280,10 +283,12 @@
 *.forum.tvb.com
 *.fqrouter.com
 *.free4u.com.ar
+*.freebrowser.org
 *.freedomhouse.org
 *.freeproxyserver.net
 *.freeshadow.info
 *.freetufu.com
+*.freewechat.com
 *.freeweibo.com
 *.friendfeed.com
 *.fring.com
@@ -350,6 +355,7 @@
 *.hitwister.com
 *.hjav.org
 *.hjclub.info
+*.hk01.com
 *.hkatvnews.com
 *.hkchurch.org
 *.hkci.org.hk
@@ -669,6 +675,7 @@
 *.sanmin.com.tw
 *.sanminjiaoliu.net
 *.savemedia.com
+*.savetube.com
 *.savevid.com
 *.saveyoutube.com
 *.scholarism.com
@@ -912,6 +919,7 @@
 *.youthwant.com.tw
 *.youtu.be
 *.youtube.com
+*.youtubeinmp3.com
 *.ytimg.com
 *.yzzk.com
 *.zhengjian.org
@@ -1183,9 +1191,7 @@ UrlRegex: ^https://www\.wireshark\.org/
 vlog.xuite.net
 wenda.google.com.hk
 woeser.middle-way.net
-www.blockedinchina.net
 www.hbogo.com
 www.melauto.it
 www.resilio.com
-www.savetube.com
 yuming.flnet.org

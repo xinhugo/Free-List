@@ -103,6 +103,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)alliance\.org\.hk$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)allinfa\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)am730\.com\.hk$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)amazon\.co\.jp$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)amazonwebapps\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)amnesty\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)amnesty\.tw$/.test(host)) return "+Profiles_SS/Psiphon";
@@ -153,6 +154,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)bjs\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)bjzc\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)blinkx\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)blockedinchina\.net$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)blog\.jp$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)blog\.xuite\.net$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)blog\.yam\.com$/.test(host)) return "+Profiles_SS/Psiphon";
@@ -259,6 +261,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)c--spanarchives\.-org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)c-spanvideo\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)cts\.com\.tw$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)cw\.com\.tw$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)d100\.net$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)d2pass\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)dadazim\.com$/.test(host)) return "+Profiles_SS/Psiphon";
@@ -353,10 +356,12 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)forum\.tvb\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)fqrouter\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)free4u\.com\.ar$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)freebrowser\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)freedomhouse\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)freeproxyserver\.net$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)freeshadow\.info$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)freetufu\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)freewechat\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)freeweibo\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)friendfeed\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)fring\.com$/.test(host)) return "+Profiles_SS/Psiphon";
@@ -423,6 +428,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)hitwister\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)hjav\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)hjclub\.info$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)hk01\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)hkatvnews\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)hkchurch\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)hkci\.org\.hk$/.test(host)) return "+Profiles_SS/Psiphon";
@@ -742,6 +748,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)sanmin\.com\.tw$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)sanminjiaoliu\.net$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)savemedia\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)savetube\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)savevid\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)saveyoutube\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)scholarism\.com$/.test(host)) return "+Profiles_SS/Psiphon";
@@ -985,6 +992,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)youthwant\.com\.tw$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)youtu\.be$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)youtube\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)youtubeinmp3\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)ytimg\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)yzzk\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)zhengjian\.org$/.test(host)) return "+Profiles_SS/Psiphon";
@@ -1256,11 +1264,9 @@ var FindProxyForURL = function(init, profiles) {
         if (/^vlog\.xuite\.net$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/^wenda\.google\.com\.hk$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/^woeser\.middle-way\.net$/.test(host)) return "+Profiles_SS/Psiphon";
-        if (/^www\.blockedinchina\.net$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/^www\.hbogo\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/^www\.melauto\.it$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/^www\.resilio\.com$/.test(host)) return "+Profiles_SS/Psiphon";
-        if (/^www\.savetube\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/^yuming\.flnet\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         return "+List_Temp";
     },

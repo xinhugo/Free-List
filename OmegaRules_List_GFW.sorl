@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2019/8/19
+; Date: 2019/9/1
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1212,3 +1212,5 @@ www.hbogo.com
 www.melauto.it
 www.resilio.com
 yuming.flnet.org
+*.stimme-de.de
+*.reutersmedia.net

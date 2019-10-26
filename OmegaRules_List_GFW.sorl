@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2019/9/1
+; Date: 2019/10/26
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1214,3 +1214,16 @@ www.resilio.com
 yuming.flnet.org
 *.stimme-de.de
 *.reutersmedia.net
+*.book.com.tw
+*.reddit.com
+*.line-scdn.net
+*.mtlmp4.com
+*.6do.news
+*.six-degrees.io
+*.hkcnews.com
+*.vocus.cc
+*.newhighlandvision.com
+*.chinatcc.gov.cn
+*.mono.sh
+*.mono.ac
+*.a1080hd.com

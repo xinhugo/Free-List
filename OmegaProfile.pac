@@ -1288,6 +1288,19 @@ var FindProxyForURL = function(init, profiles) {
         if (/^yuming\.flnet\.org$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)stimme-de\.de$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)reutersmedia\.net$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)book\.com\.tw$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)reddit\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)line-scdn\.net$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)mtlmp4\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)6do\.news$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)six-degrees\.io$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)hkcnews\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)vocus\.cc$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)newhighlandvision\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)chinatcc\.gov\.cn$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)mono\.sh$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)mono\.ac$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)a1080hd\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

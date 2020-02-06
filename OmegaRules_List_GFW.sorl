@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2019/10/26
+; Date: 2020/2/6
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1227,3 +1227,19 @@ yuming.flnet.org
 *.mono.sh
 *.mono.ac
 *.a1080hd.com
+*.discuss.com.hk
+*.zhongzilou.com
+*.limbopro.xyz
+*.doubibackup.com
+*.flyzy2005.com
+*.hzy.pw
+*.fastly.net
+*.pinimg.com
+*.scdn.co
+www.asus.com
+*.t.me
+*.quora.com
+*.quoracdn.net
+*.ghd1080.com
+*.c080.me
+*.tdesktop.com

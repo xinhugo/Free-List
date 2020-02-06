@@ -1301,6 +1301,22 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)mono\.sh$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)mono\.ac$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)a1080hd\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)discuss\.com\.hk$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)zhongzilou\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)limbopro\.xyz$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)doubibackup\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)flyzy2005\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)hzy\.pw$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)fastly\.net$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)pinimg\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)scdn\.co$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/^www\.asus\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)t\.me$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)quora\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)quoracdn\.net$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)ghd1080\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)c080\.me$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)tdesktop\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

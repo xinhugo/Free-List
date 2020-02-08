@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2020/2/6
+; Date: 2020/2/8
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1008,7 +1008,6 @@ HostRegex: ^.*\bkagoya\.(net|jp)$
 HostRegex: ^.*\bkanzhongguo\.(com(\.au|)|eu)$
 HostRegex: ^.*\bmingpao(|ny|tor|van|canada|news|monthly)\.com$
 HostRegex: ^.*\bnext(tv|vod)\.com\.tw$
-HostRegex: ^.*\bntdtv(|-dc)\.com$
 HostRegex: ^.*\bthepiratebay\.(s(e|x)|org)$
 HostRegex: ^.*\bthywords\.com(|\.tw)$
 HostRegex: ^.*\bvoa(fanti|chinese|cantonese|tibetan(|english))\.com$
@@ -1243,3 +1242,7 @@ www.asus.com
 *.ghd1080.com
 *.c080.me
 *.tdesktop.com
+*.ulifestyle.com.hk
+*.hketgroup.com
+*.ntdtv.com
+*.ntdtv-dc.com

@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2020/2/8
+; Date: 2020/3/25
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1246,3 +1246,16 @@ www.asus.com
 *.hketgroup.com
 *.ntdtv.com
 *.ntdtv-dc.com
+*.adsrvr.org
+*.cincainews.com
+*.malaymail.com
+*.spotify.com
+*.smh.com.au
+*.outbrain.com
+*.ffx.io
+*.adsafeprotected.com
+*.gnews.org
+*.tantannews.com
+*.fanqiang.network
+*.telegra.ph
+*.c800.me

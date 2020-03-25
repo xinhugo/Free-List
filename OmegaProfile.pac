@@ -1323,6 +1323,19 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)hketgroup\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)ntdtv\.com$/.test(host)) return "+Profiles_SS/Psiphon";
         if (/(?:^|\.)ntdtv-dc\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)adsrvr\.org$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)cincainews\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)malaymail\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)spotify\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)smh\.com\.au$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)outbrain\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)ffx\.io$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)adsafeprotected\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)gnews\.org$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)tantannews\.com$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)fanqiang\.network$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)telegra\.ph$/.test(host)) return "+Profiles_SS/Psiphon";
+        if (/(?:^|\.)c800\.me$/.test(host)) return "+Profiles_SS/Psiphon";
         return "+List_Temp";
     },
     "+List_Temp": function(url, host, scheme) {

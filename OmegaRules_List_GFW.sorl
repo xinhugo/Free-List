@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2020/3/25
+; Date: 2020/6/7
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1259,3 +1259,10 @@ www.asus.com
 *.fanqiang.network
 *.telegra.ph
 *.c800.me
+*.ipkmedia.com
+*.pincong.rocks
+ftp.mozilla.org
+*.ssr.tools
+*.twgreatdaily.com
+*.hket.com
+*.v2ex.com

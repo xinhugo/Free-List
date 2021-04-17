@@ -1,12 +1,13 @@
 [SwitchyOmega Conditions]
 ; Require: SwitchyOmega >= 2.3.2
-; Date: 2021/3/13
+; Date: 2021/4/17
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
 *.1080.tw
 *.1688.com.au
 *.1dpw.com
+*.1pondo.tv
 *.2008xianzhang.info
 *.24smile.org
 *.4shared.com
@@ -23,14 +24,18 @@
 *.ablwang.com
 *.aboluowang.com
 *.actimes.com.au
+*.adblockplus.org
+*.adobe.com
 *.adsafeprotected.com
 *.adsrvr.org
 *.adultblogranking.com
 *.aforcemorepowerful.org
 *.ahd1080.com
+*.aida64.com
 *.aisex.com
 *.aishangyou.tube
 *.ait.org.tw
+*.akamaihd.net
 *.alabout.com
 *.alicejapan.co.jp
 *.aliengu.com
@@ -38,6 +43,7 @@
 *.allinfa.com
 *.am730.com.hk
 *.amazon.co.jp
+*.amazonaws.com
 *.amazonwebapps.com
 *.amnesty.org
 *.amnesty.tw
@@ -56,6 +62,7 @@
 *.archive.org
 *.asahichinese.com
 *.asianews.it
+*.aszw.com
 *.atchinese.com
 *.atdmt.com
 *.atgfw.org
@@ -107,6 +114,7 @@
 *.bod.asia
 *.book.com.tw
 *.books.com.tw
+*.bootstrapcdn.com
 *.botanwang.com
 *.botanwang.org
 *.bowenpress.com
@@ -124,6 +132,7 @@
 *.businessweek.com
 *.bwp.im
 *.bx.tl
+*.c.bigcache.googleapis.com
 *.c000.me
 *.c080.me
 *.c800.me
@@ -166,11 +175,13 @@
 *.chinapress.com.my
 *.chinarightsia.org
 *.chinatcc.gov.cn
+*.chinatimes.com
 *.china-week.com
 *.chinaworker.info
 *.chinesedaily.com
 *.chinesenewsnet.com
 *.chinesepen.org
+*.chinesetoday.com
 *.chosun.com
 *.christianstudy.com
 *.christiantimes.org.hk
@@ -185,11 +196,15 @@
 *.civicparty.hk
 *.civilhrfront.org
 *.civilmedia.tw
+*.ck101.com
+*.ckcdn.com
 *.clickme.net
+*.cloudmonitor.ca.com
 *.cna.com.tw
 *.cnd.org
 *.cnliberals.com
 *.cnn.com
+*.cnpolitics.org
 *.cnyes.com
 *.codeproject.com
 *.comefromchina.com
@@ -197,10 +212,12 @@
 *.cool18.com
 *.coolloud.org.tw
 *.cotweet.com
+*.cpuid.com
 *.crazys.cc
 *.creaders.net
 *.creadersnet.com
 *.crwdcntrl.net
+*.crystalmark.info
 *.c--spanarchives.-org
 *.c-spanvideo.org
 *.cts.com.tw
@@ -212,6 +229,7 @@
 *.dalailamaworld.com
 *.danwei.org
 *.daolan.net
+*.dbanotes.net
 *.del.icio.us
 *.democraticchina.org
 *.democrats.org
@@ -260,6 +278,7 @@
 *.edicypages.com
 *.edoors.com
 *.efcc.org.hk
+*.eff.org
 *.eic-av.com
 *.e-info.org.tw
 *.elpais.com
@@ -271,8 +290,10 @@
 *.es-visiontimes.com
 *.etaiwannews.com
 *.ettoday.net
+*.evernote.com
 *.extremetube.com
 *.extremetube.phncdn.com
+*.eyny.com
 *.facebook.com
 *.facebook.net
 *.fangeming.com
@@ -294,6 +315,7 @@
 *.ffx.io
 *.filecroco.com
 *.filesor.com
+*.file-static.com
 *.filestube.com
 *.firebaseio.com
 *.firepic.org
@@ -315,6 +337,7 @@
 *.friendfeed.com
 *.fring.com
 *.frontlinedefenders.org
+*.ftchinese.com
 *.fukugan.com
 *.fuli.ba
 *.fullyillustrated.com
@@ -335,7 +358,11 @@
 *.ggpht.com
 *.ghd1080.com
 *.gigacircle.com
+*.gimp.org
+*.git.io
 *.github.com
+*.github.io
+*.githubusercontent.com
 *.git-scm.com
 *.gittigidiyor.com
 *.globalvoices.org
@@ -351,11 +378,13 @@
 *.googlesource.com
 *.googletagmanager.com
 *.googleusercontent.com
+*.googlevideo.com
 *.gopetition.com
 *.gospelherald.com
 *.gospelherald.com.hk
 *.gov.tw
 *.gpass1.com
+*.gravatar.com
 *.greatfire.org
 *.greatfirewallofchina.org
 *.greatzhonghua.org
@@ -445,13 +474,16 @@
 *.imagevenue.com
 *.imagezilla.net
 *.img.ly
+*.imgburn.com
 *.imgchili.com
 *.imgchili.net
 *.imgdino.com
 *.imgkeep.com
 *.imgly.net
 *.imgtiger.com
+*.imgur.com
 *.immoral.jp
+*.i-mobile.co.jp
 *.inmediahk.net
 *.inote.tw
 *.inside.com.tw
@@ -478,6 +510,7 @@
 *.javfree.me
 *.javideo.info
 *.javsharing.com
+*.jayxon.com
 *.jbtalks.cc
 *.jinbushe.org
 *.jingfeng.info
@@ -510,6 +543,8 @@
 *.lesoir.be
 *.letscorp.net
 *.libertytimes.com.tw
+*.libreoffice.org
+*.life.com.tw
 *.limbopro.xyz
 *.lineageosrom.com
 *.line-scdn.net
@@ -547,11 +582,13 @@
 *.merlinblog.xyz
 *.metrolife.ca
 *.metroradio.com.hk
+*.microad.jp
 *.minghui.org
 *.mingjinglishi.com
 *.mingjingnews.com
 *.mingpaonews.com
 *.mingshengbao.com
+*.minnano-av.com
 *.minus.com
 *.minzhuzhongguo.org
 *.mirrorbooks.com
@@ -608,6 +645,7 @@
 *.nicovideo.jp
 *.nobel.se
 *.nobelprize.org
+*.notepad-plus-plus.org
 *.notipage.com
 *.nownews.com
 *.nps.gov
@@ -633,6 +671,7 @@
 *.onlinestuffs.com
 *.open.com.hk
 *.opendemocracy.net
+*.openstreetmap.org
 *.orientaldaily.com.my
 *.orientaldaily.on.cc
 *.orzhd.com
@@ -695,8 +734,10 @@
 *.radioaustralia.net.au
 *.ranyunfei.com
 *.rapbull.net
+*.rarbg.to
 *.rcinet.ca
 *.readingtimes.com.tw
+*.rebecca-web.com
 *.recovery.org.tw
 *.redchinacn.org
 *.reddit.com
@@ -765,6 +806,7 @@
 *.slideshare.net
 *.smh.com.au
 *.smhric.org
+*.soduso.com
 *.softether-download.com
 *.sohcradio.com
 *.sondelespoir.org
@@ -774,12 +816,14 @@
 *.soundofhope.kr
 *.soundofhope.org
 *.soup-dev.com
+*.sourceforge.net
 *.southnews.com.tw
 *.spankwire.com
 *.spotify.com
 *.spring4u.info
 *.ssr.tools
 *.startpage.com
+*.static-file.com
 *.steemit.com
 *.stgloballink.com
 *.stickeraction.com
@@ -805,6 +849,7 @@
 *.taiwandaily.net
 *.taiwanus.net
 *.talkonly.net
+*.tampermonkey.net
 *.tantannews.com
 *.tavis.tw
 *.tca.org.tw
@@ -951,10 +996,15 @@
 *.wikia.net
 *.wikia.nocookie.net
 *.wikia-beacon.com
+*.wikileaks.org
+*.wikilivres.ca
 *.wiztechnologies.jp
 *.wn.com
+*.woolyss.com
 *.worldcat.org
 *.worldjournal.com
+*.wp.com
+*.wp.me
 *.wrchina.org
 *.wretch.cc
 *.wuala.com
@@ -976,6 +1026,8 @@
 *.xtube.com
 *.xuehua.us
 *.xunluvpn.com
+*.xvideos.com
+*.xvideos-field5.com
 *.xvideosmatome.net
 *.xys.org
 *.yamedia.tw
@@ -994,6 +1046,7 @@
 *.youtu.be
 *.youtube.com
 *.youtubeinmp3.com
+*.yowindow.com
 *.ytimg.com
 *.yzzk.com
 *.zhengjian.org
@@ -1041,6 +1094,7 @@ hcd-1.imgbox.com
 hk03dl.com
 HostRegex: ^((.+\.c\.doc-0-0-sj\.|)sj|ci\d{1,2}|oauth|webcache|\d-ps|uds|producer|lh\d|s\d|.+-opensocial|clients\d|translate|mail-attachment|.+-docs)\.googleusercontent\.com$
 HostRegex: ^((id|scholar|news|accounts|adwords|books|images|khms\d|www|blogsearch|cse|encrypted|m|translate)\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)$
+HostRegex: ^((uploads\.|)code(|\.l)|.*\bdocs|doc|.*\bdrive|play|plus|plus\.url|buzz|profiles|mail|apis|support|wallet|checkout|talkgadget|appengine|store|security|myaccount|chrome|contacts|safebrowsing(|-cache|\.clients)|calendar|clients\d|mt(|s)\d|picasa\w*|sites|fusion|reader|feed\w*|input|research|inbox|mw\d|gg|peering|events|fit|tools|music|on|photo(|s))\.google\.com$
 HostRegex: ^(csi|maps|encrypted-tbn\d|ssl|www|t\d|play-music)\.gstatic\.com$
 HostRegex: ^(daily|)news\.sina\.com(\.(hk|tw)|)$
 HostRegex: ^(feedproxy|feedburner|hangouts|keep)\.google\.com$
@@ -1067,11 +1121,13 @@ HostRegex: ^.*\bkagoya\.(net|jp)$
 HostRegex: ^.*\bkanzhongguo\.(com(\.au|)|eu)$
 HostRegex: ^.*\bmingpao(|ny|tor|van|canada|news|monthly)\.com$
 HostRegex: ^.*\bnext(tv|vod)\.com\.tw$
+HostRegex: ^.*\bntdtv(|-dc)\.com$
 HostRegex: ^.*\bthepiratebay\.(s(e|x)|org)$
 HostRegex: ^.*\bthywords\.com(|\.tw)$
 HostRegex: ^.*\bvoa(fanti|chinese|cantonese|tibetan(|english))\.com$
 HostRegex: ^.*\bvoanews\.(com|eu)$
 HostRegex: ^.*\bwsj\.(com|net)$
+HostRegex: ^.*\byoutube\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|cn|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)$
 HostRegex: ^38\.103\.161\.\d{1,3}$
 images.secdns.com
 international.sueddeutsche.de
@@ -1079,6 +1135,7 @@ irs0.4sqi.net
 libs.pixfs.net
 mirrorbits.lineageos.org
 pds.nasa.gov
+pics.dmm.co.jp
 plaza.jp.rakuten-static.com
 s1.pir.fm
 sendtokindle.amazon.cn
@@ -1087,7 +1144,9 @@ times.hinet.net
 torrent.ubuntu.com
 tweets.seraph.me
 twimg.edgesuite.net
+UrlRegex: ^http(|s)://(.[^/])*\.*\bak\.live\.cntv\.cn/z/
 UrlRegex: ^http(|s)://\d+\.client-channel\.google\.com/client-channel/js/
+UrlRegex: ^http(|s)://windows\.microsoft\.com/.*/windows/themes
 UrlRegex: ^http://(.[^/])*\.*\b(home|forum)\.gamer\.com\.tw
 UrlRegex: ^http://(.[^/])*\.*\b(news|blog)\.cnyes\.com/
 UrlRegex: ^http://(.[^/])*\.*\b(news|popblog)\.tvbs\.com\.tw/
@@ -1261,14 +1320,51 @@ UrlRegex: ^http://www\.kwcg\.ca/forum
 UrlRegex: ^http://www\.linkedin\.com/countserv/count/
 UrlRegex: ^http://www\.manictime\.com/setup/
 UrlRegex: ^http://www\.marxists\.org/chinese
+UrlRegex: ^https://(.[^/])*\.*\baddthis\.com/
+UrlRegex: ^https://(.[^/])*\.*\barchive\.is/
+UrlRegex: ^https://(.[^/])*\.*\barchive\.org/
+UrlRegex: ^https://(.[^/])*\.*\bbtdigg\.org/
+UrlRegex: ^https://(.[^/])*\.*\bchange\.org/
+UrlRegex: ^https://(.[^/])*\.*\bcloudflare\.com/
+UrlRegex: ^https://(.[^/])*\.*\bcloudfront\.net/
+UrlRegex: ^https://(.[^/])*\.*\bdropbox\.com/
+UrlRegex: ^https://(.[^/])*\.*\bduckduckgo\.com/
+UrlRegex: ^https://(.[^/])*\.*\bfeedly\.com/
+UrlRegex: ^https://(.[^/])*\.*\bgetpocket\.com/
+UrlRegex: ^https://(.[^/])*\.*\bhootsuite\.com/
+UrlRegex: ^https://(.[^/])*\.*\binstagram.com/
+UrlRegex: ^https://(.[^/])*\.*\bmassrelevance\.com/
+UrlRegex: ^https://(.[^/])*\.*\bmediawiki\.org/
 UrlRegex: ^https://(.[^/])*\.*\bonebitbug\.me/
+UrlRegex: ^https://(.[^/])*\.*\bopendns\.com/
+UrlRegex: ^https://(.[^/])*\.*\bpastebin\.com/
+UrlRegex: ^https://(.[^/])*\.*\bpsiphon\.ca/
+UrlRegex: ^https://(.[^/])*\.*\bpsiphon3\.com/
+UrlRegex: ^https://(.[^/])*\.*\bptt\.cc/
+UrlRegex: ^https://(.[^/])*\.*\bscribd\.com/
+UrlRegex: ^https://(.[^/])*\.*\bsharethis\.com/
+UrlRegex: ^https://(.[^/])*\.*\bsitemeter\.com/
+UrlRegex: ^https://(.[^/])*\.*\bthestandnews\.com/
+UrlRegex: ^https://(.[^/])*\.*\btorproject\.org/
+UrlRegex: ^https://(.[^/])*\.*\btorrentz\.eu/
+UrlRegex: ^https://(.[^/])*\.*\bvimeo\.com/
+UrlRegex: ^https://(.[^/])*\.*\bwiki(source|quote|books|news|voyage|versity|data|media|pedia)\.org/
+UrlRegex: ^https://(.[^/])*\.*\bwikimediafoundation\.org/
+UrlRegex: ^https://(.[^/])*\.*\bwiktionary\.org/
+UrlRegex: ^https://(.[^/])*\.*\bwordpress\.com/
+UrlRegex: ^https://(.[^/])*\.*\bxing\.com/
+UrlRegex: ^https://(.[^/])*\.*\byahoo\.(com|com\.(hk|tw)|co\.jp)/
 UrlRegex: ^https://www\.gstatic\.cn/onebox/weather/
 UrlRegex: ^https://www\.wireshark\.org/
 vlog.xuite.net
 wenda.google.com.hk
+wikipedia.org
 woeser.middle-way.net
 www.asus.com
+www.blockedinchina.net
 www.hbogo.com
 www.melauto.it
 www.resilio.com
+www.savetube.com
+www.teamviewer.com
 yuming.flnet.org

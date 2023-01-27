@@ -1124,7 +1124,6 @@ var FindProxyForURL = function(init, profiles) {
         if (/^((.+\.c\.doc-0-0-sj\.|)sj|ci\d{1,2}|oauth|webcache|\d-ps|uds|producer|lh\d|s\d|.+-opensocial|clients\d|translate|mail-attachment|.+-docs)\.googleusercontent\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
         if (/^((id|scholar|news|accounts|adwords|books|images|khms\d|www|blogsearch|cse|encrypted|m|translate)\.|)google\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk)$/.test(host)) return "+Srv_SS/Psiphon/SSH";
         if (/^((uploads\.|)code(|\.l)|.*\bdocs|doc|.*\bdrive|play|plus|plus\.url|buzz|profiles|mail|apis|support|wallet|checkout|talkgadget|appengine|store|security|myaccount|chrome|contacts|safebrowsing(|-cache|\.clients)|calendar|clients\d|mt(|s)\d|picasa\w*|sites|fusion|reader|feed\w*|input|research|inbox|mw\d|gg|peering|events|fit|tools|music|on|photo(|s))\.google\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
-        if (/^(csi|maps|encrypted-tbn\d|ssl|www|t\d|play-music)\.gstatic\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
         if (/^(daily|)news\.sina\.com(\.(hk|tw)|)$/.test(host)) return "+Srv_SS/Psiphon/SSH";
         if (/^(feedproxy|feedburner|hangouts|keep)\.google\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
         if (/^(maps|www|translate|plus|ajax|mts\d|commondatastorage|chart|storage|fonts)\.googleapis\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
@@ -1397,6 +1396,40 @@ var FindProxyForURL = function(init, profiles) {
         if (/^www\.savetube\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
         if (/^www\.teamviewer\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
         if (/^yuming\.flnet\.org$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)kkbox\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)c555\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)abc\.net\.au$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/^www\.moneymanagerex\.org$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)c700\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)tunemymusic\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)pixnet\.net$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)showmore\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)socpk\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)imgur\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)applealmond\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)c996\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)x996\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)navismithapis-cdn\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)hxmmdd\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)uc555\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)x000\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)careerengine\.us$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)z-lib\.org$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)zlibcdn\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)zlibcdn2\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)jp1lib\.org$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)luckydesigner\.space$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)ifixit\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)ujjainyoga\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)uc555\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)x666x\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)duolingo\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)im\.ge$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)weiming\.info$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)ctext\.org$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)zhangsn\.me$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)gamemale\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
+        if (/(?:^|\.)gstatic\.com$/.test(host)) return "+Srv_SS/Psiphon/SSH";
         return "DIRECT";
     },
     "+Srv_SS/Psiphon/SSH": function(url, host, scheme) {

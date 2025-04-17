@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
-; Require: SwitchyOmega >= 2.3.2
-; Date: 2025/2/11
+; Require: ZeroOmega >= 2.3.2
+; Date: 2025/4/17
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -132,7 +132,6 @@
 *.businessweek.com
 *.bwp.im
 *.bx.tl
-*.c.bigcache.googleapis.com
 *.c000.me
 *.c080.me
 *.c800.me
@@ -1097,7 +1096,6 @@ HostRegex: ^((id|scholar|news|accounts|adwords|books|images|khms\d|www|blogsearc
 HostRegex: ^((uploads\.|)code(|\.l)|.*\bdocs|doc|.*\bdrive|play|plus|plus\.url|buzz|profiles|mail|apis|support|wallet|checkout|talkgadget|appengine|store|security|myaccount|chrome|contacts|safebrowsing(|-cache|\.clients)|calendar|clients\d|mt(|s)\d|picasa\w*|sites|fusion|reader|feed\w*|input|research|inbox|mw\d|gg|peering|events|fit|tools|music|on|photo(|s))\.google\.com$
 HostRegex: ^(daily|)news\.sina\.com(\.(hk|tw)|)$
 HostRegex: ^(feedproxy|feedburner|hangouts|keep)\.google\.com$
-HostRegex: ^(maps|www|translate|plus|ajax|mts\d|commondatastorage|chart|storage|fonts)\.googleapis\.com$
 HostRegex: ^(skins|www(|\.ig))\.gmodules\.com$
 HostRegex: ^(space|bbs)\.qoos\.com$
 HostRegex: ^.*\b(blogger|blogspot)\.(^|com\.af|com\.ag|com\.ai|co\.ao|com\.ar|com\.au|com\.bd|com\.bh|com\.bn|com\.bo|com\.br|co\.bw|com\.bz|co\.ck|com\.co|co\.cr|com\.cu|com\.cy|com\.do|com\.ec|com\.eg|com\.et|com\.fj|com\.gh|com\.gi|com\.gt|com\.hk|co\.id|co\.il|co\.in|com\.jm|co\.jp|co\.ke|com\.kh|co\.kr|com\.kw|com\.lb|co\.ls|com\.ly|co\.ma|com\.mm|com\.mt|com\.mx|com\.my|co\.mz|com\.na|com\.nf|com\.ng|com\.ni|com\.np|co\.nz|com\.om|com\.pa|com\.pe|com\.pg|com\.ph|com\.pk|com\.pr|com\.py|com\.qa|com\.sa|com\.sb|com\.sg|com\.sl|com\.sv|co\.th|com\.tj|com\.tr|com\.tw|co\.tz|com\.ua|co\.ug|co\.uk|com\.uy|co\.uz|com\.vc|co\.ve|co\.vi|com\.vn|co\.za|co\.zm|co\.zw|cat|ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cd|cf|cg|ch|ci|cl|cm|com|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|jp|tw|hk|sg)$
@@ -1455,43 +1453,25 @@ www.onenote.com
 *.ibbb.me
 *.caaba.me
 *.r3sub.com
-*.oaistatic.com
-*.4sqi.net
-*.ghgo.xyz
-*.fanmingming.com
-*.csp.withgoogle.com
+*.tfi.org.tw
+*.nodeseek.com
+*.ping0.cc
+*.einverne.info
+*.opensubtitles.org
+*.btgpt.net
+*.1337x.to
+*.magnetdl.com
+*.cloud.microsoft
+*.office.net
+*.nfcloud.net
+*.greasyfork.org
 *.redd.it
-*.redditspace.com
 *.redditmedia.com
-*.xn--sss604efuw.top
-*.javrate.com
-*.fontawesome.com
-*.eroimg.net
-*.eroterest.net
-*.missav.com
-*.googletagmanager.com
-*.kakao.com
-*.kakaocorp.com
-*.bluesky-soft.com
-*.b-cdn.net
-copilot.microsoft.com
-*.z-lib.io
-*.z-lib.id
-*.jnn-pa.googleapis.com
-*.firebaseinstallations.googleapis.com
-*.firebase.googleapis.com
-*.hxmmdd.com
-*.heqrmudv.site
-*.translate.goog
-*.bahamut.com.tw
-*.speedtest.net
-assets.msn.cn
-*.hjwzw.com
-*.bg3.co
-*.x.com
-*.xhd.tw
-*.softonic.cn
-*.exifedit.com
-*.imgfor80.me
-*.chatgpt.com
-*.openai.com
+*.redditstatic.com
+*.brave.com
+*.unwire.hk
+*.grok.com
+*.x.ai
+*.google.dev
+*.googleapis.com
+*.messenger.live.com

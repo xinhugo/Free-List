@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: ZeroOmega >= 2.3.2
-; Date: 2025/4/17
+; Date: 2025/4/18
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1478,3 +1478,9 @@ www.onenote.com
 *.chatgpt.com
 *.openai.com
 *.oaistatic.com
+*.ttwstatic.com
+*.tiktokcdn.com
+*.tiktokv.com
+*.tiktok.com
+*.x.com
+*.dyncdn.cc

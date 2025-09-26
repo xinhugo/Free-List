@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: ZeroOmega >= 2.3.2
-; Date: 2025/4/18
+; Date: 2025/9/26
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1484,3 +1484,25 @@ www.onenote.com
 *.tiktok.com
 *.x.com
 *.dyncdn.cc
+*.withgoogle.com
+*.pixhost.to
+*.cachefly.net
+*.agaghhh.cc
+*.toonworld4all.me
+*.z-library.ec
+*.go-to-library.sk
+*.z-library.sk
+*.driveridentifier.com
+*.mega.co.nz
+*.mega.nz
+*.realtek.com
+*.googleblog.com
+*.moon.fm
+*.microsoftpersonalcontent.com
+*.copilot.microsoft.com
+*.gov.taipei
+*.assrt.net
+*.ping0.cc
+*.google-analytics.com
+*.challenges.cloudflare.com
+*.oaiusercontent.com

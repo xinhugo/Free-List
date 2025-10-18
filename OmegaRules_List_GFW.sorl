@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: ZeroOmega >= 2.3.2
-; Date: 2025/9/26
+; Date: 2025/10/18
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1068,7 +1068,6 @@
 ^http://search\.aol\.com/
 184.154.128.246
 75.119.209.87
-ad.dmm.com
 addons-amo.cdn.mozilla.net
 bbs.51.ca
 bufferapp.com
@@ -1132,7 +1131,6 @@ irs0.4sqi.net
 libs.pixfs.net
 mirrorbits.lineageos.org
 pds.nasa.gov
-pics.dmm.co.jp
 plaza.jp.rakuten-static.com
 s1.pir.fm
 sendtokindle.amazon.cn
@@ -1412,8 +1410,6 @@ www.moneymanagerex.org
 *.pdf24.org
 *.dmm-extension.com
 *.p-smith.com
-*.dmm.co.jp
-*.dmm.com
 *.360yield.com
 sslwidget.criteo.com
 *.x555x.me
@@ -1506,3 +1502,11 @@ www.onenote.com
 *.google-analytics.com
 *.challenges.cloudflare.com
 *.oaiusercontent.com
+*.nhk.or.jp
+*.nhk.jp
+speech.platform.bing.com
+*.dxmwx.org
+*.claude.ai
+*.matters.news
+*.matters.town
+*.mattersprotocol.io

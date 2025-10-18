@@ -1,8 +1,9 @@
 [SwitchyOmega Conditions]
-; Require: SwitchyOmega >= 2.3.2
-; Date: 2021/4/17
+; Require: ZeroOmega >= 2.3.2
+; Date: 2025/10/18
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 HostRegex: ^(sp|www|actress)\.dmm\.co\.jp$
-www.dmm.com
-www.r18.com
+*.dmm.com
+*.dmm.co.jp
+*.r18.com

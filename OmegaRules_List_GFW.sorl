@@ -1546,3 +1546,7 @@ speech.platform.bing.com
 *.samsung.com.cn
 *.hitun.io
 *.crisp.chat
+*.anthropic.com
+*.meta.com
+*.fbcdn.net
+*.meta.ai

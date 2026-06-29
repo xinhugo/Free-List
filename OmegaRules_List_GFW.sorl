@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: ZeroOmega >= 2.3.2
-; Date: 2025/10/18
+; Date: 2026/6/29
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1510,3 +1510,39 @@ speech.platform.bing.com
 *.matters.news
 *.matters.town
 *.mattersprotocol.io
+*.wroffy.com
+*.kscthinktank.com.tw
+*.69shuba.com
+*.linux.do
+*.kknews.cc
+*.xhd.tw
+*.heqrmudv.site
+*.imgfor80.me
+*.dawangidc.com
+*.v2ex.co
+*.tvbs.com.tw
+*.zoom.us
+*.broadcom.com
+*.vmware.com
+*.8book.com
+*.webnovel.com
+*.threads.com
+*.exiftool.org
+*.fsdn.com
+*.purevpn.com.tw
+*.bitwarden.com
+*.epgxs.com
+*.zhswx.com
+*.pomodiary.com
+*.steamcommunity.com
+*.hetushu.com
+*.qrgawbyf.org
+*.turboital.hu
+*.softonic.com
+*.c.gle
+*.grokipedia.com
+*.gamer.com.tw
+*.telemetr.io
+*.samsung.com.cn
+*.hitun.io
+*.crisp.chat

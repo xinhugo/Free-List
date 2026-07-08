@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: ZeroOmega >= 2.3.2
-; Date: 2026/6/29
+; Date: 2026/7/8
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1550,3 +1550,19 @@ speech.platform.bing.com
 *.meta.com
 *.fbcdn.net
 *.meta.ai
+*.ssrdog.com
+*.nordvpn.com
+*.nordcdn.com
+*.bplot.eu.org
+*.usercontent.goog
+*.vibes.ai
+*.gizmochina.com
+*.discord.com
+*.discordapp.com
+*.website-files.com
+*.sora.com
+*.perplexity.ai
+*.cwg.tw
+*.onetrust.com
+*.notebooklm.google
+*.notebooklm.google.com

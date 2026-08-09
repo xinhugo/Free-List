@@ -1,6 +1,6 @@
 [SwitchyOmega Conditions]
 ; Require: ZeroOmega >= 2.3.2
-; Date: 2026/7/18
+; Date: 2026/8/9
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
 *.1024search.tk
@@ -1582,3 +1582,18 @@ speech.platform.bing.com
 *.ipv6boy.cc
 *.198466.xyz
 *.office.com
+*.fanza.jp
+*.graph.microsoft.com
+*.static.microsoft
+*.login.microsoftonline.com
+*.vpn07.com
+*.sjlx.win
+*.mojie.me
+*.tagss13.pro
+*.xn--mes358aby2apfg.com
+*.fbsbx.com
+*.discord.gg
+*.skype.com
+*.browser-intake-us5-datadoghq.com
+*.whoer.net
+*.freezhihu.org
